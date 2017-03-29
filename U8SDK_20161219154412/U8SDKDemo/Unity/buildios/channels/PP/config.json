@@ -1,0 +1,13 @@
+{
+	"desc":"PP助手",
+	"U8SDK": {
+		"Channel": 1003
+	},
+	"plugins": [
+		{
+			"name": "PP",
+			"appid": "6143",
+			"appkey": "f83e8880d0311b8e19bab060789dfefb"
+		}
+	]
+}

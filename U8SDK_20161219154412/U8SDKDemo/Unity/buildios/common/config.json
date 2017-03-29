@@ -1,0 +1,10 @@
+{
+	"product_name":"u8demo",
+	"provision":"iOSTeam Provisioning Profile: *",
+	"archs": "armv7",
+	"U8SDK": {
+		"AppId": 1,
+		"AppKey": "f32fdc02123a82524eb4ea95e1383d0b",
+		"U8Url": "http://121.42.144.254:8080/u8server"
+	}
+}

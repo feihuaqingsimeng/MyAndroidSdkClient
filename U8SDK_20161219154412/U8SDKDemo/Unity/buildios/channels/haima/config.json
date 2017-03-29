@@ -1,0 +1,13 @@
+{
+    "desc":"海马玩游戏",
+    "CFBundleIdentifier": "com.u8sdk.sample.hm",
+    "U8SDK": {
+        "Channel": 1669
+    },
+    "plugins": [
+        {
+            "name": "haima",
+            "appid": "c0a1ec8bf49ab42c48ad863279e745a0"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "desc":"友游",
+    "CFBundleIdentifier": "com.u8sdk.sample.youyou",
+    "U8SDK": {
+        "Channel": 1696
+    },
+    "plugins": [
+        {
+            "name": "youyou",
+            "appid": "",
+            "appkey": ""
+        }
+    ]
+}

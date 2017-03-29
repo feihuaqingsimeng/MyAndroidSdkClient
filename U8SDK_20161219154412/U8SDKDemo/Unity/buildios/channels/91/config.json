@@ -1,0 +1,14 @@
+{
+    "desc":"百度91助手",
+    "CFBundleIdentifier": "com.u8sdk.sample.baidu",
+    "U8SDK": {
+        "Channel": 590
+    },
+    "plugins": [
+        {
+            "name": "91",
+            "appid": "100010",
+            "appkey": "C28454605B9312157C2F76F27A9BCA2349434E546A6E9C75"
+        }
+    ]
+}

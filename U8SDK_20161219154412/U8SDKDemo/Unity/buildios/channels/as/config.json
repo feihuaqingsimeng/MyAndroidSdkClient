@@ -1,0 +1,14 @@
+{
+    "desc":"爱思助手",
+    "CFBundleIdentifier": "com.u8sdk.sample.i4",
+    "U8SDK": {
+        "Channel": 1686
+    },
+    "plugins": [
+        {
+            "name": "as",
+            "appid": "2",
+            "appkey": "118255f8ffec4352a919c52d01a2d674"
+        }
+    ]
+}

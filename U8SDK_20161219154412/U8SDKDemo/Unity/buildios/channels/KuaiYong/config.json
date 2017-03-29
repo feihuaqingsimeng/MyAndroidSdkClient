@@ -1,0 +1,13 @@
+{
+	"desc":"快用助手",
+	"U8SDK": {
+		"Channel": 1004
+	},
+	"plugins": [
+		{
+			"name": "KuaiYong",
+			"payid": "100087",
+			"appkey": "edfd2ae4098863890c1a01b5d7b76d55"
+		}
+	]
+}

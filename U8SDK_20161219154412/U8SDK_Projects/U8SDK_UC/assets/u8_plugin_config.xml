@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugins>
+	<plugin name="com.morefun.unisdk.UCUser" type="1" />
+	<plugin name="com.morefun.unisdk.UCPay" type="2" />
+	<plugin name="com.morefun.unisdk.MFPush" type="3" />
+</plugins>

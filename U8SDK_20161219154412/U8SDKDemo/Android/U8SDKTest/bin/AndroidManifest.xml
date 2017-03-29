@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.u8.sdk.test"
+	android:installLocation="preferExternal"
+	android:theme="@android:style/Theme.NoTitleBar"
+    android:versionCode="8"
+    android:versionName="2.6.0" >
+
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="18" android:maxSdkVersion="20" />
+    
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />		
+
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name="com.u8.sdk.U8Application" >
+        <activity
+            android:name="com.u8.sdk.test.MainActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="nosensor"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>        
+        
+        <meta-data android:name="ulog.enable" android:value="true" />
+        
+        <meta-data android:name="ulog.enable" android:value="true" />
+        <meta-data android:name="ulog.level" android:value="DEBUG" />
+        <meta-data android:name="ulog.local" android:value="true" />
+        <meta-data android:name="ulog.remote" android:value="true" />
+        <meta-data android:name="ulog.remote_interval" android:value="500" />
+        <meta-data android:name="ulog.remote_url" android:value="http://192.168.18.9:8080/" />
+        
+    </application>
+</manifest>

@@ -1,0 +1,14 @@
+{
+    "desc":"07073（楚游/数游）",
+    "CFBundleIdentifier": "com.u8sdk.sample.cy",
+    "U8SDK": {
+        "Channel": 1717
+    },
+    "plugins": [
+        {
+            "name": "07073",
+            "pid": "100",
+            "gameid": "100"
+        }
+    ]
+}

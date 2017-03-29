@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" applicationDPI="320"
+			   creationComplete="initApp();">
+	
+	<fx:Script>
+		<![CDATA[
+			import com.u8.sdk.extension.U8SDKInterface;
+			import com.u8.sdk.extension.U8SDKLoginEvent;
+			import com.u8.sdk.extension.data.U8LoginResult;
+			import com.u8.sdk.extension.data.U8PayParams;
+			
+			private function initApp():void
+			{
+				trace("onAppStart......");
+				
+				U8SDKInterface.getInstance().addEventListener("OnU8InitSuc", onU8InitSuc);
+				U8SDKInterface.getInstance().addEventListener("OnU8LoginSuc", onU8LoginSuc);
+				U8SDKInterface.getInstance().addEventListener("OnU8Logout", onU8Logout);
+				U8SDKInterface.getInstance().addEventListener("OnPayResultSuc", onU8PaySuc);
+				U8SDKInterface.getInstance().addEventListener("OnPayResultFail", onU8PayFail);
+				
+				U8SDKInterface.getInstance().init();
+			}
+
+			
+			protected  function onU8InitSuc(event:Event):void
+			{
+				trace("onU8InitSuc......");
+				//U8SDKInterface.getInstance().log("onU8InitSuc......");
+				lblTip.text = "初始化成功";
+			}
+			
+			protected function onU8LoginSuc(event:U8SDKLoginEvent):void
+			{
+				trace("onU8LoginSuc......");
+				U8SDKInterface.getInstance().log("onU8LoginSuc......");
+				var result:U8LoginResult = event.loginResult;
+				lblTip.text = event.loginResult.username;
+			}
+			
+			protected function onU8Logout(event:Event):void
+			{
+				trace("onU8Logout......");
+				U8SDKInterface.getInstance().log("onU8Logout......");
+				lblTip.text = "未登录";
+			}
+			
+			protected function onU8PaySuc(event:Event):void
+			{
+				trace("onU8PaySuc......");
+				U8SDKInterface.getInstance().log("onU8PaySuc......");
+				lblTip.text = "支付成功";
+			}
+			
+			protected function onU8PayFail(event:Event):void
+			{
+				trace("onU8PayFail......");
+				U8SDKInterface.getInstance().log("onU8PayFail......");
+				lblTip.text = "支付失败";
+			}
+			
+			protected function btnLogin_clickHandler(event:MouseEvent):void
+			{
+				trace("click login.....");
+				U8SDKInterface.getInstance().log("click login....");
+				U8SDKInterface.getInstance().login();
+				
+			}
+			
+			protected function btnPay_clickHandler(event:MouseEvent):void
+			{
+				trace("click pay.....");
+				try{
+					var data:U8PayParams = new U8PayParams();
+					data.buyNum = 1;
+					data.coinNum = 100;
+					data.extension = "";
+					data.price = 100;
+					data.productId = "1";
+					data.productName = "元宝";
+					data.productDesc = "购买100元宝";
+					data.roleId = "1";
+					data.roleLevel = 1;
+					data.roleName = "测试角色名";
+					data.serverId = 10;
+					data.serverName = "测试";
+					data.vip = "vip1";
+					data.orderID = "3544354354352345676";		//这个订单号是U8server分配的订单号，调用pay之前，需要去u8server下单。
+					trace("click pay 2.....");
+					U8SDKInterface.getInstance().pay(data);
+				}catch(err:Error)
+				{
+					trace("error caught:"+err);
+				}
+
+				
+			}
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	<s:DataGroup width="700" height="700" horizontalCenter="0" verticalCenter="0"/>
+	<s:Label id="lblTip" x="890" y="307" fontFamily="Georgia" fontSize="36" fontWeight="bold"
+			 text="U8SDK Demo"/>
+	<s:Button id="btnLogin" x="872" y="457" width="300" label="登  录"
+			  click="btnLogin_clickHandler(event)" fontFamily="Arial"/>
+	<s:Button id="btnPay" x="872" y="635" width="300" label="支  付" click="btnPay_clickHandler(event)"
+			  fontFamily="Arial"/>
+</s:Application>

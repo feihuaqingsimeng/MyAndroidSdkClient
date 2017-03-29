@@ -1,0 +1,15 @@
+{
+    "desc":"当乐游戏",
+    "CFBundleIdentifier": "com.u8sdk.sample.dl",
+    "U8SDK": {
+        "Channel": 1553
+    },
+    "plugins": [
+        {
+            "name": "downjoy",
+            "appid": "195",
+            "appkey": "j5VEvxhc",
+            "merchant": "101"
+        }
+    ]
+}

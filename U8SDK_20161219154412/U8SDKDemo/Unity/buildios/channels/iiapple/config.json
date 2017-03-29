@@ -1,0 +1,19 @@
+{
+    "desc":"爱苹果游戏",
+    "CFBundleIdentifier": "com.u8sdk.sample.iiapple",
+    "U8SDK": {
+        "Channel": 1715
+    },
+    "plugins": [
+        {
+            "name": "IIApple",
+            "channelId": "1001000101",
+            "appkey": "4818cc6c8dbc2e7e674b9561a94660a8",
+            "isVer":"0",
+            "isShowATView":"1", 
+            "cuKey":"232132132132132",
+            "isRepeatPay":"0",
+            "isLastXcode6":"1"
+        }
+    ]
+}

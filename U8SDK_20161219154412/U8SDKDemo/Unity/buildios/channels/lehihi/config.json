@@ -1,0 +1,14 @@
+{
+    "desc":"乐嗨嗨",
+    "CFBundleIdentifier": "com.u8sdk.sample.lh",
+    "U8SDK": {
+        "Channel": 1721
+    },
+    "plugins": [
+        {
+            "name": "lehihi",
+            "pid": "100",
+            "gameid": "208"
+        }
+    ]
+}

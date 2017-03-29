@@ -1,0 +1,13 @@
+{
+    "desc":"乐8苹果助手",
+    "CFBundleIdentifier": "com.u8sdk.sample.le8",
+    "U8SDK": {
+        "Channel": 1746
+    },
+    "plugins": [
+        {
+            "name": "le8",
+            "appid": "7c814d6a23bf3ae0e1c2a976cbd781b7"
+        }
+    ]
+}

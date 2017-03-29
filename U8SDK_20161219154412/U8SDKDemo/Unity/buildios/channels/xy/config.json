@@ -1,0 +1,14 @@
+{
+    "desc":"xy助手",
+    "CFBundleIdentifier": "com.u8sdk.sample.xy",
+    "U8SDK": {
+        "Channel": 1700
+    },
+    "plugins": [
+        {
+            "name": "xy",
+            "appid": "101101",
+            "appkey": "GuopanSDK8^(Llad"
+        }
+    ]
+}

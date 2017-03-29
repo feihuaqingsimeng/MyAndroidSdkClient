@@ -1,0 +1,14 @@
+{
+    "desc":"泡椒网",
+    "CFBundleIdentifier": "com.u8sdk.sample.pj",
+    "U8SDK": {
+        "Channel": 1720
+    },
+    "plugins": [
+        {
+            "name": "paojiao",
+            "appid": "10",
+            "appkey": "jzLdOuDM68K4u50n717MlQxg25OXWm2t"
+        }
+    ]
+}

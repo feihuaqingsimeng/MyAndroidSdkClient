@@ -1,0 +1,13 @@
+{
+	"desc":"iTools苹果市场",
+	"U8SDK": {
+		"Channel": 88
+	},
+	"plugins": [
+		{
+			"name": "iTools2",
+			"iTools_AppID":"1",
+			"iTools_AppKey":"58C6A68DDDEE471AA43266E427F38D92"
+		}
+	]
+}

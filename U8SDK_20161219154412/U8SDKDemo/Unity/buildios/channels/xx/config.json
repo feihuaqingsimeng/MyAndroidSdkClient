@@ -1,0 +1,14 @@
+{
+    "desc":"叉叉助手(果盘游戏)",
+    "CFBundleIdentifier": "com.u8sdk.sample.guopan",
+    "U8SDK": {
+        "Channel": 1498
+    },
+    "plugins": [
+        {
+            "name": "xx",
+            "appid": "101184",
+            "appkey": "AY5F4IE972D3AMB7"
+        }
+    ]
+}

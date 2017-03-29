@@ -1,0 +1,11 @@
+{
+	"desc":"正版AppStore",
+	"U8SDK": {
+		"Channel": 1001
+	},
+	"plugins": [
+		{
+			"name": "AppStore"
+		}
+	]
+}

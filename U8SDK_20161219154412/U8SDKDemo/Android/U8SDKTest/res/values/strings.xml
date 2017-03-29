@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">U8SDK</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello">这里是游戏界面</string>
+    <string name="loginSdk">登　录</string>
+    <string name="paySdk">充　值</string>
+    <string name="login_title">美峰登录</string>
+    <string name="titleBar_left_button">返回</string>
+    <string name="titleBar_right_button">关闭</string>
+    <string name="action_settings">sfsdg</string>
+    <string name="title_activity_test">TestActivity</string>
+
+</resources>
