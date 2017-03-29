@@ -142,7 +142,8 @@ def getSplashPath():
 
 def getJavaBinDir():
     if platform.system() == 'Windows':
-        return getFullPath("tool/win/jre/bin/")
+        #return getFullPath("tool/win/jre/bin/")
+        return ""
     else:
         return ""
 
