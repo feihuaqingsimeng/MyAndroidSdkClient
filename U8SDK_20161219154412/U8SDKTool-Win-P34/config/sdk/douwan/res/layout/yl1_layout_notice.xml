@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@drawable/yl1_corner"
+    android:paddingBottom="@dimen/yl1paddingLeft"
+    android:paddingLeft="@dimen/yl1paddingLeft"
+    android:paddingRight="@dimen/yl1paddingLeft"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/iv_title"
+        android:layout_width="@dimen/yl1titleWidth"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tv_notice_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bt_finish"
+        android:layout_width="275dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/yl1_bt_selector"
+        android:text="我知道了"
+        android:textColor="@color/yl1colorWhite"
+        android:textSize="11sp" />
+</RelativeLayout>

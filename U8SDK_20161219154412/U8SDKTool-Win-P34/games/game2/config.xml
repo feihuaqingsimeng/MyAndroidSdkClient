@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xml>
+
+	<channels>			
+
+		<channel>
+			<param name="id" value="10" />
+			<param name="name" value="uc" />
+			<param name="sdk" value="uc" />
+			<param name="desc" value="UC SDK" />
+			<param name="suffix" value=".uc" />	
+			<param name="splash" value="0" />
+			<param name="splash_copy_to_unity" value="0" />
+			<param name="icon" value="rb" />
+			
+			<param name="gameName" value="测试" />
+ 			
+			<param name="extraR" value="com.wangyin.wepay" /> 
+
+			<sdk-params>
+				<param desc="GameId" name="UCGameId" value="732931" />
+				<param desc="CpId" name="UCCpId" value="58482" />
+				<param desc="是否开启调试模式(true|false)" name="UCDebugMode" value="false" />
+			</sdk-params>
+
+
+
+			<sdk-version>
+				<versionCode>1</versionCode>   
+				<versionName>3.5.3.1</versionName>
+			</sdk-version>
+
+		</channel>					
+
+		<channel>
+			<param name="id" value="12" />
+			<param name="name" value="baidu" />
+			<param name="sdk" value="baidu" />
+			<param name="desc" value="Baidu SDK" />
+			<param name="suffix" value="com.morefun.xsanguo.baidu" />	
+			<param name="splash" value="0" />
+			<param name="splash_copy_to_unity" value="0" />
+			<param name="icon" value="rb" />
+
+			<sdk-params>
+				<param name="AppID" value="6139095" />
+				<param name="AppKey" value="LghT4yGqKHXmiHxAgZnNDbYy" />
+				<param desc="是否为调试模式(RELEASE|DEBUG)" name="Domain" value="RELEASE" />
+				<param desc="百度模式(0:百度;1:多酷;2:91)" name="BDPlatformType" value="0" />				
+			</sdk-params>
+
+
+
+			<sdk-version>
+				<versionCode>1</versionCode>   
+				<versionName>3.2.0</versionName>
+			</sdk-version>			
+
+		</channel>
+
+
+		<channel>
+			<param name="id" value="16" />
+			<param name="name" value="qihoo360" />
+			<param name="sdk" value="qihoo360" />
+			<param name="desc" value="360" />
+			<param name="suffix" value=".qihoo" />	
+			<param name="splash" value="0" />
+			<param name="splash_copy_to_unity" value="0" />
+
+			<sdk-params>
+				<param desc="AppID" name="QHOPENSDK_APPID" value="202307546" />
+				<param desc="AppKey" name="QHOPENSDK_APPKEY" value="765b6459a63959a58fa7ef6a9396ad97" />
+				<param desc="PrivateKey,注意：要用md5(appSecret#appKey)算法生成的privatekey(32位小写)" name="QHOPENSDK_PRIVATEKEY" value="7314beba5866f61cb055d1da2232139b" />
+				<param desc="在微信开放平台申请的 APPID" name="QHOPENSDK_WEIXIN_APPID" value="wx4e203f3fdd2d4a15" />
+				<param desc="是否显示关闭按钮" name="QHIsShowCloseIcon" value="true" />
+				<param desc="是否登录时显示切换账户按钮" name="QHIsShowAutoLoginSwitch" value="true" />
+				<param desc="是否显示欢迎界面" name="QHIsHideWelcome" value="true" />
+				<param desc="游戏名称" name="QHAppName" value="测试游戏1" />
+				<param desc="兑换比例" name="QHRatio" value="10" />
+			</sdk-params>
+
+
+
+			<sdk-version>
+				<versionCode>1</versionCode>   
+				<versionName>1.1.8</versionName>
+			</sdk-version>			
+
+		</channel>	
+
+		<channel>
+			<param name="id" value="17" />
+			<param name="name" value="xiaomi" />
+			<param name="sdk" value="xiaomi" />
+			<param name="desc" value="小米" />
+			<param name="suffix" value="com.jimei.xsanguo.mi" />
+			<param name="splash" value="0" />
+			<param name="splash_copy_to_unity" value="0" />
+
+			<sdk-params>
+				<param name="MiAppID" value="2882303761517311003" />
+				<param name="MiAppKey" value="5991731177003" />
+			</sdk-params>
+
+			<sdk-version>
+				<versionCode>1</versionCode>   
+				<versionName>4.3.4</versionName>
+			</sdk-version>			
+
+		</channel>
+
+		<channel>
+			<param name="id" value="19" />
+			<param name="name" value="oppo" />
+			<param name="sdk" value="oppo" />
+			<param name="desc" value="Oppo SDK" />
+			<param name="suffix" value="com.pango.pansam.nearme.gamecenter" />
+			<param name="splash" value="0" />
+			<param name="splash_copy_to_unity" value="0" />
+
+
+			<sdk-params>
+				<param name="Oppo_AppID" value="3637" />
+				<param name="Oppo_AppSecret" value="315C58f284c06b2232664e249881ae70" />
+				<param name="app_key" value="5v65ORVyib4sGkGk888wccKgs" />				
+				<param name="debug_mode" value="false" />				
+				<param name="is_offline_game" value="false" />				
+			</sdk-params>
+
+
+
+			<sdk-version>
+				<versionCode>1</versionCode>   
+				<versionName>1.7.4</versionName>
+			</sdk-version>
+
+
+		</channel>
+
+		<channel>
+			<param name="id" value="20" />
+			<param name="name" value="vivo" />
+			<param name="sdk" value="vivo" />
+			<param name="desc" value="ViVo SDK" />
+			<param name="suffix" value="com.morefun.xsanguo.vivo" />
+			<param name="splash" value="0" />
+			<param name="splash_copy_to_unity" value="0" />
+
+			<sdk-params>
+				<param name="Vivo_AppID" value="bfae697b90d30d06ee752953b62a0cfa" />
+			</sdk-params>
+
+			<sdk-version>
+				<versionCode>1</versionCode>   
+				<versionName>3.1.2</versionName>
+			</sdk-version>			
+
+		</channel>
+
+		<channel>
+			<param name="id" value="23" />
+			<param name="name" value="lenovo" />
+			<param name="sdk" value="lenovo" />
+			<param name="desc" value="联想" />
+			<param name="suffix" value=".lenovo" />
+			<param name="splash" value="0" />
+			<param name="splash_copy_to_unity" value="0" />
+			<param name="icon" value="rb" />
+
+			<sdk-params>
+				<param name="lenovo.open.appid" value="1410232134070.app.ln" />
+				<param name="lenovo.open.appkey" value="MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAIOH4o9cE0zxHr/IvD7fdoeM/1oamSBwQjS61OqlmG6jhoZ1gmFMbdlH+HCO/EZ8KOQ9JSux9YhEGK+KVhxGdZ0lN/1YhRH0Ynk0zJooocXLq87S2scPem3GWAESlKsg605PutnoDyKwQvdns67nPZvwRRMeh7nfXMiFBWdXtwEzAgMBAAECgYA9mhjMF82aTZufKv6vW62B0tGNe8OX47u+QnqR4zi/KKtKsiJ8O3V/PCvpW65fvKrSKqkMC+75ARumq12lJILUhBIVj8Ygcn8BYy1BtNeCTwAxCwJtOEyaiFr0sglJbJRLN3OVJNFfO6zgmiqY1/ni6Lx/d2t6fUVU8qZu5TNP0QJBAOe5lCbbha7rHQxcFmEgOnDe3yYf7K8V7ZiM9qWzkEjuxpig9sZPu272R2eGzck+mkls3vqjNcNKl7BF4U2VTNUCQQCRT0pvkTm6yWnrCDxeOTT17XrmMxpXXqfN7tQ0WSk0+/Kw9Lesz6IhJ57YGRqtgvGu2zRblPdVkjsKMtMw9nnnAkA8q6stjVZwGODvJoE5ht2mRcQ5UCyBHwWpZmcBtYT2g4X92k8iVyflAphpc7MXmMt+pAGxr9/YtQQIRBOcY5XNAkBYoGfiDE2No3M6qtdHENVAegvPg7O5Pj5S2CwNkaQUcObhDyFIAYv9dNDpNMaUtZz67S/N+9mvE3V3DvDImExZAkBq6iJqFZx82UR1w+a+l56dlyPTX6It2px5sw2aW/QFaLHO1SClakXKvUHL4/xyo/gVHzDQ1M9JD9mKQAJ6vynb" />
+			</sdk-params>
+
+			<sdk-version>
+				<versionCode>1</versionCode>   
+				<versionName>2.3.2</versionName>
+			</sdk-version>				
+
+		</channel>	
+
+		<channel>
+			<param name="id" value="24" />
+			<param name="name" value="huawei" />s
+			<param name="sdk" value="huawei" />
+			<param name="desc" value="华为" />
+			<param name="suffix" value="com.jimei.xsanguo.huawei" />
+			<param name="splash" value="0" />
+			<param name="splash_copy_to_unity" value="0" />
+
+			<sdk-params>
+
+				<param name="HuaWei_AppID" value="10281191" />
+				<param name="HuaWei_PayID" value="900086000026798886" />
+				<param desc="unity或者cocos2dx的游戏，这里配置为2，其他配置为0" name="HuaWei_ShowType" value="0" />
+				<param name="HuaWei_BuoSecret" value="MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAIS3wZROpBn6FhtCPL9l9hcs96Q9cmUbLt75tsAp8xA+T7jFYmrInXFaPNNHr8dAk1XMWIrmTpq2+ermDNf2ygJt+vDucTiaxmWgah+rPxDiqhxeJ2dEdTi5JGaUgNe/SWOYQw3oojZcrSt0z++cF4ebtqr3wzkYNotEWdC82//vAgMBAAECgYASg+xOu3XrZddlsCT3cssVSqG12Ri3gEZWtzHGt1OApaDLn0XurdRBNxybQToFqz2iz6Jepmi67uII4lVSX8yovD1khkEfqA1VnOSEdm4B8CRTbQGBpV+Gx4PFLZvtqkmXQemsEcj7p3a1Li8pqw4nXaj9xAy4t6L/MCgMSjLGwQJBANIrpc5wAZz8oFsIXrX4QG85nPZohDTN7SyLkAKsM7JNx2K75lcQICWoQs6f7CqXgw1ZrDu3FWos2xZ917WzcU8CQQChqHb0R38HgRfV2x80xDbI/6vqTzwE5ZcBwoKWnZYEUuXHIK05ymGwcXHvHebgsPosaSm2djx6N/n0JUNcIp9hAkEAng4hJXzqWatK1OsYfvTxUDQdrNmxAx0Sjntuk/P49NC1b7UrZrJD2s4NX+K48tb6waF8e3QWcMDHCsUc4hLO1QJAGLODKaRbFqx1FepbhFaPAHuAq1bcFut1/YDZL2Z468Q29AxcK75u2uUawazSAHdKYsrW4tiCOTKgcNvYxRVNQQJBAMasunvrbzWhZhkZOiu1epiJv1syejsjvgmewZmAJTxYczlpKqgFnZQcZ/iRLVcpqcwB7C5BxzCLBjx71Sdoy4E=" />
+				
+				<param name="HuaWei_PrivateKey" value="MIIBVQIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAiOHbETgaWr8/4HTWuoeWjNw+YEbeTznJK80Im90JpYq8NJXKdOj0bWsI8TJX/ou1DulqFUpk4G08EoI9Kjk1qQIDAQABAkA8r+XwPG9yzFgFq8eH65VT3lHJXaIyfewy/zRR5i3gtnl9HQmQStCpWSZ8JfgGTJ75wdGHykAQAb1CXhJbEmYBAiEA3KzMh+0bYBi2nnvKmD126Gi2jUwigQeB8so6EaxwH2MCIQCey0C+LxhI4C2ChIUswZqsc7mHjkSUHAEpGu5UtvoigwIgXtp/x+VpIPM+e/zl5m51EA0CetXA9wlNGBlIwJQIVdUCIQCFzu5ylIrZNhcDaZozOb2V3jqTsN23FNYhhjEZL8sd8wIhAIpfSme5EBlLbADnWtNUhEQRk+v35OxkzB5B0xw2XUzg" />
+				
+				<param desc="横屏或者竖屏(landscape|portrait)" name="HuaWei_Orientation" value="landscape" />
+
+			</sdk-params>
+
+			<sdk-version>
+				<versionCode>1</versionCode>   
+				<versionName>3.1.1</versionName>
+			</sdk-version>			
+
+		</channel>	
+
+		<channel>
+			<param name="id" value="31" />
+			<param name="name" value="meizu" />
+			<param name="sdk" value="meizu" />
+			<param name="desc" value="魅族" />
+			<param name="suffix" value="com.qbao.sdtx.mz" />
+			<param name="splash" value="0" />
+			<param name="splash_copy_to_unity" value="0" />
+
+			<sdk-params>
+
+				<param name="Flyme_AppID" value="3093252" />
+				<param name="Flyme_AppKey" value="dd5c5061258c4a38b724cb34ece2e9fe" />
+				<param name="Flyme_AppSecret" value="2lcsCbi0mHrklVOAwYEmRToveBhq0ttv" />
+
+			</sdk-params>
+
+			<sdk-version>
+				<versionCode>1</versionCode>   
+				<versionName>2.2</versionName>
+			</sdk-version>			
+
+		</channel>
+
+		<channel>
+			<param name="id" value="32" />
+			<param name="name" value="kupai" />
+			<param name="sdk" value="kupai" />
+			<param name="desc" value="酷派" />
+			<param name="suffix" value=".coolpad" />
+			<param name="splash" value="0" />
+			<param name="splash_copy_to_unity" value="0" />
+
+			<sdk-params>
+				<param name="CoolPad_AppID" value="5000004990" />
+				<param name="CoolPad_PayKey" value="MEQ4NDgyNEMyRTkxQTA2OURDNTFBMzdDMUM5MzlEN0UyRTlFRUQ0Mk1USXpOREkwTmpZM056UTJNakF3TkRjeE1qTXJNVGcwTWprME5UVTNOak14TmpReE16TTNNRE0wTlRFeE1qWXlOVGt6T0RFeE5UZzRNakV4" />
+				<param name="CoolPad_Point" value="1" />
+				<param desc="横竖屏(landscape|portrait)" name="CoolPad_Orientation" value="landscape" />
+			</sdk-params>
+
+			<sdk-version>
+				<versionCode>1</versionCode>   
+				<versionName>1.2.2</versionName>
+			</sdk-version>			
+
+		</channel>	
+
+		<channel>
+			<param name="id" value="34" />
+			<param name="name" value="jinli" />
+			<param name="sdk" value="jinli" />
+			<param name="desc" value="金立" />
+			<param name="suffix" value=".am" />
+			<param name="splash" value="0" />
+			<param name="splash_copy_to_unity" value="0" />
+
+			<sdk-params>
+
+				<param name="JinLi_ApiKey" value="F1CC3B72095E4BFE95673BFB62BB4F9E" />
+				
+			</sdk-params>
+
+			<sdk-version>
+				<versionCode>1</versionCode>   
+				<versionName>3.0.5.b</versionName>
+			</sdk-version>			
+
+		</channel>
+
+		<channel>
+			
+			<param name="id" value="51" />
+			<param name="name" value="ysdk" />
+			<param name="sdk" value="ysdk" />
+			<param name="desc" value="腾讯应用宝(YSDK)" />
+			<param name="suffix" value="com.tencent.tmgp.sdtx" />
+			<param name="splash" value="0" />
+			<param name="splash_copy_to_unity" value="0" />
+
+			<sdk-params>
+
+ 				<param desc="QQAppID" name="QQ_APP_ID" value="1105283027" />
+                <param desc="微信AppID" name="WX_APP_ID" value="wx5f01cf0f152b4288" /> 
+                <param desc="OfferId,一般就是QQ AppId" name="OFFER_ID" value="1105283027" />
+
+				<param desc="沙箱环境是https://ysdktest.qq.com；正式环境是https://ysdk.qq.com" name="YSDK_URL" value="https://ysdktest.qq.com" />
+				<param desc="是否定额支付 true|false" name="WG_FIXEDPAY" value="true" /> 
+				<param desc="后台配置的比例，如果是1:10，那么填10" name="WG_RATIO" value="10" /> 
+				<param desc="支付界面游戏币Icon名称，drawable资源目录下的文件名称，不带后缀" name="WG_COIN_ICON_NAME" value="coin_icon" />	
+
+				<param desc="true|false" name="WG_MULTI_SERVERS" value="false" />	
+
+				<param desc="u8server处理查询充值逻辑的地址" name="WG_QUERY_URL" value="http://192.168.18.9:8080/pay/ysdknew/query" />	
+				<param desc="u8server处理查询充值逻辑的地址" name="WG_PAY_URL" value="http://192.168.18.9:8080/pay/ysdknew/charge" />
+
+			</sdk-params>
+
+			<sdk-version>
+				<versionCode>1</versionCode>   
+				<versionName>1.1.1</versionName>
+			</sdk-version>				
+
+		</channel>					
+
+
+		<channel>
+			<param name="id" value="85" />
+			<param name="name" value="douwan" />
+			<param name="sdk" value="douwan" />
+			<param name="desc" value="都玩(易乐)" />
+			<param name="suffix" value="com.yileweb.yiledemo" />	
+			<param name="splash" value="0" />
+			<param name="splash_copy_to_unity" value="0" />
+			<param name="extraR" value="com.yileweb.sdk101" />
+
+			<sdk-params>
+				<param desc="AppID" name="yl_appid" value="\ 1511171001" />	
+				<param desc="渠道id" name="yl_platfrom_id" value="\ 123456" />	
+			</sdk-params>
+
+			<sdk-version>
+				<versionCode>1</versionCode>   
+				<versionName>1.0.1</versionName>
+			</sdk-version>			
+
+		</channel>	
+
+		</channels>
+
+</xml>

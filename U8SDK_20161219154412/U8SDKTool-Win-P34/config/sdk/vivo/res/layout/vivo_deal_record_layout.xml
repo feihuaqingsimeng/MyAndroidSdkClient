@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vivo_login_total_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/preference_background_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/account_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/titleLeftBtn_layout"
+            android:layout_width="50dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center_vertical" >
+
+            <Button
+                android:id="@+id/titleLeftBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dip"
+                android:background="@drawable/vivo_btn_title_back" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/deal_record_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/vivo_deal_record"
+            android:textColor="@color/TextColorBlack"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/deal_notice_layout"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="@string/vivo_deal_record_notice"
+            android:textColor="@color/deal_notice"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <com.bbk.payment.dealRecord.VivoFootRefreshListView
+        android:id="@+id/vivo_foot_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@drawable/vivo_sub_divider_line"
+        android:dividerHeight="1px" >
+    </com.bbk.payment.dealRecord.VivoFootRefreshListView>
+
+    <RelativeLayout
+        android:id="@+id/vivo_deal_nodata_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vivo_deal_nodata_icon" />
+
+            <TextView
+                android:id="@+id/vivo_deal_nodata_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="31dip"
+                android:text="@string/vivo_pay_no_date"
+                android:textColor="#aaaaaa"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vivo_activity_background_color"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/vivowindowTitleHeight"
+        android:background="@drawable/vivo_window_title_bar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/vivo_question_title"
+            android:textColor="@color/vivo_windowTitleColor"
+            android:textSize="@dimen/vivowindowTitleTextSize" />
+
+        <LinearLayout
+            android:id="@+id/titleRightBtn_layout"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true" >
+
+            <Button
+                android:id="@+id/titleLeftBtn"
+                android:layout_width="9dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="11.5dip"
+                android:background="@drawable/vivo_btn_title_back" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/titleRightBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/vivo_btn_title_normal"
+            android:text="@string/vivo_finish_label"
+            android:textColor="@color/vivo_title_text"
+            android:textSize="@dimen/vivowindowTitleButtonTextSize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/titleRightBtn_layout"
+            android:background="@drawable/vivo_title_left_line" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/titleRightBtn"
+            android:background="@drawable/vivo_title_right_line" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/vivo_activity_background_color"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <!-- 用户隐藏光标 -->
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="0px"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" >
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/question1_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/vivo_edit_container_height"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/vivo_edit_top_round"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/vivo_edit_label_style"
+                        android:layout_width="50dp"
+                        android:layout_marginLeft="11.25dp"
+                        android:singleLine="true"
+                        android:text="@string/vivo_question1_label"
+                        android:textColor="@color/vivo_text_color_login_lable"
+                        android:textSize="@dimen/vivo_text_size_small" />
+
+                    <TextView
+                        android:id="@+id/question1_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dip"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="left|center"
+                        android:hint="@string/vivo_question_indispensable_label"
+                        android:singleLine="true"
+                        android:textColor="@color/vivo_text_color_middle"
+                        android:textColorHint="@color/bbk_channel_activity_desc_textcolor"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/vivo_text_size_middle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/question1_input_custom_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/vivo_edit_container_height"
+                    android:background="@drawable/vivo_edit_top_round"
+                    android:visibility="gone" >
+
+                    <com.vivo.sdkplugin.Utils.EditTextErrorFixed
+                        android:id="@+id/question1_input_custom"
+                        style="@style/vivo_edit_input_style"
+                        android:hint="@string/vivo_answer_indispensable_label"
+                        android:paddingLeft="10dip"
+                        android:textColor="@color/vivo_text_color_middle"
+                        android:textColorHint="@color/bbk_channel_activity_desc_textcolor"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/vivo_text_size_middle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/vivo_edit_container_height"
+                    android:background="@drawable/vivo_edit_top_round" >
+
+                    <TextView
+                        style="@style/vivo_edit_label_style"
+                        android:layout_width="50dp"
+                        android:layout_marginLeft="11.25dp"
+                        android:singleLine="true"
+                        android:text="@string/vivo_answer_label"
+                        android:textColor="@color/vivo_text_color_login_lable"
+                        android:textSize="@dimen/vivo_text_size_small" />
+
+                    <com.vivo.sdkplugin.Utils.EditTextErrorFixed
+                        android:id="@+id/answer1_input"
+                        style="@style/vivo_edit_input_style"
+                        android:layout_marginLeft="5dp"
+                        android:ellipsize="end"
+                        android:hint="@string/vivo_answer_indispensable_label"
+                        android:singleLine="true"
+                        android:textColor="@color/vivo_text_color_middle"
+                        android:textColorHint="@color/bbk_channel_activity_desc_textcolor"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/vivo_text_size_middle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/question2_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/vivo_edit_container_height"
+                    android:layout_marginTop="20dip"
+                    android:background="@drawable/vivo_edit_top_round"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/vivo_edit_label_style"
+                        android:layout_width="50dp"
+                        android:layout_marginLeft="11.25dp"
+                        android:singleLine="true"
+                        android:text="@string/vivo_question2_label"
+                        android:textColor="@color/vivo_text_color_login_lable"
+                        android:textSize="@dimen/vivo_text_size_small" />
+
+                    <TextView
+                        android:id="@+id/question2_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="left|center"
+                        android:hint="@string/vivo_question_indispensable_label"
+                        android:singleLine="true"
+                        android:textColor="@color/vivo_text_color_middle"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/vivo_text_size_middle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/question2_input_custom_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/vivo_edit_container_height"
+                    android:background="@drawable/vivo_edit_top_round"
+                    android:visibility="gone" >
+
+                    <com.vivo.sdkplugin.Utils.EditTextErrorFixed
+                        android:id="@+id/question2_input_custom"
+                        style="@style/vivo_edit_input_style"
+                        android:hint="@string/vivo_answer_indispensable_label"
+                        android:paddingLeft="10dip"
+                        android:textColor="@color/vivo_text_color_middle"
+                        android:textColorHint="@color/bbk_channel_activity_desc_textcolor"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/vivo_text_size_middle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/vivo_edit_container_height"
+                    android:background="@drawable/vivo_edit_top_round" >
+
+                    <TextView
+                        style="@style/vivo_edit_label_style"
+                        android:layout_width="50dp"
+                        android:layout_marginLeft="11.25dp"
+                        android:singleLine="true"
+                        android:text="@string/vivo_answer_label"
+                        android:textColor="@color/vivo_text_color_login_lable"
+                        android:textSize="@dimen/vivo_text_size_small" />
+
+                    <com.vivo.sdkplugin.Utils.EditTextErrorFixed
+                        android:id="@+id/answer2_input"
+                        style="@style/vivo_edit_input_style"
+                        android:layout_marginLeft="5dp"
+                        android:ellipsize="end"
+                        android:hint="@string/vivo_answer_indispensable_label"
+                        android:singleLine="true"
+                        android:textColor="@color/vivo_text_color_middle"
+                        android:textColorHint="@color/bbk_channel_activity_desc_textcolor"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/vivo_text_size_middle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/question3_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/vivo_edit_container_height"
+                    android:layout_marginTop="20dip"
+                    android:background="@drawable/vivo_edit_top_round"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/vivo_edit_label_style"
+                        android:layout_width="50dp"
+                        android:layout_marginLeft="11.25dp"
+                        android:singleLine="true"
+                        android:text="@string/vivo_question3_label"
+                        android:textColor="@color/vivo_text_color_login_lable"
+                        android:textSize="@dimen/vivo_text_size_small" />
+
+                    <TextView
+                        android:id="@+id/question3_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="left|center"
+                        android:hint="@string/vivo_question_indispensable_label"
+                        android:singleLine="true"
+                        android:textColor="@color/vivo_text_color_middle"
+                        android:textColorHint="@color/bbk_channel_activity_desc_textcolor"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/vivo_text_size_middle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/question3_input_custom_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/vivo_edit_container_height"
+                    android:background="@drawable/vivo_edit_top_round"
+                    android:visibility="gone" >
+
+                    <com.vivo.sdkplugin.Utils.EditTextErrorFixed
+                        android:id="@+id/question3_input_custom"
+                        style="@style/vivo_edit_input_style"
+                        android:hint="@string/vivo_answer_indispensable_label"
+                        android:paddingLeft="10dip"
+                        android:textColor="@color/vivo_text_color_middle"
+                        android:textColorHint="@color/bbk_channel_activity_desc_textcolor"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/vivo_text_size_middle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/vivo_edit_container_height"
+                    android:background="@drawable/vivo_edit_top_round" >
+
+                    <TextView
+                        style="@style/vivo_edit_label_style"
+                        android:layout_width="50dp"
+                        android:layout_marginLeft="11.25dp"
+                        android:singleLine="true"
+                        android:text="@string/vivo_answer_label"
+                        android:textColor="@color/vivo_text_color_login_lable"
+                        android:textSize="@dimen/vivo_text_size_small" />
+
+                    <com.vivo.sdkplugin.Utils.EditTextErrorFixed
+                        android:id="@+id/answer3_input"
+                        style="@style/vivo_edit_input_style"
+                        android:layout_marginLeft="5dp"
+                        android:ellipsize="end"
+                        android:hint="@string/vivo_answer_indispensable_label"
+                        android:singleLine="true"
+                        android:textColor="@color/vivo_text_color_middle"
+                        android:textColorHint="@color/bbk_channel_activity_desc_textcolor"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/vivo_text_size_middle" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_root"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@drawable/yl1_corner"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="@dimen/yl1paddingLeft"
+    android:paddingRight="@dimen/yl1paddingLeft"
+    android:paddingTop="10dp"
+    tools:context=".activity.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="@dimen/yl1titleWidth"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:paddingTop="8dp">
+
+        <LinearLayout
+            android:layout_width="@dimen/yl1etWidth"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:background="@drawable/yl1_et_selector">
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="8.62"
+                android:background="@null"
+                android:digits="0123456789abcdefghijkl_mnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:hint="用户名/手机号"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:id="@+id/iv_delete_username"
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:src="@drawable/yl1_delete"
+                android:visibility="invisible" />
+
+            <RelativeLayout
+                android:id="@+id/iv_username_more"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:onClick="btClick"
+                android:paddingBottom="2.5dp"
+                android:paddingTop="2.5dp">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/yl1_newdown" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="@dimen/yl1etWidth"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/yl1_et_selector">
+
+                    <EditText
+                        android:id="@+id/et_password"
+                        android:layout_width="0dp"
+                        android:layout_height="42dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="10.48"
+                        android:background="@null"
+                        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:hint="密码(6-20位数字、字母)"
+                        android:inputType="textPassword"
+                        android:maxLength="20"
+                        android:singleLine="true"
+                        android:textSize="11sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_delete_password"
+                        android:layout_width="0dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:src="@drawable/yl1_delete"
+                        android:visibility="invisible" />
+
+                    <ImageView
+                        android:id="@+id/iv_password_visible"
+                        android:layout_width="0dp"
+                        android:layout_height="42dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1.3"
+                        android:onClick="btClick"
+                        android:padding="3dp"
+                        android:src="@drawable/yl1_iv_pwd_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:id="@+id/bt_login"
+                            android:layout_width="@dimen/yl1etWidth"
+                            android:layout_height="35dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/yl1_bt_selector"
+                            android:onClick="btClick"
+                            android:text="登录"
+                            android:textColor="@color/yl1colorWhite" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:id="@+id/bt_register"
+                            android:layout_width="@dimen/yl1etWidth"
+                            android:layout_height="35dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/yl1_bt_side_style"
+                            android:onClick="btClick"
+                            android:text="注册"
+                            android:textColor="@color/yl1textWarning" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffffff">
+
+                <ListView
+                    android:id="@+id/lv_record_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@color/yl1colorWhite"
+                    android:dividerHeight="0dp"
+                    android:scrollbarThumbVertical="@drawable/yl1_lv_scrollbar_bgd"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6">
+
+        <TextView
+            android:id="@+id/tv_find_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:onClick="btClick"
+            android:text="密码找回>"
+            android:textColor="@color/yl1textWarning" />
+    </RelativeLayout>
+</LinearLayout>

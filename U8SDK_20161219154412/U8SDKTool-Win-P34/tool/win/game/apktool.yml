@@ -1,0 +1,24 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: game.apk
+compressionType: false
+doNotCompress:
+- arsc
+- apk
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '20'
+sharedLibrary: false
+unknownFiles:
+  android-support-multidex.version.txt: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.0
+versionInfo:
+  versionCode: '1'
+  versionName: 1.0.0

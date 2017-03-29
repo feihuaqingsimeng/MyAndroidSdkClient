@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="10.0dip"
+    android:background="@drawable/vivo_sub_item_default_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/add_sub_account_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginLeft="11.25dp"
+                android:textColor="#313131"
+                android:textSize="16dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/sub_account_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="left|top"
+                android:layout_marginLeft="11.25dp"
+                android:layout_marginTop="9dp"
+                android:textColor="#333333"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/loginmsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|bottom"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="11.25dp"
+                android:layout_marginRight="5.0dip"
+                android:singleLine="true"
+                android:text="loginmsg"
+                android:textColor="#90969a"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/arrow_image"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="9dp"
+            android:src="@drawable/vivo_list_item_arrow_selector"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/sub_account_rename"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="9dp"
+            android:text="@string/vivo_sub_account_rename_text"
+            android:textColor="#00aeff"
+            android:textSize="16dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/vivo_listview_item_dotted_line_image"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="11.25dp"
+        android:layout_marginRight="11.25dp"
+        android:background="@drawable/vivo_listview_item_dotted_line" />
+
+</LinearLayout>

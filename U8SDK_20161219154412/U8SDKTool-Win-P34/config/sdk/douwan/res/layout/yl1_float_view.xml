@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/yl1touming"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_server"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/yl1_server"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_logout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/yl1_exchangeun"
+        android:visibility="invisible" />
+
+
+    <ImageView
+        android:id="@+id/iv_upgrade"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/yl1_shengji"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/yl1_touxiang" />
+
+    <TextView
+        android:id="@+id/tv_length"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</RelativeLayout>

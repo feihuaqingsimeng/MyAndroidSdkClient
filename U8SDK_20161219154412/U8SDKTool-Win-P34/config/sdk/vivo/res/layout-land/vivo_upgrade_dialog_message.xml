@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dip"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/vivo_upgrade_update_dialog_marginHorizontal"
+    android:layout_marginRight="@dimen/vivo_upgrade_update_dialog_marginHorizontal"
+    android:background="@drawable/vivo_upgrade_dialog_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/vivo_upgrade_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vivo_upgrade_selfupdate_dialog_title_marginTop"
+        android:gravity="center"
+        android:textColor="@color/vivo_upgrade_activity_titlebar_color"
+        android:textSize="@dimen/vivo_upgrade_update_dialog_title_textsize" />
+
+    <TextView
+        android:id="@+id/vivo_upgrade_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vivo_upgrade_selfupdate_dialog_text_marginTop"
+        android:gravity="center"
+        android:textColor="@color/vivo_upgrade_hot_apps_size_text_color"
+        android:textSize="@dimen/vivo_upgrade_manage_item_title_textsize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:layout_marginRight="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:layout_marginTop="@dimen/vivo_upgrade_selfupdate_dialog_text_marginTop"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            android:id="@+id/vivo_upgrade_update_dialog_download_progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/vivo_upgrade_update_dialog_download_progress_bar_height"
+            android:layout_marginRight="@dimen/vivo_upgrade_update_dialog_download_progress_bar_margin_right"
+            android:layout_weight="1"
+            android:indeterminateDrawable="@drawable/vivo_upgrade_progress_indeterminate_horizontal"
+            android:max="100"
+            android:progressDrawable="@drawable/vivo_upgrade_progress_horizontal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/vivo_upgrade_update_dialog_download_progress"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/vivo_upgrade_update_dialog_progress_text_color"
+            android:textSize="@dimen/vivo_upgrade_update_dialog_download_progress_text_size"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/vivo_upgrade_selfupdate_dialog_text_marginBottom" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/vivo_upgrade_manage_update_line_color" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="70dip"
+        android:layout_marginLeft="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:layout_marginRight="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:layout_marginTop="@dimen/vivo_upgrade_selfupdate_dialog_text_marginBottom" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/vivo_upgrade_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/vivo_upgrade_update_dialog_message_text_lineExtra"
+                android:textColor="@color/vivo_upgrade_hot_app_title_color"
+                android:textSize="@dimen/vivo_upgrade_update_dialog_message_textsize" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/vivo_upgrade_install_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vivo_upgrade_common_dialog_message_marginHorizontal"
+        android:layout_marginLeft="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:layout_marginRight="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:lineSpacingExtra="@dimen/vivo_upgrade_update_dialog_message_text_lineExtra"
+        android:text="@string/vivo_upgrade_app_down_complete"
+        android:textColor="@color/vivo_upgrade_blue"
+        android:textSize="@dimen/vivo_upgrade_update_dialog_message_textsize" />
+
+    <CheckBox
+        android:id="@+id/vivo_upgrade_no_more_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vivo_upgrade_update_dialog_message_marginVertical"
+        android:layout_marginLeft="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:layout_marginRight="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:layout_marginTop="10dip"
+        android:button="@drawable/vivo_upgrade_checkbox_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/vivo_upgrade_mobliedown_dialog_nevernotice_marginLeft"
+        android:text="@string/vivo_upgrade_no_notice_in_seven"
+        android:textColor="@color/vivo_upgrade_hot_app_title_color"
+        android:textSize="@dimen/vivo_upgrade_mobliedown_dialog_nevernotice_textsize"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/vivo_upgrade_update_dialog_message_marginVertical"
+        android:layout_marginLeft="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:layout_marginRight="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/vivo_upgrade_okBtnLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/vivo_upgrade_ok"
+                android:layout_width="@dimen/vivo_upgrade_update_dialog_buton_width"
+                android:layout_height="@dimen/vivo_upgrade_update_dialog_buton_height"
+                android:background="@drawable/vivo_upgrade_dialog_ok_bg"
+                android:gravity="center"
+                android:text="@string/vivo_upgrade_ok"
+                android:textColor="@color/vivo_upgrade_white"
+                android:textSize="@dimen/vivo_upgrade_update_dialog_buton_textsize" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vivo_upgrade_cancelBtnLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/vivo_upgrade_cancel"
+                android:layout_width="@dimen/vivo_upgrade_update_dialog_buton_width"
+                android:layout_height="@dimen/vivo_upgrade_update_dialog_buton_height"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/vivo_upgrade_dialog_cancel_bg"
+                android:gravity="center"
+                android:text="@string/vivo_upgrade_cancel"
+                android:textColor="@color/vivo_upgrade_hot_app_title_color"
+                android:textSize="@dimen/vivo_upgrade_update_dialog_buton_textsize" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vivo_upgrade_singleBtnLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/vivo_upgrade_update_dialog_buton_height"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/vivo_upgrade_singlebtn"
+                android:layout_width="@dimen/vivo_upgrade_update_dialog_buton_width"
+                android:layout_height="@dimen/vivo_upgrade_update_dialog_buton_height"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/vivo_upgrade_dialog_cancel_bg"
+                android:gravity="center"
+                android:text="@string/vivo_upgrade_cancel_download"
+                android:textColor="@color/vivo_upgrade_hot_app_title_color"
+                android:textSize="@dimen/vivo_upgrade_update_dialog_buton_textsize" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/vivo_window_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/vivowindowTitleHeight"
+        android:background="@drawable/vivo_window_title_bar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/vivo_account_agreement_title"
+            android:textColor="@color/vivo_windowTitleColor"
+            android:textSize="@dimen/vivowindowTitleTextSize" />
+
+        <LinearLayout
+            android:id="@+id/titleLeftBtn_layout"
+            android:layout_width="50dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center_vertical" >
+
+            <Button
+                android:id="@+id/titleLeftBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dip"
+                android:background="@drawable/vivo_btn_title_back" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/titleLeftBtn_layout"
+            android:background="@drawable/vivo_title_left_line" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/load_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/retry_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/vivo_net_error_retry"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/protocol_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/vivo_window_title"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="#ffffffff"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/vivo_markup_view_bg" >
+
+        <Button
+            android:id="@+id/agree_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="13dip"
+            android:layout_marginRight="13dip"
+            android:layout_weight="1"
+            android:background="@drawable/vivo_btn_default_small"
+            android:gravity="center"
+            android:text="@string/vivo_agree_label" />
+    </LinearLayout>
+
+</RelativeLayout>

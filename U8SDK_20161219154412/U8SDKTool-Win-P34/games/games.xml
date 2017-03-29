@@ -1,0 +1,64 @@
+<xml>
+
+<games>
+	<game>
+		<param name="appName" value="hjqst" />
+		<param name="appID" value="3" />
+		<param name="appKey" value="85d90e5d99bcff00e9e9d4fbdfd17c1f" />
+		<param name="appDesc" value="幻姬骑士团" />
+		<param name="orientation" value="landscape" desc="游戏是横屏还是竖屏(landscape|portrait),不配置默认是横屏" />
+		<param name="cpuSupport" value="armeabi|armeabi-v7a"/>
+
+		<param name="u8_auth_url" value="http://api.huanji.yileweb.com/user/getToken" desc="如果这里配置了登录认证地址，那么会覆盖local.properties中配置的登录认证地址"/>
+<!-- 		<param name="u8_order_url" value="http://192.168.1.108:8080/pay/getOrderID" desc="如果这里配置了下单地址，那么会覆盖local.properties中配置的下单地址"/>		
+		<param name="u8_analytics_url" value="http://192.168.1.108:8080/analytics" desc="如果这里配置了统计地址，那么会覆盖local.properties中配置的统计地址"/>	 -->	
+		<param name="versionCode" value="126" desc="游戏包的版本号,对应AndroidManifest.xml中的versionCode"/>
+		<param name="versionName" value="1.2.6" desc="游戏包中的版本名称,对应AndroidManifest.xml中的versionName"/>
+<!-- 		<param name="minSdkVersion" value="8" desc="最小支持的Android SDK版本，minSdkVersion,targetSdkVersion,maxSdkVersion 三个同时配置，或者同时不配置"/>
+		<param name="targetSdkVersion" value="22" desc="默认使用的Android SDK版本，minSdkVersion,targetSdkVersion,maxSdkVersion 三个同时配置，或者同时不配置"/>
+		<param name="maxSdkVersion" value="22" desc="最大支持的Android SDK版本，minSdkVersion,targetSdkVersion,maxSdkVersion 三个同时配置，或者同时不配置"/> -->
+		<param name="outputApkName" value="{channelName}-{versionName}.apk" desc="最终apk包名格式：{bundleID}:包名,{versionName}:版本名称,{versionCode}:版本号,{time}:时间戳(yyyyMMddmmss),{channelID}:渠道号,{channelName}:渠道名,{appName}:游戏名,{appID}:appID"/>
+	</game>
+	
+	<game>
+		<param name="appName" value="game1" />
+		<param name="appID" value="1" />
+		<param name="appKey" value="f32fdc02123a82524eb4ea95e1383d0b" />
+		<param name="appDesc" value="测试游戏1" />
+		<param name="orientation" value="landscape" desc="游戏是横屏还是竖屏(landscape|portrait),不配置默认是横屏" />
+		<param name="cpuSupport" value="armeabi|armeabi-v7a"/>
+
+<!-- 		<param name="u8_auth_url" value="http://192.168.1.108:8080/user/getToken" desc="如果这里配置了登录认证地址，那么会覆盖local.properties中配置的登录认证地址"/>
+		<param name="u8_order_url" value="http://192.168.1.108:8080/pay/getOrderID" desc="如果这里配置了下单地址，那么会覆盖local.properties中配置的下单地址"/>		
+		<param name="u8_analytics_url" value="http://192.168.1.108:8080/analytics" desc="如果这里配置了统计地址，那么会覆盖local.properties中配置的统计地址"/>	 -->	
+		<param name="versionCode" value="40" desc="游戏包的版本号,对应AndroidManifest.xml中的versionCode"/>
+		<param name="versionName" value="4.0.0" desc="游戏包中的版本名称,对应AndroidManifest.xml中的versionName"/>
+ 	<param name="minSdkVersion" value="8" desc="最小支持的Android SDK版本，minSdkVersion,targetSdkVersion,maxSdkVersion 三个同时配置，或者同时不配置"/>
+		<param name="targetSdkVersion" value="19" desc="默认使用的Android SDK版本，minSdkVersion,targetSdkVersion,maxSdkVersion 三个同时配置，或者同时不配置"/>
+		<param name="maxSdkVersion" value="22" desc="最大支持的Android SDK版本，minSdkVersion,targetSdkVersion,maxSdkVersion 三个同时配置，或者同时不配置"/>
+		<param name="outputApkName" value="{channelName}.apk" desc="最终apk包名格式：{bundleID}:包名,{versionName}:版本名称,{versionCode}:版本号,{time}:时间戳(yyyyMMddmmss),{channelID}:渠道号,{channelName}:渠道名,{appName}:游戏名,{appID}:appID"/>
+
+		<log>
+			<param name="ulog.enable" value="true" desc="是否进行日志打印"/>
+			<param name="ulog.level" value="DEBUG" desc="日志级别(DEBUG|INFO|WARNING|ERROR)"/>
+			<param name="ulog.local" value="true" desc="是否在logcat中打印"/>
+			<param name="ulog.remote" value="true" desc="是否在网页中远程打印，这里设置为true，需要启动scripts/uconsole.py"/>
+			<param name="ulog.remote_interval" value="1000" desc="远程打印时间间隔，单位毫秒"/>
+			<param name="ulog.remote_url" value="http://192.168.1.108:8090/" desc="远程打印地址，uconsole.py启动监听的地址"/>
+		</log>
+
+	</game>
+
+	<game>
+		<param name="appName" value="game2" />
+		<param name="appID" value="2" />
+		<param name="appKey" value="f32fdc02123a82524eb4ea95e1383d0b" />
+		<param name="appDesc" value="测试游戏2" />
+		<param name="orientation" value="landscape" desc="游戏是横屏还是竖屏(landscape|portrait),不配置默认是横屏" />		
+		<param name="cpuSupport" value="armeabi|armeabi-v7a|x86|mips"/>		
+		<param name="outputApkName" value="{channelName}_{buildNum}.apk" />		
+	</game>	
+	
+</games>
+
+</xml>

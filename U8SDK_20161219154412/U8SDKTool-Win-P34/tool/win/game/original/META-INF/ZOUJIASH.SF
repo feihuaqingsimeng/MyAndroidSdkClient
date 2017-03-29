@@ -1,0 +1,188 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: 0LPzhBh4mQ9plSv/uqd4keWkBho=
+SHA1-Digest-Manifest: NZopZZwO4nHmR3IdjAAXFFSU2jI=
+Created-By: 1.8.0_101 (Oracle Corporation)
+
+Name: res/drawable-xhdpi/u8_splash.png
+SHA1-Digest: Pzr10Ub4BSfc/0MI0L9azOs4boQ=
+
+Name: lib/armeabi-v7a/libplugin_phone.so
+SHA1-Digest: MqTdByqlQUqoxzwaCvv6qx+MPbw=
+
+Name: res/drawable-hdpi/asyx_logo_white.png
+SHA1-Digest: kfweR+MME/DCUFqzgPt+5NBTmMo=
+
+Name: res/layout/asyx_binding_phone.xml
+SHA1-Digest: 6k79X08vhxhyrn3p4Fdq13Y59gM=
+
+Name: android-support-multidex.version.txt
+SHA1-Digest: IyAB6sI0eoVKg/Sqfxt1cEbCDq4=
+
+Name: res/drawable-hdpi/asyx_recharge_item_point.png
+SHA1-Digest: MILC3IukZbII1wmhFk0tbKcl/Uk=
+
+Name: res/drawable-hdpi/asyx_sdk_close_white.png
+SHA1-Digest: vDbL+yb949Pr21aVnQCk+d8IVTE=
+
+Name: res/layout/asyx_recharge_cards_type.xml
+SHA1-Digest: AqNvr3hObwfkVH7XgFvLaf+dfxg=
+
+Name: res/drawable-xxhdpi/u8_splash.png
+SHA1-Digest: IyocZe7GvPfJUIJSZT+Jpghjz8A=
+
+Name: res/layout/asyx_find_password.xml
+SHA1-Digest: vTqMof8lx1N2C6DnJh85A4tKijM=
+
+Name: res/drawable-xxhdpi/ic_launcher.png
+SHA1-Digest: v1lDuFUx+F3Rs+HYiXRGXtF9ojY=
+
+Name: res/layout/asyx_login_register.xml
+SHA1-Digest: uoECK7+gCqxywnFDyAeqKR9RSlc=
+
+Name: res/drawable-ldpi/u8_splash.png
+SHA1-Digest: hiWVsNtMwVxeMWmm04HU4conjFw=
+
+Name: res/drawable-hdpi/asyx_recharge_yidong.png
+SHA1-Digest: HkClzke7459LrEw7dGuhNMZp7lk=
+
+Name: res/layout/asyx_login.xml
+SHA1-Digest: eDn/5xrHSzSfHZFCBluN7kh7ByU=
+
+Name: res/layout/asyx_user_prompt.xml
+SHA1-Digest: tB5GioZWLzerLZt5IKA5wyCrXVk=
+
+Name: res/drawable-hdpi/asyx_recharge_selected_bg.xml
+SHA1-Digest: ADSazMwJzGCYtTU37x5SJjF0+Ns=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: jgdTIzq8AmqTrpJZbzuLTfMdj38=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: aBYNTUWfHeUBHfBjuRm5bbnuKKk=
+
+Name: res/drawable-hdpi/asyx_dialog_shape.xml
+SHA1-Digest: CHB5T/k752I/hzfXmJg0syj5nvs=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: mRjaDbAW16A7FrxSLNGuEF7QBHg=
+
+Name: res/layout/u8_splash.xml
+SHA1-Digest: iB+8qycTSndcE4+/RUNwwwi0IE8=
+
+Name: res/drawable-hdpi/asyx_loading_progressdialog.png
+SHA1-Digest: 0YWgoYO+8CJIRrKR+I9EaDxyDPU=
+
+Name: res/layout/asyx_change_password.xml
+SHA1-Digest: zFOsLrgr/F2q+Qc5CUnVDA7GxrU=
+
+Name: lib/armeabi/libplugin_phone.so
+SHA1-Digest: EG6n/aujKT9MAVjaJNfIBliigic=
+
+Name: res/drawable-mdpi/u8_splash.png
+SHA1-Digest: OB4nxbluf8a/fTr0MuRYVhcqjSQ=
+
+Name: res/layout/asyx_automatic_login.xml
+SHA1-Digest: 9mXQ39rNcB7N6srsMYIDMrYAiI4=
+
+Name: resources.arsc
+SHA1-Digest: b3Fgaeyn/pFTU6himAJFI3HrKMM=
+
+Name: res/drawable-hdpi/asyx_recharge_submit_background.xml
+SHA1-Digest: hNFd2Riq0oVguy3HVkgd8fTkcvc=
+
+Name: res/drawable-hdpi/asyx_recharge_divider.png
+SHA1-Digest: PyN7QsRxe7PsLM3eSFdBXj4bIz0=
+
+Name: lib/mips/libplugin_phone.so
+SHA1-Digest: L0F/nRwFP6P225S7etcMAitqH9M=
+
+Name: AndroidManifest.xml
+SHA1-Digest: TkvBnCJLzHLdrEtvnqlYKGmiRE8=
+
+Name: res/drawable-hdpi/asyx_recharge_type_shape.xml
+SHA1-Digest: KlBuQuYg3sVmycehD8iKu/E8ilE=
+
+Name: res/drawable-hdpi/asyx_recharge_liantong.png
+SHA1-Digest: qyKpzsceS9idM2rHDyfe2+KR4Zg=
+
+Name: res/drawable-xxxhdpi/ic_launcher.png
+SHA1-Digest: /BYvJvtA/Xa51i7MUpnBgtScXAk=
+
+Name: res/drawable-hdpi/u8_splash.png
+SHA1-Digest: APt21kM+tVocT21CmfX4ljv2oq0=
+
+Name: res/menu/main.xml
+SHA1-Digest: BiwqwT/EaDjgLghcQmcyy/1DCdU=
+
+Name: res/layout/asyx_recharge_cards_content.xml
+SHA1-Digest: yd28fj/YIt0TYB5hHGZVqQ1SlXc=
+
+Name: assets/u8_plugin_config.xml
+SHA1-Digest: JH7NzDiTGP7t94M943VCQyi20dU=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: /aJumms2vKmDB8n32z4AokiiKJM=
+
+Name: res/drawable-hdpi/asyx_automatic_background.xml
+SHA1-Digest: qXdHlv5jrw95KzaHQ3xhjx1YqSo=
+
+Name: res/drawable-hdpi/asyx_recharge_content_shape.xml
+SHA1-Digest: yPhfct5sgYp2lgIniL+acVtIULM=
+
+Name: assets/UPPayPluginEx.apk
+SHA1-Digest: AAEuKpNDNRnmUOmdyzmZmy+k9No=
+
+Name: res/drawable-hdpi/asyx_edittext_shape.xml
+SHA1-Digest: 2Ru0SJGSwUy4d/Ag7RBB7/U8apI=
+
+Name: res/layout/asyx_activity_recharge.xml
+SHA1-Digest: rdV3QCsVcMAzF/o8uX6A8sKHsqI=
+
+Name: res/drawable-hdpi/asyx_recharge_back.png
+SHA1-Digest: BR9x1CO+fHiTqf3+8CWsQ2bZeeE=
+
+Name: res/drawable-hdpi/asyx_wait_progress_medium.xml
+SHA1-Digest: xgx+o86TED7tONM0iDp1RyO6KEA=
+
+Name: res/layout/asyx_exit_game.xml
+SHA1-Digest: 34NYnM/6R5G73dZQrUA7u81oiGc=
+
+Name: res/layout/asyx_loading.xml
+SHA1-Digest: CBQOPtnhtUxrYdE/uFnruul76nE=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: r3A5lPlPoJSa6SF7kj7bgzpecuE=
+
+Name: lib/x86/libplugin_phone.so
+SHA1-Digest: vFtjKtrYziLzGsHpOWYkr1mKHKU=
+
+Name: res/drawable-hdpi/asyx_exit_content_shape.xml
+SHA1-Digest: bPhs8DKpLNskeM5+FEnfAsIcRHY=
+
+Name: assets/u8_developer_config.properties
+SHA1-Digest: g4PFYMVLPvdvECB08iZgnUGUcZU=
+
+Name: res/drawable-hdpi/asyx_type_button_shape.xml
+SHA1-Digest: +l6Zbqrxt9V/DOP/uucaM5ya+x4=
+
+Name: res/drawable-hdpi/asyx_login_logo.png
+SHA1-Digest: vwdqc6hxnyWfXGGYbZCEuGPl4gI=
+
+Name: res/drawable-hdpi/asyx_recharge_dianxin.png
+SHA1-Digest: saydDaiG51OgXw9Y5s6eMhCLnrA=
+
+Name: res/drawable-hdpi/asyx_sdk_close.png
+SHA1-Digest: ndILWd4mRymgVKYLVyO3kFkLNLU=
+
+Name: res/layout/asyx_wait_progressdialog.xml
+SHA1-Digest: j2uOYI/W+9GDa4wkwBrBPmIt078=
+
+Name: res/layout/asyx_notice.xml
+SHA1-Digest: KtWy2H93jR43WYpjnoVEbwMlyCU=
+
+Name: res/layout/asyx_recharge_platform_order.xml
+SHA1-Digest: nYBuNaFKFgLps9oGp/po7XpaQuE=
+
+Name: classes.dex
+SHA1-Digest: D4G0aC6+XgDVKvP8k1c2QYzulHo=
+

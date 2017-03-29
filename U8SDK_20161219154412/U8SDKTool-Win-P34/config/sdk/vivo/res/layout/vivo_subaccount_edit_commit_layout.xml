@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"
+            android:background="@drawable/vivo_account_background"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dip" >
+
+                <LinearLayout
+                    android:id="@+id/titleLeftBtn_layout"
+                    android:layout_width="40dip"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="left|center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/subeditcommit_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dip"
+                        android:background="@drawable/vivo_btn_title_back" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/titleLeftBtn_layout"
+                    android:text="@string/vivo_sub_edit_com_title"
+                    android:textColor="@color/vivo_black"
+                    android:textSize="17sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/vivo_edit_line_bg_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:layout_marginTop="17dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/sub_edit_commit_subaccount_icon"
+                    android:layout_width="38dip"
+                    android:layout_height="38dip"
+                    android:background="@drawable/vivo_sub_icon_red" />
+
+                <EditText
+                    android:id="@+id/subeditcommit_subid"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:layout_marginLeft="8dip"
+                    android:background="@drawable/edit_layout_bg"
+                    android:paddingLeft="13dip"
+                    android:singleLine="true"
+                    android:textColor="@color/vivo_black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/subeditcommit_commit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="41dip"
+                android:layout_marginBottom="17dip"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:layout_marginTop="16dip"
+                android:background="@drawable/vivo_feed_commit_btn"
+                android:singleLine="true"
+                android:text="@string/vivo_ok_label"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/vivo_text_size_middle" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

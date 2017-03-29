@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@drawable/yl1_corner"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="@dimen/yl1paddingLeft"
+    android:paddingRight="@dimen/yl1paddingLeft"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:onClick="btClick"
+            android:src="@drawable/yl1_back" />
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="@dimen/yl1titleWidth"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="@dimen/yl1etWidth"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:background="@drawable/yl1_et_selector">
+
+            <EditText
+                android:id="@+id/et_phone_number"
+                android:layout_width="210dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:hint="请输入手机号"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="11"
+                android:singleLine="true"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:id="@+id/iv_delete_phone_num"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:src="@drawable/yl1_delete"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/yl1etWidth"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/yl1_et_selector">
+
+            <EditText
+                android:id="@+id/et_auth_code"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:background="@null"
+                android:hint="请输入验证码"
+                android:inputType="number"
+                android:maxLength="6"
+                android:singleLine="true"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:id="@+id/iv_delete_auth_code"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="3dp"
+                android:clickable="false"
+                android:src="@drawable/yl1_delete"
+                android:visibility="invisible" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/bt_get_auth_code"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1.2"
+                android:background="@drawable/yl1_bt_selector"
+                android:onClick="btClick"
+                android:text="获取验证码"
+                android:textColor="@color/yl1colorWhite"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/yl1etWidth"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/yl1_et_selector">
+
+            <EditText
+                android:id="@+id/et_new_pw"
+                android:layout_width="193dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:hint="请输入您的新密码(6-20位数字，字母)"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textSize="11sp" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/iv_delete_password"
+                android:layout_width="15dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:src="@drawable/yl1_delete"
+                android:visibility="invisible" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/iv_password_visible"
+                android:layout_width="20dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:onClick="btClick"
+                android:padding="3dp"
+                android:src="@drawable/yl1_iv_pwd_selector" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_pwfind_next"
+        android:layout_width="@dimen/yl1etWidth"
+        android:layout_height="@dimen/yl1btHeight"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/yl1_bt_selector"
+        android:onClick="btClick"
+        android:text="确定"
+        android:textColor="@color/yl1colorWhite" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bbk_recharge_dlg_width">360dip</dimen>
+    <dimen name="bbk_payment_dlg_width">360dip</dimen>
+    <dimen name="bbk_channel_icon_maginLeft">17dip</dimen>
+    <dimen name="vcoin_gift_state_marginLeft">13dip</dimen>
+    <dimen name="vcoin_gift_state_marginRight">13dip</dimen>
+    <dimen name="bbk_useticket_dlg_width">360dip</dimen>
+    
+</resources>

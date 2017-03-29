@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="asyx_registered_background">#fff1f1f1</color>
+    <color name="asyx_registered_selected">#ff52b1f5</color>
+    <color name="asyx_registered_normal">#ffb4b7b9</color>
+    <color name="asyx_registered_divider">#ffd2d9db</color>
+    <color name="asyx_registered_sms_background">#ff8fdd64</color>
+    <color name="asyx_options_text_color">#ff727272</color>
+    <color name="asyx_recharge_title_color">#ff61d2fe</color>
+</resources>

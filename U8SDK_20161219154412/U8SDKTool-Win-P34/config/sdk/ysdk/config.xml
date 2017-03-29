@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    
+    <params>
+        <param name="QQ_APP_ID" required="1" showName="QQAppID" desc="应用宝" bWriteInManifest="0" bWriteInClient="0" />
+        <param name="WX_APP_ID" required="1" showName="微信AppID" desc="应用宝" bWriteInManifest="0" bWriteInClient="0" /> 
+        <param name="OFFER_ID" required="1" showName="OfferID" desc="应用宝" bWriteInManifest="0" bWriteInClient="0" />
+        <param name="YSDK_URL" required="1" showName="联调环境地址" desc="应用宝" bWriteInManifest="0" bWriteInClient="0" />
+        <param name="WG_FIXEDPAY" required="1" showName="是否定额支付" desc="true|false" bWriteInManifest="0" bWriteInClient="1" />
+        <param name="WG_RATIO" required="1" showName="充值比例" desc="后台配置的比例，如果是1:10，那么填10" bWriteInManifest="0" bWriteInClient="1" />
+        <param name="WG_COIN_ICON_NAME" required="1" showName="支付界面游戏币Icon名称" desc="drawable资源目录下的文件名称，不带后缀" bWriteInManifest="0" bWriteInClient="1" />
+        <param name="WG_MULTI_SERVERS" required="1" showName="是否开启了分区" desc="true|false" bWriteInManifest="0" bWriteInClient="1" />
+        <param name="WG_QUERY_URL" required="1" showName="查询订单地址" desc="u8server上处理应用宝查询订单的地址" bWriteInManifest="0" bWriteInClient="1" />
+        <param name="WG_PAY_URL" required="1" showName="充值通知的服务器地址" desc="u8server上处理应用宝充值的地址" bWriteInManifest="0" bWriteInClient="1" />
+        
+    </params>
+    
+    <operations>
+        <operation step="1" type="mergeManifest" from="SDKManifest.xml" to="AndroidManifest.xml" />
+        <operation step="2" type="copyRes" from="assets" to="assets" />
+        <operation step="3" type="copyRes" from="libs" to="lib" />
+        <operation step="4" type="copyRes" from="res" to="res" />
+        <operation step="5" type="copyRes" from="root" to="" />
+    </operations>
+    
+    <plugins>
+        <plugin name="com.u8.sdk.YSDKUser" type="1" desc="用户登录接口"/>
+        <plugin name="com.u8.sdk.YSDKPay" type="2" desc="用户支付接口"/>
+    </plugins>
+    
+    <version>
+        <name>应用宝YSDK</name>
+        <versionCode>1</versionCode>
+        <versionName>1.2.4</versionName>
+    </version>    
+    
+</config>

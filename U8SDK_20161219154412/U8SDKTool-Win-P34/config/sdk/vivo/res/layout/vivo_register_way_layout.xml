@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/total_parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vivo_account_background_second"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/account_title_layout"
+                android:layout_width="match_parent"
+                android:layout_height="69dip"
+                android:orientation="horizontal" >
+
+                <View
+                    android:id="@+id/vivo_line"
+                    android:layout_width="2px"
+                    android:layout_height="17dip"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="6dip"
+                    android:layout_marginRight="6dip"
+                    android:background="@color/vivo_gray_color" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/vivo_line"
+                    android:background="@drawable/vivo_logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="25dip"
+                    android:layout_toRightOf="@id/vivo_line"
+                    android:text="帐号登录"
+                    android:textColor="@color/vivo_small_window_title"
+                    android:textSize="@dimen/vivo_small_win_title_51px" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/register_onekey_layout"
+                android:layout_width="match_parent"
+                android:layout_height="49dip"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:background="@drawable/vivo_feed_commit_btn"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginTop="5dip"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:id="@+id/register_onekey_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:singleLine="true"
+                        android:text="@string/vivo_account_login_immediate"
+                        android:textColor="@color/vivo_white"
+                        android:textSize="@dimen/vivo_login_48px" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/register_onekey_text"
+                        android:singleLine="true"
+                        android:text="@string/vivo_account_registe_onekey_text_tip"
+                        android:textColor="@color/vivo_onekey_regist_tips"
+                        android:textSize="@dimen/vivo_login_36px" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/onekey_login_process_layout"
+                android:layout_width="match_parent"
+                android:layout_height="49dip"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:background="@drawable/vivo_feed_commit_btn"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="5dip"
+                        android:singleLine="true"
+                        android:text="@string/vivo_onekey_regit_progress_msg"
+                        android:textColor="@color/vivo_white"
+                        android:textSize="@dimen/vivo_login_48px" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/onekey_login_remain_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+
+                        <ProgressBar
+                            android:layout_width="29dip"
+                            android:layout_height="29dip"
+                            android:layout_gravity="center_vertical"
+                            android:indeterminateDrawable="@drawable/vivo_onekey_regist_progress" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="46dip"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip" >
+
+                <CheckBox
+                    android:id="@+id/protocol_select_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/vivo_checkbox_bg"
+                    android:checked="true" />
+
+                <TextView
+                    android:id="@+id/read_protocol_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dip"
+                    android:layout_toRightOf="@id/protocol_select_btn"
+                    android:clickable="true"
+                    android:singleLine="true"
+                    android:text="@string/vivo_read_protocol"
+                    android:textColor="@drawable/vivo_read_protocol_color"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/vivo_new_account_regist_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:singleLine="true"
+                    android:text="@string/vivo_account_registe_other_text"
+                    android:textColor="@color/vivo_temp_update_cancel"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/vivo_gray_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dip"
+            android:layout_gravity="center_horizontal|bottom"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/temp_account_login"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/vivo_left_temp_btn"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/vivo_use_temp_account"
+                android:textColor="@color/vivo_temp_update_cancel"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="@color/vivo_gray_color" />
+
+            <TextView
+                android:id="@+id/other_account_login_btn"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/vivo_right_temp_btn"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/vivo_old_account_login"
+                android:textColor="@color/vivo_temp_update_cancel"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

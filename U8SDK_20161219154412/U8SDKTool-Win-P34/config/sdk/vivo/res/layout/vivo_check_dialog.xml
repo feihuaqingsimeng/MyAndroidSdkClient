@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/vivo_dialog_black_bg"
+    android:orientation="vertical" >
+
+    <com.vivo.sdkplugin.Utils.EditTextErrorFixed
+        android:id="@+id/dialog_input"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="41dip"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:layout_marginTop="38dip"
+        android:background="@drawable/edit_layout_bg"
+        android:paddingLeft="24dip"
+        android:textColor="#333333" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@drawable/vivo_account_change_saparator" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/vivo_cancel_btn"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:text="取  消"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/vivo_text_size_middle" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/vivo_account_change_saparator" />
+
+        <Button
+            android:id="@+id/vivo_commit_btn"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:text="确  定"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/vivo_text_size_middle" />
+    </LinearLayout>
+
+</LinearLayout>

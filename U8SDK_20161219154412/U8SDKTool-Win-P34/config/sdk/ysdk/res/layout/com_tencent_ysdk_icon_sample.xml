@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/com_tencent_ysdk_icon_h5_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    >
+
+    <WebView
+        android:id="@+id/com_tencent_ysdk_icon_webView"
+        android:layout_width="450dp"
+        android:layout_height="278dp"
+        android:layout_centerInParent="true"
+        >
+    </WebView>
+    <com.tencent.ysdk.module.icon.impl.floatingviews.ErrorPageView
+        android:id="@+id/com_tencent_ysdk_icon_errorpage"
+        android:layout_width="450dp"
+        android:layout_height="278dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/com_tencent_ysdk_icon_h5_xx"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:background="@drawable/com_tencent_ysdk_icon_h5_xx"
+        android:layout_alignTop="@id/com_tencent_ysdk_icon_webView"
+        android:layout_marginTop="2dp"
+        android:layout_alignRight="@id/com_tencent_ysdk_icon_webView"
+        android:layout_marginRight="-35.5dp"
+        />
+
+
+</RelativeLayout><!-- From: file:/data/rdm/projects/24438/ysdk/src/main/res/layout/com_tencent_ysdk_icon_sample.xml -->

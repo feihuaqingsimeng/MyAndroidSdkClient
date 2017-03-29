@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/vivo_feedback_btn"
+        android:layout_width="126dip"
+        android:layout_height="46dip"
+        android:background="@drawable/vivo_ques_btn"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="@string/feedback_title"
+        android:textColor="@color/vivo_sub_notice_left_2"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vivo_common_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/vivowindowTitleHeight"
+        android:background="@drawable/vivo_window_title_bar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/titleview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/vivo_account_change_title"
+            android:textColor="@color/vivo_windowTitleColor"
+            android:textSize="@dimen/vivowindowTitleTextSize" />
+
+        <Button
+            android:id="@+id/titleLeftBtn"
+            android:layout_width="9dp"
+            android:layout_height="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/vivo_btn_title_back" />
+
+        <Button
+            android:id="@+id/titleRightBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/vivo_btn_title_normal"
+            android:text="@string/vivo_account_change_edit"
+            android:textColor="@color/vivo_title_text"
+            android:textSize="@dimen/vivowindowTitleButtonTextSize" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/account_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vivo_account_change_list_head_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/account_name"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/account_exit"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="25dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/account_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/vivo_sub_account_exit"
+            android:textColor="#00aeff"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sub_account_id_number_tip_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/sub_account_id_number_tip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.5dp"
+            android:layout_marginLeft="11.25dp"
+            android:layout_marginTop="14dp"
+            android:textColor="#babbbc"
+            android:textSize="11.25sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/sub_account_id_number_tip_sperater_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/vivo_listview_item_dotted_line"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:fastScrollEnabled="false" />
+
+    <LinearLayout
+        android:id="@+id/loading_box"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <include layout="@layout/vivo_loading_layout" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/retry_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="@string/vivo_net_error_retry"
+        android:visibility="gone" />
+
+</LinearLayout>

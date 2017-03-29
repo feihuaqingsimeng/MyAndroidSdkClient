@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <permissionConfig>
+        
+        
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.webkit.permission.PLUGIN" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> 
+        
+    </permissionConfig>
+    
+    <applicationConfig keyword="com.yileweb.sdk101.activity.YLLoginActivity">        
+        
+        <activity
+            android:name="com.yileweb.sdk101.activity.YLLoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:theme="@style/yl1_dialog" />
+        <activity
+            android:name="com.yileweb.sdk101.activity.YLPhoneNumRegisterActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/yl1_dialog" />
+        <activity
+            android:name="com.yileweb.sdk101.activity.YLNormalRegisterActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/yl1_dialog" />
+        <activity
+            android:name="com.yileweb.sdk101.activity.YLPhoneNumBindingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/yl1_dialog" />
+        <activity
+            android:name="com.yileweb.sdk101.activity.YLPwBackActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/yl1_dialog" />
+        <activity
+            android:name="com.yileweb.sdk101.activity.YLUser_AgreementsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/yl1_dialog" />
+        <activity
+            android:name="com.yileweb.sdk101.activity.YLNoticeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/yl1_dialog" />
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name="com.heepay.plugin.activity.WeChatNotityActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="behind"
+            android:theme="@android:style/Theme.NoDisplay" />
+        <activity
+            android:name="com.yileweb.sdk101.activity.YLFlashScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.yileweb.sdk101.activity.YLPayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yileweb.sdk101.activity.YLServerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustResize" />
+
+        <service
+            android:name="com.yileweb.sdk101.service.YLFloatService"
+            android:enabled="true"
+            android:exported="true" />
+    </applicationConfig>
+    
+    
+    
+</manifest>

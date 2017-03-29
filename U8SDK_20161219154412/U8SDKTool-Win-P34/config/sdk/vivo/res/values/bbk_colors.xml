@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="TextColorBlack">#ff313131</color>
+    <color name="TextColorBlack_s">#ff000000</color>
+    <color name="bbk_TextColorWhite">#ffffffff</color>
+    <color name="TextColorRed">#c8161d</color>
+    <color name="TextColorRed_s">#ffe26926</color>
+    <color name="black">#000000</color>
+    <color name="card_text">#313131</color>
+    <color name="card_text_s">#535353</color>
+    <color name="card_text_tip">#999999</color>
+    <color name="card_text_tip_s">#949494</color>
+    <color name="customer_text_tip">#343434</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="list_item_pressed_color">#e5e5e5</color>
+    <color name="list_item_bg">#fff4f4f4</color>
+    <color name="bbk_product_name">#008be3</color>
+    <color name="bbk_ticket_color">#5b5b5b</color>
+    
+    <drawable name="preference_background_color">#F4F4F4</drawable>
+    <drawable name="bbk_activity_background_color">#FFFFFF</drawable>
+    <drawable name="dialog_background_color">#F0F0EF</drawable>
+    <drawable name="transparent">#00000000</drawable>
+
+    <color name="recharge_list_item_color">#008be3</color>
+    <color name="preference_text_main_color">#393e41</color>
+    <color name="preference_text_sub_color">#90969a</color>
+    <color name="game_card_tip">#90969a</color>
+    <color name="card_num_pwd_text">#313131</color>
+    <color name="BgColor">#ffd1dce9</color>  
+    <color name="vivo_select_ticket_color">#ff8F979A</color>
+    <color name="vivo_list_item_color">#FFFFFF</color>
+    <color name="bbk_btn_submit_textcolor">#FFFFFF</color>
+    <color name="bbk_title_textcolor">#000000</color> 
+    <color name="bbk_listitem_textcolor">#333333</color>
+    <color name="bbk_channel_activity_type_textcolor">#ff210a</color> 
+    <color name="bbk_channel_activity_desc_textcolor">#999999</color> 
+    <color name="bbk_loading_textcolor">#999999</color> 
+    <color name="bbk_dlg_window_bg">#99000000</color>
+    <color name="bbk_ticket_unit_enable_textcolor">#dcf2ff</color>
+    <color name="bbk_ticket_unit_disable_textcolor">#bfbfbf</color>  
+    <color name="bbk_ticket_amount_enable_textcolor">#ffffff</color>
+    <color name="bbk_ticket_amount_disable_textcolor">#bfbfbf</color>
+</resources>

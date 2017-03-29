@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/asyx_recharge_type_shape" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <RelativeLayout android:background="#ff61d2fe" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_alignParentBottom="true" />
+        <ImageView android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/asyx_logo_white" android:scaleType="fitCenter" android:contentDescription="@string/app_name" />
+        <Button android:id="@id/asyx_exitgame_closedialog" android:background="@drawable/asyx_sdk_close_white" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClick" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/asyx_exit_content_shape" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textColor="@color/asyx_options_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/asyx_exit_hint" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip">
+            <Button android:textSize="18.0sp" android:textColor="@android:color/white" android:id="@id/asyx_exitgame_submit" android:background="#ff61d2fe" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:text="@string/asyx_exit_game" android:layout_weight="1.0" />
+            <Button android:textSize="18.0sp" android:textColor="@android:color/white" android:id="@id/asyx_exitgame_moregame" android:background="#ff61d2fe" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:text="@string/asyx_exit_more" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/asyx_dialog_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/asyx_registered_selected" android:gravity="center" android:id="@id/asyx_notice_title" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="#ffbcb8b7" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/asyx_registered_selected" android:id="@id/asyx_notice_content" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="#ffbcb8b7" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:textSize="18.0sp" android:textColor="#ff5cc1f9" android:id="@id/asyx_notice_submit" android:background="@android:color/transparent" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/asyx_prompt_submit" />
+</LinearLayout>

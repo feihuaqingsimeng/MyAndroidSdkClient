@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <permissionConfig>
+        
+	 <uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> 
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+        
+    </permissionConfig>
+    
+    <applicationConfig keyword="com.u8.sdk.SplashActivity" proxyApplication="com.u8.sdk.GameApplication">
+        <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="true" />
+		<activity
+		    android:name="com.u8.sdk.SplashActivity"
+		    android:configChanges="keyboardHidden|orientation|screenSize"
+		    android:screenOrientation="landscape" >
+		    <intent-filter>
+		        <action android:name="android.intent.action.MAIN" />
+		
+		        <category android:name="android.intent.category.LAUNCHER" />
+		    </intent-filter>
+		</activity>      
+        
+    </applicationConfig>
+    
+    
+    
+</manifest>

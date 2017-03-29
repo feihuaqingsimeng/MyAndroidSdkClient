@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/asyx_dialog_shape" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@android:color/transparent" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/asyx_background_radius">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="8.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/asyx_login_logo" android:scaleType="fitCenter" android:contentDescription="@string/app_name" />
+                <Button android:id="@id/asyx_registered_close" android:background="@drawable/asyx_sdk_close" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="5.0dip">
+                <Button android:textSize="@dimen/asyx_registered_textsize" android:textColor="@color/asyx_registered_selected" android:id="@id/asyx_registered_phone_button" android:background="@color/asyx_registered_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/asyx_registered_phone_register" android:layout_weight="1.0" />
+                <Button android:textSize="@dimen/asyx_registered_textsize" android:textColor="@color/asyx_registered_normal" android:id="@id/asyx_registered_normal_button" android:background="@color/asyx_registered_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/asyx_registered_normal_register" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/asyx_registered_phone_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@color/asyx_registered_divider" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_divider" />
+                <EditText android:textSize="@dimen/asyx_registered_textsize" android:id="@id/asyx_registered_phonenumber" android:background="@null" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_edittext" android:hint="@string/asyx_registered_phone_hint" android:inputType="phone" />
+                <View android:background="@color/asyx_registered_divider" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_divider" />
+                <EditText android:textSize="@dimen/asyx_registered_textsize" android:id="@id/asyx_registered_mobile_password" android:background="@null" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_edittext" android:hint="@string/asyx_registered_password_hint" android:inputType="textPassword" />
+                <View android:background="@color/asyx_registered_divider" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_divider" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_edittext">
+                    <EditText android:textSize="@dimen/asyx_registered_textsize" android:id="@id/asyx_registered_sms_code" android:background="@null" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/asyx_registered_sms_hint" android:layout_weight="1.0" android:inputType="number" />
+                    <Button android:textSize="@dimen/asyx_registered_textsize" android:textColor="@android:color/white" android:id="@id/asyx_registered_sms" android:background="@color/asyx_registered_sms_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/asyx_registered_sms_get" android:layout_weight="1.0" />
+                </LinearLayout>
+                <View android:background="@color/asyx_registered_divider" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_divider" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/asyx_registered_normal_layout" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="41.0dip">
+                <View android:background="@color/asyx_registered_divider" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_divider" />
+                <EditText android:textSize="@dimen/asyx_registered_textsize" android:id="@id/asyx_registered_username" android:background="@null" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_edittext" android:hint="@string/asyx_registered_normal_hint" android:inputType="text" />
+                <View android:background="@color/asyx_registered_divider" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_divider" />
+                <EditText android:textSize="@dimen/asyx_registered_textsize" android:id="@id/asyx_registered_normal_password" android:background="@null" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_edittext" android:hint="@string/asyx_registered_password_hint" android:inputType="textPassword" />
+                <View android:background="@color/asyx_registered_divider" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_divider" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_edittext" android:layout_marginTop="10.0dip">
+                <Button android:textSize="@dimen/asyx_registered_textsize" android:textColor="@android:color/white" android:id="@id/asyx_registered_login" android:background="@color/asyx_registered_selected" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/asyx_registered_divider" android:text="@string/asyx_registered_login" android:layout_weight="1.0" />
+                <Button android:textSize="@dimen/asyx_registered_textsize" android:textColor="@android:color/white" android:id="@id/asyx_registered_qucik_login" android:background="@color/asyx_registered_selected" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/asyx_registered_divider" android:text="@string/asyx_registered_quick_game" android:layout_weight="1.0" />
+            </LinearLayout>
+            <Button android:textSize="@dimen/asyx_registered_textsize" android:textColor="@android:color/white" android:id="@id/asyx_registered_submit" android:background="@color/asyx_registered_selected" android:layout_width="fill_parent" android:layout_height="@dimen/asyx_registered_edittext" android:layout_marginTop="2.0dip" android:text="@string/asyx_registered_submit" />
+            <TextView android:textSize="16.0sp" android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/asyx_sdk_version" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<dimen name="vivo_upgrade_update_dialog_marginHorizontal">12dp</dimen>
+	<dimen name="vivo_upgrade_selfupdate_dialog_title_marginTop">18dp</dimen>
+	<dimen name="vivo_upgrade_update_dialog_title_textsize">27px</dimen>
+	<dimen name="vivo_upgrade_selfupdate_dialog_text_marginTop">10dp</dimen>
+	<dimen name="vivo_upgrade_manage_item_title_textsize">23px</dimen>
+	<dimen name="vivo_upgrade_update_dialog_message_marginHorizontal">18dp</dimen>
+	<dimen name="vivo_upgrade_selfupdate_dialog_text_marginBottom">15dp</dimen>
+	<dimen name="vivo_upgrade_common_dialog_message_marginHorizontal">29dp</dimen>
+	<dimen name="vivo_upgrade_update_dialog_message_text_lineExtra">0dp</dimen>
+	<dimen name="vivo_upgrade_update_dialog_message_textsize">23px</dimen>
+	<dimen name="vivo_upgrade_update_dialog_message_marginVertical">19dp</dimen>
+	<dimen name="vivo_upgrade_mobliedown_dialog_nevernotice_marginLeft">15dp</dimen>
+	<dimen name="vivo_upgrade_mobliedown_dialog_nevernotice_textsize">21px</dimen>
+	<dimen name="vivo_upgrade_update_dialog_buton_width">140dp</dimen>
+	<dimen name="vivo_upgrade_update_dialog_buton_height">33dp</dimen>
+	<dimen name="vivo_upgrade_update_dialog_buton_textsize">24px</dimen>
+	<dimen name="vivo_upgrade_selfupdate_dialog_singleBtn_layoutWidth">300dp</dimen>
+	
+</resources>
+

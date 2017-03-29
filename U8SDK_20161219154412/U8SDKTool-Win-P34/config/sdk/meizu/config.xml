@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    
+    <params>
+        <param name="Flyme_AppID" required="1" showName="AppID" desc="魅族" bWriteInManifest="0" bWriteInClient="1" />
+        <param name="Flyme_AppKey" required="1" showName="AppKey" desc="魅族" bWriteInManifest="0" bWriteInClient="1" /> 
+        <param name="Flyme_AppSecret" required="1" showName="AppSecret" desc="魅族" bWriteInManifest="0" bWriteInClient="1" />
+
+    </params>
+    
+    <operations>
+        <operation step="1" type="mergeManifest" from="SDKManifest.xml" to="AndroidManifest.xml" />
+        <operation step="2" type="copyRes" from="assets" to="assets" />
+        <operation step="3" type="copyRes" from="libs" to="lib" />
+        <operation step="4" type="copyRes" from="res" to="res" />
+    </operations>
+    
+    <plugins>
+        <plugin name="com.u8.sdk.FlymeUser" type="1" desc="用户登录接口"/>
+        <plugin name="com.u8.sdk.FlymePay" type="2" desc="用户支付接口"/>
+    </plugins>
+    
+    <version>
+        <name>魅族</name>
+        <versionCode>1</versionCode>
+        <versionName>3.0.10</versionName>
+    </version>    
+    
+</config>

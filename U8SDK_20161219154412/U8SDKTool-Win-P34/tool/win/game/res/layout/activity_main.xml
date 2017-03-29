@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="18.0sp" android:textColor="@android:color/white" android:id="@id/demo_pay" android:background="#ff727272" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/demo_pay" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <Button android:textSize="18.0sp" android:textColor="@android:color/white" android:id="@id/demo_login" android:background="#ff727272" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/demo_login" android:layout_above="@id/demo_pay" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/app_name" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:id="@id/demo_debug" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/demo_result" android:layout_below="@id/demo_pay" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="asyx_registered_edittext">40.0dip</dimen>
+    <dimen name="asyx_registered_divider">1.0dip</dimen>
+    <dimen name="asyx_registered_textsize">18.0sp</dimen>
+    <dimen name="asyx_background_radius">16.0dip</dimen>
+</resources>

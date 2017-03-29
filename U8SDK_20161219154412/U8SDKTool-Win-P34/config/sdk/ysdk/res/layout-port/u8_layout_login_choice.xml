@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0" 
+    android:layout_width="300dp"
+    android:layout_height="250dp" 
+    android:background="@drawable/u8_corner_background_white"
+    android:orientation="vertical"
+ >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/choose_login_type"
+        android:textColor="#ffeeeb9e"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/btn_qq"
+        android:layout_width="166dp"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/u8_button_qq"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/btn_wx"
+        android:layout_width="166dp"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/u8_button_wx"
+        android:layout_marginTop="25dp" />
+
+</LinearLayout>

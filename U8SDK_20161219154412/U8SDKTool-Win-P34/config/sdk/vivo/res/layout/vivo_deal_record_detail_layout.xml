@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vivo_login_total_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/preference_background_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/account_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/titleLeftBtn_layout"
+            android:layout_width="50dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center_vertical" >
+
+            <Button
+                android:id="@+id/titleLeftBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dip"
+                android:background="@drawable/vivo_btn_title_back" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/deal_record_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/vivo_deal_record"
+            android:textColor="@color/TextColorBlack"
+            android:textSize="@dimen/card_pay_title_size" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/vivo_white" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/vivo_deal_order_num"
+                android:textColor="@color/deal_notice"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/deal_record_order_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dip"
+                android:text="11111111111111111"
+                android:textColor="@color/deal_notice"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="320dip"
+                android:layout_height="1px"
+                android:layout_marginTop="23dip"
+                android:background="@drawable/vivo_sub_divider_line" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingLeft="50dip"
+                android:paddingRight="50dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/vivo_recharge_account_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vivo_recharge_account"
+                        android:textColor="@color/vivo_sub_notice_left_2"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/vivo_recharge_account"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/vivo_recharge_account"
+                        android:textColor="@color/vivo_sub_notice_left_2"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/vivo_goods_des_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vivo_goods_des"
+                        android:textColor="@color/vivo_sub_notice_left_2"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/vivo_goods_des"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/vivo_goods_des"
+                        android:textColor="@color/vivo_sub_notice_left_2"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/vivo_pay_money_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vivo_pay_money"
+                        android:textColor="@color/vivo_sub_notice_left_2"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/vivo_pay_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/vivo_pay_money"
+                        android:textColor="@color/vivo_sub_notice_left_2"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vivo_pay_quan_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/vivo_pay_quan_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vivo_pay_quan"
+                        android:textColor="@color/vivo_sub_notice_left_2"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/vivo_pay_quan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/vivo_pay_quan"
+                        android:textColor="@color/vivo_sub_notice_left_2"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/vivo_pay_time_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vivo_pay_time"
+                        android:textColor="@color/vivo_sub_notice_left_2"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/vivo_pay_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/vivo_pay_time"
+                        android:textColor="@color/vivo_sub_notice_left_2"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

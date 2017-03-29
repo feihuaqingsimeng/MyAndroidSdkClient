@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/asyx_dialog_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/asyx_options_text_color" android:gravity="center" android:id="@id/asyx_user_prompt_box_message" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+    <View android:id="@id/user_prompt_box_divider" android:background="#ffbcb8b7" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/asyx_user_prompt_box_message" />
+    <Button android:textSize="18.0sp" android:textColor="#ff5cc1f9" android:id="@id/asyx_user_prompt_box_submit" android:background="@android:color/transparent" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/asyx_prompt_submit" android:layout_below="@id/user_prompt_box_divider" />
+</RelativeLayout>

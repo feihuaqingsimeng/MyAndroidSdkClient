@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <dimen name="bbk_ticket_time_textsize">32px</dimen>
+</resources>

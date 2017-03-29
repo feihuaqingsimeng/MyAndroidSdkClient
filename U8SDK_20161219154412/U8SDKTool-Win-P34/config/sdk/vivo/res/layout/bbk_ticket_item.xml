@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+	<RelativeLayout
+            android:id="@+id/giftcertificate_list_item_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/list_item_main_margin_top"
+            android:layout_marginLeft="@dimen/vcoin_gift_state_marginLeft"
+        	android:layout_marginRight="@dimen/vcoin_gift_state_marginRight" >
+            <RelativeLayout
+                android:id="@+id/layout_context_left"
+                android:layout_width="@dimen/bbk_tick_layout_width"
+                android:layout_height="@dimen/bbk_ticket_item_height"
+                android:paddingBottom="18dip"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/bbk_ticket_bg_left"
+                android:orientation="vertical" >
+				<TextView
+				    android:id="@+id/ticket_unit"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+               	 	android:layout_marginTop="25dip"
+               	 	android:layout_centerHorizontal="true"
+                	android:text="@string/bbk_ticket_blance_unit"
+                	android:textColor="@color/bbk_ticket_unit_enable_textcolor"
+                	android:textSize="@dimen/bbk_ticket_unit_textsize" />
+                <TextView
+                    android:id="@+id/ticket_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ticket_unit"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="4dip"
+                    android:singleLine="true"
+                    android:textColor="@color/bbk_ticket_amount_enable_textcolor"
+                    android:textSize="@dimen/bbk_ticket_amount_textsize" />
+                <TextView
+                    android:id="@+id/ticket_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/ticket_amount"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dip"
+                    android:singleLine="true"
+                    android:text="@string/bbk_ticket_status_context1"
+                    android:textColor="@color/bbk_TextColorWhite"
+                    android:textSize="18sp"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/giftcertificate_state_flag_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/giftcertificate_item_valid_flag" />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/layout_context_right"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bbk_ticket_item_height"
+                android:layout_alignParentRight="true"
+                android:gravity="left"
+                android:layout_toRightOf="@+id/layout_context_left"
+                android:background="@drawable/bbk_ticket_bg_right" >
+                <RelativeLayout
+                    android:id="@+id/ticket_title_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/vcoin_ticket_state_marginLeft"
+                    android:layout_marginTop="11dip" >
+                    <TextView
+                        android:id="@+id/ticket_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:textColor="@color/bbk_listitem_textcolor"
+                        android:textSize="@dimen/bbk_ticket_title_textsize" />
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/ticket_context1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/ticket_context0"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/vcoin_ticket_state_marginLeft"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:textColor="@color/bbk_channel_activity_desc_textcolor"
+                    android:textSize="@dimen/bbk_ticket_context_textsize" />
+                <TextView 
+        			android:id="@+id/giftcertificate_icon_invalid1"
+        			android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:layout_above="@+id/ticket_context0"
+    				android:layout_toRightOf="@+id/ticket_context1"
+                    android:layout_marginLeft="@dimen/bbk_invalidicon_marginLeft"
+    				android:gravity="center"
+    				android:text="@string/bbk_ticket_limit"
+    				android:textColor="@color/bbk_channel_activity_type_textcolor"
+    				android:textSize="@dimen/bbk_channel_activity_type_textsize"
+    				android:background="@drawable/bbk_giftcertificate_item_invalid"/>
+                <TextView
+                    android:id="@+id/ticket_context0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/ticket_context2"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/vcoin_ticket_state_marginLeft"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:textColor="@color/bbk_channel_activity_desc_textcolor"
+                    android:textSize="@dimen/bbk_ticket_context_textsize" />
+                <TextView 
+        			android:id="@+id/giftcertificate_icon_invalid0"
+        			android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:layout_above="@+id/ticket_context2"
+    				android:layout_toRightOf="@+id/ticket_context0"
+                    android:layout_marginLeft="@dimen/bbk_invalidicon_marginLeft"
+    				android:gravity="center"
+    				android:text="@string/bbk_ticket_limit"
+    				android:textColor="@color/bbk_channel_activity_type_textcolor"
+    				android:textSize="@dimen/bbk_channel_activity_type_textsize"
+    				android:background="@drawable/bbk_giftcertificate_item_invalid"/>
+                <TextView
+                    android:id="@+id/ticket_context2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dip"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/vcoin_ticket_state_marginLeft"
+                    android:includeFontPadding="false"
+                    android:layout_marginTop="@dimen/bbk_ticket_time_marginTop"
+                    android:singleLine="true"
+                    android:textColor="@color/bbk_channel_activity_desc_textcolor"
+                    android:textSize="@dimen/bbk_ticket_context_textsize" />
+                <TextView 
+        			android:id="@+id/giftcertificate_icon_invalid2"
+        			android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:layout_alignParentBottom="true"
+    				android:layout_marginBottom="@dimen/bbk_giftcertificate_icon_invalid2_marginBottom"
+    				android:layout_toRightOf="@+id/ticket_context2"
+    				android:layout_marginTop="@dimen/bbk_ticket_time_marginTop"
+                    android:layout_marginLeft="@dimen/bbk_invalidicon_marginLeft"
+    				android:gravity="center"
+    				android:text="@string/bbk_ticket_will_expire"
+    				android:textColor="@color/bbk_TextColorWhite"
+    				android:textSize="@dimen/bbk_ticket_time_textsize"
+    				android:background="@drawable/bbk_ticket_time_will_expire"/>
+            </RelativeLayout>
+        </RelativeLayout>
+</RelativeLayout>

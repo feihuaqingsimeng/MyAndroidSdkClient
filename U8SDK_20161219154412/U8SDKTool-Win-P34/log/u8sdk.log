@@ -1,0 +1,853 @@
+2017-03-28 13:25:11,467: Curr Python Version::2.7.12
+2017-03-28 13:25:11,467: Curr U8SDK Version::3.0
+2017-03-28 13:25:13,065: current selected game is game1(测试游戏1)
+2017-03-28 13:25:13,065: the base apk file is : F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/games/game1/u8.apk
+2017-03-28 13:25:14,911: now hava 1 channels to package...
+2017-03-28 13:25:14,911: now to package quick...
+2017-03-28 13:25:19,236: "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/jre/bin/java" -jar -Xms1024m -Xmx1024m "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/apktool2.jar" -q d -b -f "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/temp.apk" -o "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/decompile" !!!exec success!!! 
+2017-03-28 13:25:19,236: now to check split dex ... 
+2017-03-28 13:25:19,237: the new package name is com.yukusoft.hjqst.sw
+2017-03-28 13:25:19,240: the channel quick has no supported plugins.
+2017-03-28 13:25:20,561: F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/jre/bin/java -jar -Xms1024m -Xmx1024m "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/lib/dx.jar" --dex --multi-dex --output="F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/sdk/quick"  F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/config/sdk/quick/u8sdk_quick.jar F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/config/sdk/quick/libs/quicksdk_v2.3.6_20161220.jar !!!exec success!!! 
+2017-03-28 13:25:21,184: "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/jre/bin/java" -jar "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/baksmali.jar" -o "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/decompile/smali" "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/sdk/quick/classes.dex" !!!exec success!!! 
+2017-03-28 13:25:21,184: The sdk manifest file is F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/sdk/quick\SDKManifest.xml
+2017-03-28 13:25:21,187: merge manifest file success.
+2017-03-28 13:25:21,187: the copyFrom F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/sdk/quick\assets is not exists.
+2017-03-28 13:25:21,236: the channel quick of game game1 do not config icon in config.xml,no icon mark.
+2017-03-28 13:25:21,236: the channel 2 special res path is not exists. F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/games/game1/channels/2
+2017-03-28 13:25:21,236: the game game1 has no extra res folder
+2017-03-28 13:25:21,237: the game game1 has no root folder
+2017-03-28 13:25:21,237: the develop info is product_code=16554695548627100448290443563964
+product_key=62909964
+U8_SDK_VERSION_CODE=1
+U8_Channel=2
+U8_APPID=1
+U8_APPKEY=f32fdc02123a82524eb4ea95e1383d0b
+U8_SDK_SHOW_SPLASH=false
+U8_ANALYTICS=true
+
+2017-03-28 13:25:21,240: The manifestFile meta-data write successfully
+2017-03-28 13:25:21,242: -----------log config--------------
+2017-03-28 13:25:21,242: ulog.level = DEBUG
+2017-03-28 13:25:21,242: ulog.local = true
+2017-03-28 13:25:21,243: ulog.remote_url = http://192.168.1.108:8090/
+2017-03-28 13:25:21,243: ulog.remote = true
+2017-03-28 13:25:21,243: ulog.remote_interval = 1000
+2017-03-28 13:25:21,243: ulog.enable = true
+2017-03-28 13:25:21,244: -----------log config--------------
+
+2017-03-28 13:25:21,250: now to execute post_script.py of game game1 
+2017-03-28 13:25:21,253: now to modify game name ....
+2017-03-28 13:25:21,253: now no game name modify
+2017-03-28 13:25:21,253: the minSdkVersion targetSdkVersion maxSdkVersion must configed all or configed zero
+2017-03-28 13:25:21,255: no need handle special compress. the compress.txt file is not exists:F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/games/game1/compress.txt
+2017-03-28 13:25:21,270: generate R:the temp path is F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/temp
+2017-03-28 13:25:21,476: "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/aapt" p -f -m -J "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/temp/gen" -S "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/temp/res" -I "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/android.jar" -M "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/decompile/AndroidManifest.xml" !!!exec success!!! 
+2017-03-28 13:25:22,029: 警告: [options] 未与 -source 1.7 一起设置引导类路径
+1 个警告
+
+2017-03-28 13:25:22,030: "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/jre/bin/javac" -source 1.7 -target 1.7 -encoding UTF-8 "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/temp/gen/com/yukusoft/hjqst/sw/R.java" !!!exec success!!! 
+2017-03-28 13:25:22,349: F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/jre/bin/java -jar -Xmx1024m -Xms1024m "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/lib/dx.jar" --dex --output="F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/temp/classes.dex" "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/temp/gen" !!!exec success!!! 
+2017-03-28 13:25:22,644: "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/jre/bin/java" -jar "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/baksmali.jar" -o "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/decompile/smali" "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/temp/classes.dex" !!!exec success!!! 
+2017-03-28 13:25:22,644: the sdk quick has no extraR config. don't need to generate extra R.java
+2017-03-28 13:25:22,645: now to check split dex ... 
+2017-03-28 13:25:25,303: the total func num:13081
+2017-03-28 13:25:25,305: split dex success. the classes.dex num:1
+2017-03-28 13:25:25,305: now to recompileApk....
+2017-03-28 13:25:29,289: 三月 28, 2017 1:25:25 下午 brut.androlib.Androlib build
+信息: Using Apktool 2.2.0
+三月 28, 2017 1:25:25 下午 brut.androlib.Androlib buildSourcesSmali
+信息: Smaling smali folder into classes.dex...
+三月 28, 2017 1:25:28 下午 brut.androlib.Androlib buildResourcesFull
+信息: Building resources...
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Configurations:
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:  (default)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:  v11
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:  v14
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:  large-v4
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:  ldpi-v4
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:  mdpi-v4
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:  hdpi
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:  hdpi-v4
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:  xhdpi-v4
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:  xxhdpi-v4
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:  xxxhdpi-v4
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: 
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Files:
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\app_banner.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (xhdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\app_banner.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (ldpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-ldpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (hdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (xhdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (xxhdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xxhdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (xxxhdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xxxhdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\ic_action_search.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (mdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-mdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (hdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (xhdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (ldpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-ldpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (mdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-mdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (hdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (xhdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\qk_game_load01.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load01.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\qk_game_load02.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load02.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\qk_game_load03.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load03.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\qk_game_load04.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load04.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\qk_game_load05.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load05.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\qk_game_load06.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load06.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\qk_game_load07.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load07.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\qk_game_load08.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load08.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\qk_game_loadbg.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_loadbg.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   drawable\qk_game_loading.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable\qk_game_loading.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   layout\activity_splash.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\layout\activity_splash.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   layout\main_lay.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\layout\main_lay.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   layout\qk_game_view_loading.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\layout\qk_game_view_loading.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   menu\activity_splash.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\menu\activity_splash.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   values\dimens.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values\dimens.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (large-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values-large-v4\dimens.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   values\ids.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values\ids.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   values\public.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values\public.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   values\qk_game_style.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values\qk_game_style.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   values\strings.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values\strings.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   values\styles.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values\styles.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (v11) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values-v11\styles.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: (v14) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values-v14\styles.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   AndroidManifest.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\AndroidManifest.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: 
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Resource Dirs:
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   Type drawable
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\app_banner.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (xhdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\app_banner.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (ldpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-ldpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (hdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (xhdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (xxhdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xxhdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (xxxhdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xxxhdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\ic_action_search.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (mdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-mdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (hdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (xhdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (ldpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-ldpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (mdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-mdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (hdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (xhdpi-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\qk_game_load01.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load01.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\qk_game_load02.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load02.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\qk_game_load03.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load03.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\qk_game_load04.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load04.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\qk_game_load05.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load05.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\qk_game_load06.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load06.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\qk_game_load07.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load07.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\qk_game_load08.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load08.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\qk_game_loadbg.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (hdpi) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_loadbg.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     drawable\qk_game_loading.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable\qk_game_loading.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   Type layout
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     layout\activity_splash.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\layout\activity_splash.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     layout\main_lay.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\layout\main_lay.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     layout\qk_game_view_loading.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\layout\qk_game_view_loading.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   Type menu
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     menu\activity_splash.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\menu\activity_splash.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   Type values
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     values\dimens.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values\dimens.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (large-v4) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values-large-v4\dimens.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     values\ids.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values\ids.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     values\public.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values\public.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     values\qk_game_style.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values\qk_game_style.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     values\strings.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values\strings.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     values\styles.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values\styles.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (v11) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values-v11\styles.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       Src: (v14) F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\values-v14\styles.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Including resources from package: C:\Users\Administrator\AppData\Local\apktool\framework\1.apk
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: applyFileOverlay for drawable
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: applyFileOverlay for layout
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: applyFileOverlay for anim
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: applyFileOverlay for animator
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: applyFileOverlay for interpolator
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: applyFileOverlay for transition
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: applyFileOverlay for xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: applyFileOverlay for raw
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: applyFileOverlay for color
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: applyFileOverlay for menu
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: applyFileOverlay for mipmap
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\app_banner.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-ldpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-ldpi-v4\app_icon.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable\app_icon.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi-v4\app_icon.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\app_icon.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xxhdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-mdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-mdpi-v4\ic_action_search.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi-v4\ic_action_search.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\ic_action_search.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-ldpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-ldpi-v4\ic_launcher.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-mdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\app_banner.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xxxhdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-mdpi-v4\ic_launcher.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi-v4\ic_launcher.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load01.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load01.png: 38% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load02.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load02.png: 39% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load03.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load03.png: 38% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load04.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load04.png: 38% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load05.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load05.png: 39% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load06.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load06.png: 38% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load07.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load07.png: 38% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load08.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_load08.png: 37% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing image: F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_loadbg.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-hdpi\qk_game_loadbg.png: 10% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xhdpi-v4\ic_launcher.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xxhdpi-v4\app_icon.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (processed image F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable-xxxhdpi-v4\app_icon.png: 100% size of source)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id app_banner from xhdpi-v4\drawable\app_banner.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id app_icon from drawable\app_icon.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id app_icon from ldpi-v4\drawable\app_icon.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id app_icon from hdpi-v4\drawable\app_icon.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id app_icon from xhdpi-v4\drawable\app_icon.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id app_icon from xxhdpi-v4\drawable\app_icon.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id app_icon from xxxhdpi-v4\drawable\app_icon.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id ic_action_search from mdpi-v4\drawable\ic_action_search.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id ic_action_search from hdpi-v4\drawable\ic_action_search.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id ic_action_search from xhdpi-v4\drawable\ic_action_search.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id ic_launcher from ldpi-v4\drawable\ic_launcher.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id ic_launcher from mdpi-v4\drawable\ic_launcher.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id ic_launcher from hdpi-v4\drawable\ic_launcher.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id ic_launcher from xhdpi-v4\drawable\ic_launcher.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id qk_game_load01 from hdpi\drawable\qk_game_load01.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id qk_game_load02 from hdpi\drawable\qk_game_load02.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id qk_game_load03 from hdpi\drawable\qk_game_load03.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id qk_game_load04 from hdpi\drawable\qk_game_load04.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id qk_game_load05 from hdpi\drawable\qk_game_load05.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id qk_game_load06 from hdpi\drawable\qk_game_load06.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id qk_game_load07 from hdpi\drawable\qk_game_load07.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id qk_game_load08 from hdpi\drawable\qk_game_load08.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id qk_game_loadbg from hdpi\drawable\qk_game_loadbg.png #generated)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id qk_game_loading from F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\drawable\qk_game_loading.xml)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id activity_splash from F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\layout\activity_splash.xml)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id main_lay from F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\layout\main_lay.xml)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id qk_game_view_loading from F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\layout\qk_game_view_loading.xml)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     (new resource id activity_splash from F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res\menu\activity_splash.xml)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Creating 'C:\Users\ADMINI~1\AppData\Local\Temp\APKTOOL2378262447698010138.tmp'
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Writing all files...
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'AndroidManifest.xml' (compressed 73%)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi-v4/app_icon.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi-v4/ic_action_search.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi-v4/ic_launcher.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load01.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load02.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load03.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load04.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load05.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load06.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load07.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load08.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_loadbg.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-ldpi-v4/app_icon.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-ldpi-v4/ic_launcher.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-mdpi-v4/ic_action_search.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-mdpi-v4/ic_launcher.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-xhdpi-v4/app_banner.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-xhdpi-v4/app_icon.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-xhdpi-v4/ic_action_search.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-xhdpi-v4/ic_launcher.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-xxhdpi-v4/app_icon.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-xxxhdpi-v4/app_icon.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable/app_icon.png' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable/qk_game_loading.xml' (compressed 74%)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/layout/activity_splash.xml' (compressed 50%)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/layout/main_lay.xml' (compressed 59%)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/layout/qk_game_view_loading.xml' (compressed 49%)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/menu/activity_splash.xml' (compressed 47%)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:       'resources.arsc' (not compressed)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Generated 30 files
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Included 0 files from jar/zip files.
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Checking for deleted files
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Done!
+三月 28, 2017 1:25:28 下午 brut.androlib.res.AndrolibResources aaptPackage
+信息: command ran: 
+三月 28, 2017 1:25:28 下午 brut.androlib.res.AndrolibResources aaptPackage
+信息: [C:\Users\ADMINI~1\AppData\Local\Temp\brut_util_Jar_5963871347381068451.tmp, p, -v, --forced-package-id, 127, --min-sdk-version, 8, --target-sdk-version, 21, --version-code, 40, --version-name, 4.0.0, -F, C:\Users\ADMINI~1\AppData\Local\Temp\APKTOOL2378262447698010138.tmp, -0, arsc, -0, arsc, -I, C:\Users\Administrator\AppData\Local\apktool\framework\1.apk, -S, F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\res, -M, F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\AndroidManifest.xml]
+三月 28, 2017 1:25:28 下午 brut.androlib.Androlib buildLibrary
+信息: Copying libs... (/lib)
+三月 28, 2017 1:25:28 下午 brut.androlib.Androlib buildApk
+信息: Building apk file...
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Found 2 custom asset files in F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\assets
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Processing raw dir 'F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk'
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Found 31 asset files in F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Configurations:
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:  (default)
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: 
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息: Files:
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   assets\u8_developer_config.properties
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\assets\u8_developer_config.properties
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   assets\u8_plugin_config.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\assets\u8_plugin_config.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable\qk_game_loading.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable\qk_game_loading.xml
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-hdpi\qk_game_load01.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-hdpi\qk_game_load01.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-hdpi\qk_game_load02.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-hdpi\qk_game_load02.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-hdpi\qk_game_load03.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-hdpi\qk_game_load03.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-hdpi\qk_game_load04.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-hdpi\qk_game_load04.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-hdpi\qk_game_load05.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-hdpi\qk_game_load05.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-hdpi\qk_game_load06.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-hdpi\qk_game_load06.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-hdpi\qk_game_load07.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-hdpi\qk_game_load07.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-hdpi\qk_game_load08.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-hdpi\qk_game_load08.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-hdpi\qk_game_loadbg.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-hdpi\qk_game_loadbg.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-hdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-hdpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-hdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-hdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-hdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-hdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-ldpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-ldpi-v4\app_icon.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-ldpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-ldpi-v4\ic_launcher.png
+三月 28, 2017 1:25:28 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-mdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-mdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-mdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-mdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-xhdpi-v4\app_banner.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-xhdpi-v4\app_banner.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-xhdpi-v4\app_icon.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-xhdpi-v4\app_icon.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-xhdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-xhdpi-v4\ic_action_search.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-xhdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-xhdpi-v4\ic_launcher.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-xxhdpi-v4\app_icon.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-xxhdpi-v4\app_icon.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\drawable-xxxhdpi-v4\app_icon.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\drawable-xxxhdpi-v4\app_icon.png
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\layout\activity_splash.xml
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\layout\activity_splash.xml
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\layout\main_lay.xml
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\layout\main_lay.xml
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\layout\qk_game_view_loading.xml
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\layout\qk_game_view_loading.xml
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   res\menu\activity_splash.xml
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\res\menu\activity_splash.xml
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   AndroidManifest.xml
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\AndroidManifest.xml
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   classes.dex
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\classes.dex
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:   resources.arsc
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:     Src: () F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk\resources.arsc
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息: 
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息: Resource Dirs:
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息: Creating 'F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\output.apk'
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息: Writing all files...
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'AndroidManifest.xml' (compressed 73%)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'assets/u8_developer_config.properties' (compressed 20%)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'assets/u8_plugin_config.xml' (compressed 32%)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'classes.dex' (compressed 63%)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi-v4/app_icon.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi-v4/ic_action_search.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi-v4/ic_launcher.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load01.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load02.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load03.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load04.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load05.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load06.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load07.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_load08.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-hdpi/qk_game_loadbg.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-ldpi-v4/app_icon.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-ldpi-v4/ic_launcher.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-mdpi-v4/ic_action_search.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-mdpi-v4/ic_launcher.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-xhdpi-v4/app_banner.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-xhdpi-v4/app_icon.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-xhdpi-v4/ic_action_search.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-xhdpi-v4/ic_launcher.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-xxhdpi-v4/app_icon.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable-xxxhdpi-v4/app_icon.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable/app_icon.png' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/drawable/qk_game_loading.xml' (compressed 74%)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/layout/activity_splash.xml' (compressed 50%)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/layout/main_lay.xml' (compressed 59%)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/layout/qk_game_view_loading.xml' (compressed 49%)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'res/menu/activity_splash.xml' (compressed 47%)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息:       'resources.arsc' (not compressed)
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息: Generated 33 files
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息: Included 0 files from jar/zip files.
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息: Checking for deleted files
+三月 28, 2017 1:25:29 下午 java.util.logging.LogManager$RootLogger log
+信息: Done!
+三月 28, 2017 1:25:29 下午 brut.androlib.res.AndrolibResources aaptPackage
+信息: command ran: 
+三月 28, 2017 1:25:29 下午 brut.androlib.res.AndrolibResources aaptPackage
+信息: [C:\Users\ADMINI~1\AppData\Local\Temp\brut_util_Jar_5963871347381068451.tmp, p, -v, --forced-package-id, 127, --min-sdk-version, 8, --target-sdk-version, 21, --version-code, 40, --version-name, 4.0.0, -F, F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\output.apk, -0, arsc, -0, arsc, -A, F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\assets, F:\Project\game-client-sdk\U8SDK_20161219154412\U8SDKTool-Win-P34\workspace\game1\quick\decompile\build\apk]
+三月 28, 2017 1:25:29 下午 brut.androlib.Androlib buildUnknownFiles
+信息: Copying unknown files/dir...
+三月 28, 2017 1:25:29 下午 brut.androlib.Androlib copyUnknownFiles
+详细: Copying unknown file android-support-multidex.version.txt with method 8
+
+2017-03-28 13:25:29,542: "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/jre/bin/java" -jar -Xms1024m -Xmx1024m "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/apktool2.jar" -v b -f "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/decompile" -o "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/output.apk" !!!exec success!!! 
+2017-03-28 13:25:29,545: the keystore file is games/hjqst/keystore/hjqst.keystore
+2017-03-28 13:25:30,141: jar 已签名。
+
+警告: 
+未提供 -tsa 或 -tsacert, 此 jar 没有时间戳。如果没有时间戳, 则在签名者证书的到期日期 (2041-08-05) 或以后的任何撤销日期之后, 用户可能无法验证此 jar。
+
+2017-03-28 13:25:30,142: "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/jre/bin/jarsigner" -digestalg SHA1 -sigalg SHA1withRSA -keystore "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/games/hjqst/keystore/hjqst.keystore" -storepass "douwan8888" -keypass "douwan8888" "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/output.apk" "dowan"  !!!exec success!!! 
+2017-03-28 13:25:30,144: the output apk format string is {channelName}.apk
+2017-03-28 13:25:30,144: the versionCode is 40;versionName is 4.0.0
+2017-03-28 13:25:30,178: "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/tool/win/zipalign" -f 4 "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/workspace/game1/quick/output.apk" "F:/Project/game-client-sdk/U8SDK_20161219154412/U8SDKTool-Win-P34/output/game1/quick/quick.apk" !!!exec success!!! 
+2017-03-28 13:25:30,178: channel quick package success.
+2017-03-28 13:25:30,178: << success num:1; failed num:0 >>
+2017-03-28 13:25:30,180: << all nice done >>

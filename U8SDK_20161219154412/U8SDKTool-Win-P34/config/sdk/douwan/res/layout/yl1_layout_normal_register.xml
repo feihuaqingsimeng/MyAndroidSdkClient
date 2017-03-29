@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@drawable/yl1_corner"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="@dimen/yl1paddingLeft"
+    android:paddingRight="@dimen/yl1paddingLeft"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:onClick="btClick"
+            android:src="@drawable/yl1_back" />
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="@dimen/yl1titleWidth"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/yl1_title3" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="@dimen/yl1etWidth"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:background="@drawable/yl1_et_selector">
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="220dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:hint="请输入账号(6-20位数字、字母)"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:id="@+id/iv_delete_username"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:src="@drawable/yl1_delete" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/yl1etWidth"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/yl1_et_selector">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="190dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:hint="请输入您的密码(6-20位数字、字母)"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textSize="11sp" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/iv_delete_password"
+                android:layout_width="15dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:src="@drawable/yl1_delete"
+                android:visibility="invisible" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/iv_password_visible"
+                android:layout_width="20dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:onClick="btClick"
+                android:padding="3dp"
+                android:src="@drawable/yl1_iv_pwd_selector" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--<FrameLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1">-->
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/ll_jiesuo_parent"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="@color/textColor">-->
+    <!--<ImageView-->
+    <!--android:id="@+id/iv_refresh_auth_code"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:onClick="btClick"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:src="@drawable/ie_refreash_normal"/>-->
+    <!--</RelativeLayout>-->
+    <!--<TextView-->
+    <!--android:id="@+id/tv_jiesuo_notice"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="拖动滑块完成验证"-->
+    <!--android:layout_gravity="center"/>-->
+    <!--<com.example.douwan.sdk.activity.MyView.MyImageView-->
+    <!--android:id="@+id/miv_jiesuo"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:src="@drawable/arrow_right_gray"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:background="@color/colorWhite" />-->
+    <!--</FrameLayout>-->
+    <LinearLayout
+        android:layout_width="@dimen/yl1etWidth"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.7"
+            android:background="@drawable/yl1_et_selector">
+
+            <EditText
+                android:id="@+id/et_auth_code"
+                android:layout_width="100dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:hint="请输入验证码"
+                android:inputType="number"
+                android:maxLength="4"
+                android:singleLine="true"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:id="@+id/iv_delete_auth_code"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:src="@drawable/yl1_delete"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3" />
+
+        <ImageView
+            android:id="@+id/iv_auth_code"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="btClick"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_finish"
+        android:layout_width="@dimen/yl1etWidth"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/yl1_bt_selector"
+        android:onClick="btClick"
+        android:text="完成注册"
+        android:textColor="@color/yl1colorWhite" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+        <TextView
+            android:id="@+id/tv_user_agreements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:onClick="btClick"
+            android:text="同意易乐用户服务协议"
+            android:textColor="@color/yl1textWarning" />
+    </RelativeLayout>
+</LinearLayout>

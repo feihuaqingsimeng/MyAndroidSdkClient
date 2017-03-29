@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<goods>
+    <!-- productID:游戏中商品固定ID -->
+    <!-- waresid:在联想后台中配置的计费点的商品ID -->
+    <!-- openPrice:为true则说明该条商品支持开放价格，否则不支持 -->
+    <good productID="100" waresid="111211" openPrice="true"/>   
+    <good productID="101" waresid="111212" openPrice="true"/>   
+    <good productID="102" waresid="111214" openPrice="true"/>   
+    <good productID="103" waresid="111215" openPrice="true"/>   
+    <good productID="104" waresid="111216" openPrice="true"/>   
+    <good productID="105" waresid="111209" openPrice="true"/>   
+    <good productID="106" waresid="111210" openPrice="true"/>   
+    <good productID="107" waresid="111213" openPrice="true"/>   
+    <good productID="108" waresid="111217" openPrice="true"/>   
+</goods>

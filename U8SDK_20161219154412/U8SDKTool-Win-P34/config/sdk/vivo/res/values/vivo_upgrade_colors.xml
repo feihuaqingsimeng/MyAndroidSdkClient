@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+      Copyright (C) 2007 The Android Open Source Project
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources>
+
+   <color name="vivo_upgrade_activity_titlebar_color">#ff0ea0fd</color>
+   <color name="vivo_upgrade_hot_apps_size_text_color">#a7a7a7</color>
+   <color name="vivo_upgrade_update_dialog_progress_text_color">#ff333333</color>
+   <color name="vivo_upgrade_manage_update_line_color">#ffd9d9d9</color>
+   <color name="vivo_upgrade_hot_app_title_color">#000000</color>
+   <color name="vivo_upgrade_blue">#ff008eef</color>
+   <color name="vivo_upgrade_white">#ffffffff</color>
+
+</resources>

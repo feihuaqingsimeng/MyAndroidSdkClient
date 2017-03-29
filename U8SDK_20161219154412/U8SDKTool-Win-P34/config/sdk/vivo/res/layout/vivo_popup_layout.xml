@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/vivo_switch_user_layout_bottom_bg_test"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/items"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/vivo_edit_view_line"
+        android:dividerHeight="2px"
+        android:listSelector="@null"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/vivo_his_scoll_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/vivo_his_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

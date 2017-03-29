@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="bbkDailogItemTextSize">16sp</dimen>
+    <dimen name="order_top_bar_spacing">24dip</dimen>
+    <dimen name="bbk_pay_type_left">10dp</dimen>
+    <dimen name="bbk_dialog_title_height">50dp</dimen>
+    <dimen name="bbk_paytype_tip_text_size">12dip</dimen>
+    <dimen name="bbk_tick_layout_width">110dp</dimen>    
+    <dimen name="bbk_no_ticket_layout_margintop">170dp</dimen>
+    <dimen name="bbk_rechargeamount_text_margin_top">10dp</dimen>    
+    <dimen name="vcoin_ticket_state_marginTop1">5dp</dimen>
+    <dimen name="vcoin_ticket_state_marginTop2">5dp</dimen>
+    <dimen name="vcoin_ticket_state_marginTop3">5dp</dimen>  
+    <dimen name="bbk_action_paddingLeft">4dp</dimen>
+    <dimen name="bbk_customor_size">12sp</dimen>  
+    <dimen name="vivo_channel_bg_width">44dip</dimen>
+	<dimen name="vivo_channel_bg_height">44dip</dimen> 
+	<dimen name="bbk_ticket_title_textsize">26px</dimen>
+    <dimen name="bbk_ticket_context_textsize">22px</dimen>
+    <dimen name="bbk_ticket_time_textsize">16px</dimen>
+    <dimen name="bbk_ticket_unit_textsize">24px</dimen>
+    <dimen name="bbk_ticket_amount_textsize">50px</dimen>  
+    <dimen name="bbk_ticket_dlg_title_textsize">34px</dimen> 
+</resources>

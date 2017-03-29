@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="38dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/bbk_card_amount_yd_layout_10"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/vivo_white" >
+
+            <TextView
+                android:id="@+id/bbk_card_amount_yd_10"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="10元"
+                android:textSize="@dimen/bbk_card_amount_textsize"
+                android:textColor="@color/vivo_black" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@color/card_pay_title_line" />
+
+        <LinearLayout
+            android:id="@+id/bbk_card_amount_yd_layout_20"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/vivo_white" >
+
+            <TextView
+                android:id="@+id/bbk_card_amount_yd_20"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="20"
+                android:textSize="@dimen/bbk_card_amount_textsize"
+                android:textColor="@color/vivo_black" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@color/card_pay_title_line" />
+
+        <LinearLayout
+            android:id="@+id/bbk_card_amount_yd_layout_30"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/vivo_white" >
+
+            <TextView
+                android:id="@+id/bbk_card_amount_yd_30"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="30"
+                android:textSize="@dimen/bbk_card_amount_textsize"
+                android:textColor="@color/vivo_black" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@color/card_pay_title_line" />
+
+        <LinearLayout
+            android:id="@+id/bbk_card_amount_yd_layout_50"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/vivo_white" >
+
+            <TextView
+                android:id="@+id/bbk_card_amount_yd_50"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="@dimen/bbk_card_amount_textsize"
+                android:textColor="@color/vivo_black" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/card_pay_title_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="38dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/bbk_card_amount_yd_layout_100"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/vivo_white" >
+
+            <TextView
+                android:id="@+id/bbk_card_amount_yd_100"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="100元"
+                android:textSize="@dimen/bbk_card_amount_textsize"
+                android:textColor="@color/vivo_black" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@color/card_pay_title_line" />
+
+        <LinearLayout
+            android:id="@+id/bbk_card_amount_yd_layout_200"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/vivo_white" >
+
+            <TextView
+                android:id="@+id/bbk_card_amount_yd_200"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="200"
+                android:textSize="@dimen/bbk_card_amount_textsize"
+                android:textColor="@color/vivo_black" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@color/card_pay_title_line" />
+
+        <LinearLayout
+            android:id="@+id/bbk_card_amount_yd_layout_300"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/vivo_white" >
+
+            <TextView
+                android:id="@+id/bbk_card_amount_yd_300"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="300"
+                android:textSize="@dimen/bbk_card_amount_textsize"
+                android:textColor="@color/vivo_black" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="@color/card_pay_title_line" />
+
+        <LinearLayout
+            android:id="@+id/bbk_card_amount_yd_layout_500"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/vivo_white" >
+
+            <TextView
+                android:id="@+id/bbk_card_amount_yd_500"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="500"
+                android:textSize="@dimen/bbk_card_amount_textsize"
+                android:textColor="@color/vivo_black" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
