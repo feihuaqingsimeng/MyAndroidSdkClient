@@ -55,6 +55,57 @@
     </LinearLayout>
     <!-- ↑↑↑ 百度币 ↑↑↑ -->
     
+    <!-- ↓↓↓ 酷点 ↓↓↓ -->
+    <LinearLayout
+        android:id="@+id/bdp_kudian_layout"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:layout_marginTop="5dp"
+	    android:background="@drawable/bdp_paycenter_coupon_bg" >
+	    <LinearLayout 
+	        android:layout_width="45dp"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center">
+		    <CheckBox 
+		        android:id="@+id/bdp_kudian_check"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"  
+		        android:layout_marginLeft="15dp"
+		        android:button="@drawable/bdp_paycenter_checkbox"/>
+	    </LinearLayout>
+	    <ImageView  
+	        android:layout_width="1dp"
+	        android:layout_height="fill_parent"  
+	        android:scaleType="fitXY"  
+	        android:contentDescription="@string/bdp_image"
+	        android:src="@drawable/bdp_ver_line"/>
+	    <LinearLayout
+	         android:id="@+id/bdp_kudian"
+	        android:layout_width="match_parent"
+		    android:layout_height="40dp"
+		    android:gravity="center_vertical"  
+		    android:padding="4dip">
+		    <TextView 
+		        android:id="@+id/bdp_kudian_name"
+		        android:layout_width="0dip" 
+		        android:layout_height="fill_parent"
+		        android:gravity="center_vertical"
+		        android:textColor="@color/bdp_black"
+		        android:layout_weight="1"/> 
+		    
+		    <ImageView 
+		        android:id="@+id/bdp_kudian_drop"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"  
+		        android:scaleType="centerInside"
+		        android:layout_marginRight="15dp" 
+		        android:contentDescription="@string/bdp_image"
+		        android:src="@drawable/bdp_drop_black_down"/>
+	    </LinearLayout>
+    </LinearLayout>
+    <!-- ↑↑↑ 酷点 ↑↑↑ -->
+    
     <!-- ↓↓↓ 代金券 ↓↓↓ -->
     <LinearLayout
         android:id="@+id/bdp_voucher_layout"

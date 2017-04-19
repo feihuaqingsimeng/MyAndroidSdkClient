@@ -6,7 +6,7 @@
         <param name="AppKey"  required="1" showName="AppKey" desc="baidu sdk" bWriteInManifest="0" bWriteInClient="1" /> 
         <param name="Domain"  required="1" showName="是否为Debug模式" desc="baidu sdk" bWriteInManifest="0" bWriteInClient="1" />
         <param name="BDPlatformType" required="1" showName="百度模式" desc="baidu sdk" bWriteInManifest="1" bWriteInClient="0" />
-        <param name="BDGameVersion" value="3.7.2" required="0" showName="百度SDK版本号" desc="baidu sdk" bWriteInManifest="1" bWriteInClient="0" />
+        <param name="BDGameVersion" value="3.7.4" required="0" showName="百度SDK版本号" desc="baidu sdk" bWriteInManifest="1" bWriteInClient="0" />
     </params>
     
     <operations>
@@ -25,7 +25,7 @@
     <version>
         <name>百度</name>
         <versionCode>1</versionCode>
-        <versionName>3.7.2</versionName>
+        <versionName>3.7.4</versionName>
     </version>    
     
 </config>

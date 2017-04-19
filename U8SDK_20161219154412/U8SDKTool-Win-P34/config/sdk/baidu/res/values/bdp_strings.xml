@@ -31,8 +31,11 @@
     <string name="bdp_dialog_loading_bind">绑定中…</string>
     <string name="bdp_dialog_loading_pay_result">订单处理中…</string>
     <string name="bdp_dialog_loading_paycenter_tips">正在处理，请稍候</string>
-    <string name="bdp_dialog_loading_upgrading">正在升级中，请稍候…</string>
-    
+    <string name="bdp_dialog_accountforbidden_ok">确定</string>
+    <string name="bdp_dialog_accountforbidden_phonenumber">10101866</string>
+    <string name="bdp_dialog_accountforbidden_title">此账号已限制登录</string>
+    <string name="bdp_dialog_accountforbidden_desc">详情请致电百度游戏客服</string>
+
     <string name="bdp_account_login_title_baidu_long">百度账号登录</string>
     <string name="bdp_account_login_title_baidu">百度登录</string>
     <string name="bdp_account_login_title_91">91登录</string>
@@ -163,7 +166,7 @@
     <string name="bdp_account_phonereg_verifycode_getting">%1$d秒后可重新获取</string>
     <string name="bdp_account_phonereg_verifycode_reget">重新获取验证码</string>
     
-    <string name="bdp_account_authenticate_title">实名认证</string>
+    <string name="bdp_account_authenticate_title">安全实名认证</string>
     <string name="bdp_account_authenticate_name">真实姓名</string>
     <string name="bdp_account_authenticate_id_card">身份证号</string>
     <string name="bdp_account_authenticate_submit">认证</string>
@@ -196,7 +199,7 @@
     <string name="bdp_sdk_pay_error_3">输入的金额不能超过100000元</string>
     <string name="bdp_sdk_pay_error_4">无效的支付价格与兑换比率</string>
     <string name="bdp_sdk_pay_error_5">无效的支付订单编号</string>
-    
+    <string name="bdp_sdk_pay_error_6">订单异常，请重新支付</string>
     
     
     <string name="bdp_passport_login">登录</string>
@@ -286,7 +289,7 @@
     <string name="bdp_paycenter_tips_title_verify_pwd">验证支付密码</string>
     <string name="bdp_paycenter_tips_skip">跳过</string>
     <string name="bdp_paycenter_tips_back">返回</string>
-    <string name="bdp_paycenter_tips_skip_verify_pwd">温馨提示：跳过该步骤，您将无法在之后的交易中使用百度币或代金券付款。</string>
+    <string name="bdp_paycenter_tips_skip_verify_pwd">温馨提示：跳过该步骤，您将无法在之后的交易中使用百度币、酷点或代金券付款。</string>
     <string name="bdp_paycenter_tips_verify_pwd_user">亲爱的用户，</string>
     <string name="bdp_paycenter_tips_set_pwd_account_info">\u3000\u3000为了您的账户安全，我们强烈建议您设置支付密码！</string>
     <string name="bdp_paycenter_tips_set_pwd">支付密码：6&#8211;16位字母或数字</string>
@@ -521,16 +524,23 @@
     <string name="bdp_paycenter_pay">立即支付</string>
     <string name="bdp_paycenter_more_payment">更多支付方式</string>
     <string name="bdp_paycenter_use_balance_voucher">使用余额%1$s元代金券</string>
+    <string name="bdp_paycenter_use_balance_kudian">使用余额%1$s元酷点</string>
     <string name="bdp_paycenter_use_voucher">使用%1$s元代金券</string>
+    <string name="bdp_paycenter_use_kudian">使用%1$s元酷点</string>
     <string name="bdp_paycenter_voucher_expire">(%1$s到期)</string>
     <string name="bdp_paycenter_use_baidu_bean">使用百度币</string>
     <string name="bdp_paycenter_pay_amount">支付%1$s元</string>
+    <string name="bdp_paycenter_kudian_pay_tips">确认要使用%1$s元酷点支付？超出金额部分将自动作废。</string>
     <string name="bdp_paycenter_voucher_pay_tips">确认要使用%1$s元代金券支付？超出金额部分将自动作废。</string>
     <string name="bdp_paycenter_balance_voucher_pay_tips">本次使用余额代金券%1$s元，剩余%2$s元可下次使用。</string>
+    <string name="bdp_paycenter_balance_kudian_pay_tips">本次使用余额酷点%1$s元，剩余%2$s元可下次使用。</string>
     <string name="bdp_paycenter_balance_voucher_pay_tips_1">确认使用余额%1$s元代金券支付，超出金额将作废。</string>
+    <string name="bdp_paycenter_balance_kudian_pay_tips_1">确认使用余额%1$s元酷点支付，超出金额将作废。</string>
     <string name="bdp_alipay_install_fail">支付宝插件安装失败</string>
     <string name="bdp_paycenter_channel_check_fail">支付渠道信息验证失败!!</string>
     
+    <string name="bdp_realname_auth_under_age">您未满18周岁</string>
+    <string name="bdp_realname_auth_tips">根据国家相关法律法规的规定，本公司不向未成年人提供充值服务。</string>
     
      <!-- paycenter -->
     

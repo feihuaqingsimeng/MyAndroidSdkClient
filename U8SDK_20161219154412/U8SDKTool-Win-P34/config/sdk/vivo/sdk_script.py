@@ -1,4 +1,5 @@
 import file_utils
+import log_utils
 import apk_utils
 import os
 import os.path
@@ -114,13 +115,12 @@ def execute(channel, decompileDir, packageName):
 	activityNode2.set(windowSoftInputMode, 'stateAlwaysHidden')	
 
 
-	activityNodeLst = appNode.findall('service')
+	activityNodeLst = appNode.findall('activity')
 	if activityNodeLst is None:
 		return
-
+        
 	for activityNode in activityNodeLst:
 		activityName = activityNode.get(name)
-
 		if activityName == 'com.bbk.payment.tenpay.VivoQQPayResultActivity':
 			intentFilters = activityNode.findall('intent-filter')
 			for intentNode in intentFilters:

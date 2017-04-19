@@ -10,7 +10,8 @@
     android:paddingRight="22dp"
     android:gravity="center_horizontal" >
     
-    <TextView 
+    <TextView
+		android:id="@+id/txtTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="17dp"

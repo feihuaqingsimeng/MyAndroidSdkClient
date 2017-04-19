@@ -23,7 +23,7 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     
     <!-- 若需录音需加此权限 omlet sdk -->
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <!-- <uses-permission android:name="android.permission.RECORD_AUDIO"/> -->
     <!-- ↑↑↑ SDK ↑↑↑ -->
     
     <!-- ↓↓↓ DK SDK ↓↓↓ --> 
@@ -38,12 +38,14 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
-    <uses-permission android:name="android.permission.BROADCAST_STICKY" />     
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <!-- ↑↑↑ DK SDK ↑↑↑ -->    
         
     </permissionConfig>
     
-    <applicationConfig keyword="com.baidu.platformsdk.LoginActivity" proxyApplication="com.u8.sdk.BaiduApplication">
-        
+    <applicationConfig keyword="com.baidu.platformsdk.LoginActivity" 
+        proxyApplication="com.u8.sdk.BaiduApplication">
         
         <activity
             android:name="com.baidu.platformsdk.LoginActivity"
