@@ -12,7 +12,7 @@
 	    android:layout_height="wrap_content"
 	    android:gravity="center_vertical">
 	    <TextView 
-	        android:id="@+id/txt_back"
+	        android:id="@+id/txtBack"
 	        android:layout_width="45dip"
 	        android:layout_height="48dip"
 	        android:text="@string/bdp_account_title_back"
@@ -27,7 +27,7 @@
 	        />
 	    <!-- 绑定手机 -->
 	    <TextView 
-	        android:id="@+id/txt_title"
+	        android:id="@+id/txtTitle"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_margin="10dip"
@@ -42,7 +42,7 @@
 	        />
 	    <!-- 关闭按钮 -->
 	    <ImageView 
-	        android:id="@+id/img_close"
+	        android:id="@+id/imgClose"
 	        android:layout_width="45dip"
 	        android:layout_height="45dip"
 	        android:scaleType="centerInside"
@@ -71,7 +71,7 @@
 		    
 	        <!-- tip -->
 	        <TextView 
-	            android:id="@+id/txt_tip"
+	            android:id="@+id/txtTip"
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content"
 	            android:layout_marginBottom="18dip"
@@ -86,13 +86,13 @@
 	            android:layout_width="match_parent"
 	            android:layout_height="40dip"
 	            android:layout_marginBottom="12dip"
-	            android:layout_below="@id/txt_tip"
+	            android:layout_below="@id/txtTip"
 	            android:gravity="center_vertical"
 	            android:orientation="horizontal"
 	            android:background="@drawable/bdp_bg_white_border_blue" >
 	
 	            <EditText
-	                android:id="@+id/edt_phone_no"
+	                android:id="@+id/edtPhoneNo"
 	                android:layout_width="0dip"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="1"
@@ -108,7 +108,7 @@
 	                android:background="@null" />
 	
 	            <ImageView
-	                android:id="@+id/img_phone_no_del"
+	                android:id="@+id/imgPhoneNoDel"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_marginRight="5dip"
@@ -129,7 +129,7 @@
 	            
 		        <!-- 获取短信验证码 -->
 		        <Button 
-		            android:id="@+id/btn_get_verifycode"
+		            android:id="@+id/btnGetVerifycode"
 		            android:layout_width="160dip"
 	                android:layout_height="38dip"
 		            android:paddingLeft="10dip"
@@ -143,7 +143,7 @@
 		        
 		        <!-- 已发送提示 -->
 		        <TextView 
-		            android:id="@+id/txt_sent_tip"
+		            android:id="@+id/txtSentTip"
 		            android:layout_width="wrap_content"
 		            android:layout_height="wrap_content"
 		            android:layout_marginLeft="5dip"
@@ -167,7 +167,7 @@
 	            android:background="@drawable/bdp_bg_white_border_blue" >
 	
 	            <EditText
-	                android:id="@+id/edt_verifycode"
+	                android:id="@+id/edtVerifycode"
 	                android:layout_width="0dip"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="1"
@@ -180,7 +180,7 @@
 	                android:background="@null" />
 	
 	            <ImageView
-	                android:id="@+id/img_verifycode_del"
+	                android:id="@+id/imgVerifycodeDel"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_marginRight="5dip"
@@ -192,7 +192,7 @@
 	        
 	        <!-- 提交按钮 -->
 	        <Button 
-	            android:id="@+id/btn_submit"
+	            android:id="@+id/btnSubmit"
 	            android:layout_width="match_parent"
 	            android:layout_height="38dip"
 	            android:layout_below="@id/lin_verifycode"
@@ -205,10 +205,10 @@
 	        
 	        <!-- tip -->
 	        <TextView 
-	            android:id="@+id/txt_new_tip"
+	            android:id="@+id/txtNewTip"
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content"
-	            android:layout_below="@id/btn_submit"
+	            android:layout_below="@id/btnSubmit"
 	            android:layout_marginBottom="30dip"
 	            android:text="@string/bdp_account_bind_phone_new_tip"
 	            android:visibility="invisible"

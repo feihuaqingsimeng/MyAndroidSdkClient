@@ -1,5 +1,8 @@
 package com.u8.sdk;
 
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.util.Log;
 
 import com.tencent.ysdk.framework.common.eFlag;
@@ -47,6 +50,7 @@ public class YSDKCallback implements UserListener, BuglyListener,PayListener{
                 case eFlag.Login_TokenInvalid:
                     //用户取消支付
                 	U8SDK.getInstance().onLogout();
+                	YSDK.RemovePreferences();
                     break;
                 case eFlag.Pay_User_Cancle:
                     //用户取消支付
@@ -81,11 +85,15 @@ public class YSDKCallback implements UserListener, BuglyListener,PayListener{
 	@Override
 	public void OnLoginNotify(UserLoginRet ret) {
 		
-		Log.d("U8SDK", "login notify:"+ret.flag);
+		Log.d("U8SDK", "login notify:"+ret.flag + ",eplatform:"+YSDK.getPlatform().val());
 		
         switch (ret.flag) {
         case eFlag.Succ:
-        	YSDK.letUserLogin(false);
+        {
+        	YSDK.letUserLogin(true);
+        	YSDK.SavePreferences();
+        }
+        	
             break;
         // 游戏逻辑，对登录失败情况分别进行处理
         case eFlag.QQ_UserCancel:
@@ -184,9 +192,11 @@ public class YSDKCallback implements UserListener, BuglyListener,PayListener{
             Log.d("U8SDK","need login");
             //YSDK.logout();
             U8SDK.getInstance().onLogout();
+            YSDK.RemovePreferences();
         } else {
         	//YSDK.logout();
         	U8SDK.getInstance().onLogout();
+        	YSDK.RemovePreferences();
         }
 	}
 

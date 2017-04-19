@@ -10,15 +10,14 @@
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:gravity="center_vertical">
-	    <TextView 
-	        android:id="@+id/txt_back"
+	    <ImageView 
+	        android:id="@+id/imgBack"
 	        android:layout_width="45dip"
 	        android:layout_height="48dip"
-	        android:text="@string/bdp_account_title_back"
-	        android:textColor="@color/bdp_blue"
-	        android:textSize="13sp"
-	        android:gravity="center"
 	        android:visibility="invisible"
+	        android:scaleType="center"
+	        android:src="@drawable/bdp_icon_back_selector"
+	        android:contentDescription="@string/bdp_image"
 	        />
 	    <View 
 	        android:layout_width="0dip"
@@ -27,13 +26,16 @@
 	        />
 	    <!-- 百度登录 -->
 	    <TextView 
-	        android:id="@+id/txt_title"
+	        android:id="@+id/txtTitle"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_margin="10dip"
-	        android:text="@string/bdp_account_login_title_baidu"
-	        android:textSize="15sp"
-	        android:textColor="@color/bdp_deep_blue"
+	        android:text="@string/bdp_account_login_title_baidu_long"
+	        android:textSize="18sp"
+	        android:textColor="#ff222222"
+	        android:drawableLeft="@drawable/bdp_logo_baidu_top"
+	        android:drawablePadding="6dip"
+	        android:gravity="center"
 	        />
 	    <View 
 	        android:layout_width="0dip"
@@ -42,7 +44,7 @@
 	        />
 	    <!-- 关闭按钮 -->
 	    <ImageView 
-	        android:id="@+id/img_close"
+	        android:id="@+id/imgClose"
 	        android:layout_width="45dip"
 	        android:layout_height="45dip"
 	        android:scaleType="centerInside"
@@ -51,15 +53,9 @@
 	        />
 	</LinearLayout>
 	
-	<View 
-	    android:layout_width="match_parent"
-	    android:layout_height="1dip"
-	    android:background="@drawable/bdp_account_lin_account_pass"
-	    />
-	
 	<!-- 子视图 -->
 	<LinearLayout 
-	    android:id="@+id/lin_view"
+	    android:id="@+id/linView"
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:layout_marginTop="2dip"

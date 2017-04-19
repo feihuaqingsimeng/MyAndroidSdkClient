@@ -18,7 +18,7 @@
 	        android:layout_height="wrap_content"
 	        android:paddingLeft="10dip"
 	        android:scaleType="centerInside"
-	        android:src="@drawable/bdp_account_logo_baidu_selector"
+	        android:src="@drawable/bdp_logo_baidu_top"
 	        android:contentDescription="@string/bdp_image"
 	        />
 	

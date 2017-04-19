@@ -14,8 +14,11 @@ import org.json.JSONObject;
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
@@ -122,9 +125,23 @@ public class YSDK {
 
     public static void logout(){
     	YSDKApi.logout();
+    	RemovePreferences();
     }
     
-    
+    public static void SavePreferences()
+    {
+    	SharedPreferences shared = U8SDK.getInstance().getContext().getSharedPreferences("hjqstConfig", Context.MODE_PRIVATE);
+    	Editor editor = shared.edit();
+    	editor.putInt("eplatform", YSDK.getPlatform().val());
+    	editor.commit();
+    }
+    public static void RemovePreferences()
+    {
+    	SharedPreferences shared = U8SDK.getInstance().getContext().getSharedPreferences("hjqstConfig", Context.MODE_PRIVATE);
+    	Editor editor = shared.edit();
+    	editor.remove("eplatform");
+    	editor.commit();
+    }
 //    public void switchUser(){
 //    	YSDKApi.switchUser(true);
 //    }
@@ -151,7 +168,7 @@ public class YSDK {
 		}
 		
 		try{
-			YSDKApi.logout();
+			//YSDKApi.logout();
 			openLoginUI();
 		}catch(Exception e){
 			U8SDK.getInstance().onResult(U8Code.CODE_LOGIN_FAIL, e.getMessage());
@@ -161,8 +178,18 @@ public class YSDK {
 	}
 	
 	public static void openLoginUI(){
-		Intent intent = new Intent(U8SDK.getInstance().getContext(), ChooseLoginTypeActivity.class);
-		U8SDK.getInstance().getContext().startActivity(intent);
+		SharedPreferences shared = U8SDK.getInstance().getContext().getSharedPreferences("hjqstConfig", Context.MODE_PRIVATE);
+    	int ep = shared.getInt("eplatform", -1);
+    	Log.d("U8SDK", "eplatform:"+ep);
+    	if (ep == -1)
+    	{
+    		Intent intent = new Intent(U8SDK.getInstance().getContext(), ChooseLoginTypeActivity.class);
+    		U8SDK.getInstance().getContext().startActivity(intent);
+    	}else
+    	{
+    		YSDKApi.login(ePlatform.getEnum(ep));
+    	}
+		
 	}
     
 	public static void login(int loginType){
@@ -210,6 +237,7 @@ public class YSDK {
                         Toast.makeText(U8SDK.getInstance().getContext(), "选择使用本地账号", Toast.LENGTH_LONG).show();
                         if(!YSDKApi.switchUser(false)){
                         	U8SDK.getInstance().onLogout();
+                        	YSDK.RemovePreferences();
                         }
                     }
                 });
@@ -220,6 +248,7 @@ public class YSDK {
                         Toast.makeText(U8SDK.getInstance().getContext(), "选择使用拉起账号", Toast.LENGTH_LONG).show();
                     	if(!YSDKApi.switchUser(true)){
                     		U8SDK.getInstance().onLogout();
+                    		YSDK.RemovePreferences();
                         }
                     }
                 });

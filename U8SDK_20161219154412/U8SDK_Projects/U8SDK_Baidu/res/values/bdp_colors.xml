@@ -13,7 +13,7 @@
     <color name="bdp_gray_blue">#ffadc5e3</color>
     <color name="bdp_blue">#ff488ce0</color>
     <color name="bdp_orange">#fffea11d</color>
-    <color name="bdp_red">#fff18a8a</color>
+    <color name="bdp_red">#ffff5555</color>
     <color name="bdp_rice_white">#fff4f4f4</color>
     <color name="bdp_lighter_gray">#ffe9e9e9</color>
     
@@ -32,7 +32,7 @@
     <color name="bdp_color_account_balance">#ff3300</color>
     <color name="bdp_paycenter_color_61B11F">#61B11F</color>
     <color name="bdp_color_f08f1e">#f08f1e</color>
-    <color name="bdp_color_text_hint">#bebebe</color>
+    <color name="bdp_color_text_hint">#ff555555</color>
            <!-- paycenter --> 
     
 </resources>

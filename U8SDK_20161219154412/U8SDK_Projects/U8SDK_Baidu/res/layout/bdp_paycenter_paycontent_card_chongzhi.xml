@@ -50,12 +50,12 @@
         android:layout_marginTop="8dp"
         android:orientation="horizontal" >
 
-        <com.baidu.platformsdk.pay.view.unproguard.BDPFlowLayout
+        <com.baidu.platformsdk.pay.widget.BDPFlowLayout
             android:id="@+id/bdp_paycenter_layout_line_feed_panel"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             >
-        </com.baidu.platformsdk.pay.view.unproguard.BDPFlowLayout>
+        </com.baidu.platformsdk.pay.widget.BDPFlowLayout>
     </LinearLayout>
 
     <LinearLayout

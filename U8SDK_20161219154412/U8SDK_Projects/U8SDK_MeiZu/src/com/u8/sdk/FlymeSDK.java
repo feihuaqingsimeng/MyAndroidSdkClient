@@ -6,6 +6,7 @@ import android.app.Application;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.meizu.gamesdk.model.callback.MzExitListener;
 import com.meizu.gamesdk.model.callback.MzLoginListener;
 import com.meizu.gamesdk.model.callback.MzPayListener;
 import com.meizu.gamesdk.model.model.LoginResultCode;
@@ -288,6 +289,28 @@ public class FlymeSDK {
 	}
 	
 	public void logout(){
-		MzGameCenterPlatform.logout(U8SDK.getInstance().getContext());
+		MzGameCenterPlatform.logout(U8SDK.getInstance().getContext(),new MzLoginListener() {
+			
+			@Override
+			public void onLoginResult(int i, MzAccountInfo mzaccountinfo, String s) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+	}
+	
+	public void exit()
+	{
+		MzGameCenterPlatform.exitSDK(U8SDK.getInstance().getContext(), new MzExitListener() {
+			
+			@Override
+			public void callback(int code, String arg1) {
+				if(code == MzExitListener.CODE_SDK_EXIT)
+				{
+					U8SDK.getInstance().getContext().finish();
+					System.exit(0);
+				}
+			}
+		});
 	}
 }

@@ -54,7 +54,7 @@
         android:background="@drawable/bdp_paycenter_dialog_bottom_bg">
 
         <!-- 列表 -->
-	    <com.baidu.platformsdk.widget.unproguard.AmazingListView 
+	    <com.baidu.platformsdk.widget.AmazingListView 
 	        android:id="@+id/lv_task"
 	        android:layout_width="match_parent"
 	        android:layout_height="match_parent"

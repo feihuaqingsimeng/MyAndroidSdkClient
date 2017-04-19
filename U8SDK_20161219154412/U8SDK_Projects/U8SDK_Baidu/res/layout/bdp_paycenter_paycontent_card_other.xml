@@ -53,13 +53,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
-        <com.baidu.platformsdk.pay.view.unproguard.BDPFlowLayout
+        <com.baidu.platformsdk.pay.widget.BDPFlowLayout
             android:id="@+id/bdp_paycenter_layout_line_feed_panel"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:focusable="true"
             android:focusableInTouchMode="true" >
-        </com.baidu.platformsdk.pay.view.unproguard.BDPFlowLayout>
+        </com.baidu.platformsdk.pay.widget.BDPFlowLayout>
     </LinearLayout>
 
     <LinearLayout

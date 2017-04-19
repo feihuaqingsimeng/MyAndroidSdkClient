@@ -15,7 +15,7 @@
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_marginRight="6dp"
-            android:indeterminateDrawable="@drawable/bdp_paycenter_progress_loading_anim" />
+            android:indeterminateDrawable="@drawable/bdp_progress_loading_xml" />
 
         <TextView
             android:layout_width="wrap_content"

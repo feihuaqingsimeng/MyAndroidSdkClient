@@ -83,7 +83,8 @@
                     android:layout_height="fill_parent"
                     android:layout_margin="2.0dip"
                     android:background="@color/dk_gamesdk_white"
-                    android:scaleType="centerCrop" />
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dk_default_ad" />
 
                 <TextView
                     android:id="@+id/txt_summary"

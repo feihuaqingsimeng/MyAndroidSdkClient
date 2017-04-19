@@ -1,54 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ebpay_coupon_item_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/ebpay_white"
-    android:gravity="center_vertical"
-    android:paddingLeft="15dp"
-    android:paddingRight="15dp" >
+    android:background="@drawable/ebpay_textview_bg_selector"
+    android:paddingLeft="@dimen/ebpay_line_margin_15"
+    android:paddingRight="@dimen/ebpay_line_margin_15" >
 
-    <CheckBox
-        android:id="@+id/ebpay_coupon_check"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:button="@drawable/ebpay_bg_checkbox_for_coupon"
-        android:checked="false"
-        android:clickable="false"
-        android:textColor="@color/ebpay_black"
-        android:textSize="@dimen/ebpay_text_size_15" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bd_wallet_pwdpay_item_height" >
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_weight="1"
-        android:orientation="vertical" >
-
-        <TextView
-            android:id="@+id/ebpay_coupon_info"
+        <com.baidu.wallet.base.widget.NetImageView
+            android:id="@+id/ebpay_coupon_logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ellipsize="end"
-            android:singleLine="true"
-            android:textColor="@color/ebpay_text_normal"
-            android:textSize="@dimen/ebpay_text_size_18" />
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:src="@drawable/ebpay_coupon_icon"
+            android:visibility="visible" />
 
-        <TextView
-            android:id="@+id/ebpay_coupon_date"
+        <ImageView
+            android:id="@+id/coupon_select"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ellipsize="end"
-            android:singleLine="true"
-            android:textColor="@color/ebpay_text_hint"
-            android:textSize="13sp" />
-    </LinearLayout>
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ebpay_pwd_checkbox_selector"
+            android:scaleType="center" />
 
-    <TextView
-        android:id="@+id/ebpay_coupon_discount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/ebpay_text_normal"
-        android:textSize="@dimen/ebpay_text_size_18" />
+        <TextView
+            android:id="@+id/dicount_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ebpay_line_margin_10"
+            android:layout_toLeftOf="@id/coupon_select"
+            android:textColor="@color/bd_wallet_red"
+            android:textSize="@dimen/ebpay_text_size_14" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ebpay_line_margin_10"
+            android:layout_toLeftOf="@id/dicount_amount"
+            android:layout_toRightOf="@id/ebpay_coupon_logo"
+            android:orientation="vertical"
+            android:paddingRight="8dp" >
+
+            <TextView
+                android:id="@+id/coupon_dicount_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/ebpay_text_111111"
+                android:textSize="@dimen/ebpay_text_size_14" />
+
+            <TextView
+                android:id="@+id/coupon_dicount_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/bd_wallet_text_gray2"
+                android:textSize="@dimen/ebpay_text_size_12"
+                android:visibility="visible" />
+        </LinearLayout>
+    </RelativeLayout>
 
 </LinearLayout>

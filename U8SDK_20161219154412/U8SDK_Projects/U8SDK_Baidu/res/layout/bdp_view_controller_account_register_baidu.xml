@@ -12,7 +12,7 @@
 	    android:layout_height="wrap_content"
 	    android:gravity="center_vertical">
 	    <TextView 
-	        android:id="@+id/txt_back"
+	        android:id="@+id/txtBack"
 	        android:layout_width="45dip"
 	        android:layout_height="48dip"
 	        android:text="@string/bdp_account_title_back"
@@ -41,7 +41,7 @@
 	        />
 	    <!-- 关闭按钮 -->
 	    <ImageView 
-	        android:id="@+id/img_close"
+	        android:id="@+id/imgClose"
 	        android:layout_width="45dip"
 	        android:layout_height="45dip"
 	        android:scaleType="centerInside"
@@ -90,7 +90,7 @@
 		                android:src="@drawable/bdp_account_icon_login_account" />
 		
 		            <EditText
-		                android:id="@+id/edt_account"
+		                android:id="@+id/edtAccount"
 		                android:layout_width="0dip"
 		                android:layout_height="wrap_content"
 		                android:layout_weight="1"
@@ -105,7 +105,7 @@
 		                android:background="@null" />
 		
 		            <ImageView
-		                android:id="@+id/img_account_del"
+		                android:id="@+id/imgAccountDel"
 		                android:layout_width="wrap_content"
 		                android:layout_height="wrap_content"
 		                android:layout_marginRight="5dip"
@@ -135,7 +135,7 @@
 	                	android:src="@drawable/bdp_account_icon_login_pass" />
 		
 		            <EditText
-		                android:id="@+id/edt_pass"
+		                android:id="@+id/edtPass"
 		                android:layout_width="0dip"
 		                android:layout_height="wrap_content"
 		                android:layout_weight="1"
@@ -152,27 +152,27 @@
 		                android:background="@null" />
 		
 		            <ImageView
-		                android:id="@+id/img_pass_del"
+		                android:id="@+id/imgPassDel"
 		                android:layout_width="wrap_content"
 		                android:layout_height="wrap_content"
-		                android:layout_marginRight="5dip"
+		                android:padding="3dip"
 		                android:contentDescription="@string/bdp_image"
 		                android:src="@drawable/bdp_icon_text_clear_selector"
 		                android:visibility="gone" />
 	
 		            <ImageView
-		                android:id="@+id/img_password_show"
+		                android:id="@+id/imgPasswordShow"
 		                android:layout_width="wrap_content"
 		                android:layout_height="wrap_content"
-		                android:layout_marginRight="5dip"
+		                android:padding="3dip"
 		                android:contentDescription="@string/bdp_image"
-		                android:src="@drawable/bdp_icon_password_show" />
+		                android:src="@drawable/bdp_account_icon_pwd_shown" />
 		
 		        </LinearLayout>
 		        
 		        <!-- 验证码 -->
 		        <LinearLayout 
-		            android:id="@+id/lin_verifycode"
+		            android:id="@+id/linVerifycode"
 		            android:layout_width="match_parent"
 		            android:layout_height="wrap_content"
 		            android:orientation="vertical"
@@ -198,7 +198,7 @@
 			                />
 			            
 			            <EditText 
-			                android:id="@+id/edt_verifycode"
+			                android:id="@+id/edtVerifycode"
 			                android:layout_width="0dip"
 			                android:layout_height="wrap_content"
 			                android:layout_weight="1"
@@ -214,7 +214,7 @@
 			                />
 			            
 			            <ImageView 
-			                android:id="@+id/img_verifycode_del"
+			                android:id="@+id/imgVerifycodeDel"
 			                android:layout_width="wrap_content"
 			                android:layout_height="wrap_content"
 			                android:layout_marginRight="5dip"
@@ -224,12 +224,12 @@
 			                />
 			            
 			            <FrameLayout
-			                android:layout_width="wrap_content"
+			                android:layout_width="70dip"
 			                android:layout_height="40dip"
 			                android:layout_marginRight="4dp" >
 			
 			                <ImageView
-			                    android:id="@+id/img_verifycode"
+			                    android:id="@+id/imgVerifycode"
 			                    android:layout_width="fill_parent"
 			                    android:layout_height="fill_parent"
 			                    android:padding="2dip"
@@ -242,7 +242,7 @@
 			                    android:layout_height="fill_parent" >
 			
 			                    <ImageView
-			                        android:id="@+id/img_verifycode_loading"
+			                        android:id="@+id/imgVerifycodeLoading"
 			                        android:layout_width="wrap_content"
 			                        android:layout_height="wrap_content"
 			                        android:layout_centerInParent="true"
@@ -252,7 +252,7 @@
 			                </RelativeLayout>
 			            </FrameLayout>
 			            <ImageView 
-			                android:id="@+id/img_change_verifycode"
+			                android:id="@+id/imgChangeVerifycode"
 			                android:layout_width="wrap_content"
 			                android:layout_height="wrap_content"
 			                android:scaleType="centerInside"
@@ -265,15 +265,44 @@
 	        
 	        <!-- 注册按钮 -->
 	        <Button 
-	            android:id="@+id/btn_register"
+	            android:id="@+id/btnRegister"
 	            android:layout_width="match_parent"
 	            android:layout_height="38dip"
         		android:layout_below="@id/lin_account_pass"
+        		android:layout_marginBottom="15dip"
 	            android:text="@string/bdp_account_register"
 	            android:textColor="@color/bdp_white"
 	            android:textSize="15sp"
 		        android:background="@drawable/bdp_btn_blue_selector"
 	            />
+	        
+	        <!-- 用户协议 -->
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/btnRegister"
+	            android:orientation="horizontal"
+	            android:gravity="left">
+	            
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/bdp_account_register_accept"
+			        android:textColor="@color/bdp_blue"
+			        android:textSize="13sp"
+	                />
+	            
+	            <TextView 
+	                android:id="@+id/txtAgreement"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:paddingLeft="5dip"
+	                android:text="@string/bdp_account_register_baidu_agreement"
+	                android:textColor="@color/bdp_blue"
+	                android:textSize="13sp"
+	                android:textStyle="bold"
+	                />
+	        </LinearLayout>
 	    </RelativeLayout>
 	</ScrollView>
 </LinearLayout>

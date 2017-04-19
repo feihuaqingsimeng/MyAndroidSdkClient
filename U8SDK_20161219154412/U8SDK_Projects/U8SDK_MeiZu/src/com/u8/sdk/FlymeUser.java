@@ -6,7 +6,7 @@ import android.app.Activity;
 
 public class FlymeUser extends U8UserAdapter{
 
-	private String[] supportedMethods = {"login","switchLogin"};
+	private String[] supportedMethods = {"login","switchLogin","exit"};
 	
 	public FlymeUser(Activity context){
 		FlymeSDK.getInstance().onActivityCreate();
@@ -26,6 +26,12 @@ public class FlymeUser extends U8UserAdapter{
 	public boolean isSupportMethod(String methodName) {
 
 		return Arrays.contain(supportedMethods, methodName);
+	}
+
+	@Override
+	public void exit() {
+		
+		FlymeSDK.getInstance().exit();
 	}
 
 }

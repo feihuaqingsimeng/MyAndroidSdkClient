@@ -315,7 +315,7 @@ public class BaiduSDK {
 		payOrderInfo.setTotalPriceCent(p);//以分为单位
 		payOrderInfo.setRatio(ratio);
 		payOrderInfo.setExtInfo(extInfo);//该字段将会在支付成功后原样返回给CP(不超过500个字符)
-		
+		payOrderInfo.setCpUid(U8SDK.getInstance().getUToken().getUserID()+"");
 		return payOrderInfo;
 	}
 	

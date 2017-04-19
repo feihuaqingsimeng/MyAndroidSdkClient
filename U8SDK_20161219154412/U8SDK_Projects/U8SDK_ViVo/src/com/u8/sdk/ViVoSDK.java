@@ -97,7 +97,7 @@ public class ViVoSDK {
 				
 				@Override
 				public void payResult(String arg0, boolean arg1, String resultCode, String msg) {
-					
+					Log.e("U8SDK","[vivoSDK]payResult"+arg0 +","+arg1+","+resultCode+","+msg);
 					if("9000".equals(resultCode)){
 						U8SDK.getInstance().onResult(U8Code.CODE_PAY_SUCCESS, "pay sucess");
 					}else if("6001".equals(resultCode)){

@@ -17,11 +17,10 @@
 
     <ImageView
         android:id="@+id/dialog_image"
-        android:layout_width="@dimen/ebpay_dialog_img_width"
-        android:layout_height="@dimen/ebpay_dialog_img_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:contentDescription="@null"
-        android:scaleType="fitXY"
         android:src="@drawable/ebpay_help_cvv" />
 
     <TextView
@@ -30,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/ebpay_cvv2_tip"
-        android:textColor="@color/ebpay_text_normal"
-        android:textSize="@dimen/ebpay_text_size_15" />
+        android:textColor="@color/bd_wallet_dialog_text_999999"
+        android:textSize="@dimen/ebpay_text_size_16" />
 
 </LinearLayout>

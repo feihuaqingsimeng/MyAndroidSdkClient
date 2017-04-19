@@ -36,7 +36,7 @@
 	        />
 	    <!-- 关闭按钮 -->
 	    <ImageView 
-	        android:id="@+id/img_close"
+	        android:id="@+id/imgClose"
 	        android:layout_width="45dip"
 	        android:layout_height="45dip"
 	        android:scaleType="centerInside"
@@ -80,7 +80,7 @@
 		            
 	            <!-- 描述文字 -->
 	            <TextView 
-	                android:id="@+id/txt_des"
+	                android:id="@+id/txtDes"
 	                android:layout_width="match_parent"
 	                android:layout_height="wrap_content"
 	                android:text="@string/bdp_account_bind_phone_check_phone_des"
@@ -89,7 +89,7 @@
 	                />
 		        
 		        <LinearLayout 
-	            	android:id="@+id/lin_binded_phone"
+	            	android:id="@+id/linBindedPhone"
 		            android:layout_width="match_parent"
 		            android:layout_height="wrap_content"
 		            android:orientation="horizontal"
@@ -105,7 +105,7 @@
 		            
 		        	<!-- 已绑定手机 -->
 		            <TextView 
-		            	android:id="@+id/txt_binded_phone"
+		            	android:id="@+id/txtBindedPhone"
 		                android:layout_width="wrap_content"
 		                android:layout_height="wrap_content"
 		            	android:singleLine="true"
@@ -129,7 +129,7 @@
 		        
 		        <!-- 获取短信验证码 -->
 		        <Button 
-		            android:id="@+id/btn_get_verifycode"
+		            android:id="@+id/btnGetVerifycode"
 		            android:layout_width="160dip"
 		            android:layout_height="38dip"
 		            android:paddingLeft="10dip"
@@ -143,7 +143,7 @@
 		        
 		        <!-- 已发送提示 -->
 		        <TextView 
-		            android:id="@+id/txt_sent_tip"
+		            android:id="@+id/txtSentTip"
 		            android:layout_width="wrap_content"
 		            android:layout_height="wrap_content"
 		            android:layout_marginLeft="5dip"
@@ -166,7 +166,7 @@
 	            android:background="@drawable/bdp_bg_white_border_blue" >
 	
 	            <EditText
-	                android:id="@+id/edt_verifycode"
+	                android:id="@+id/edtVerifycode"
 	                android:layout_width="0dip"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="1"
@@ -179,7 +179,7 @@
 	                android:background="@null" />
 	
 	            <ImageView
-	                android:id="@+id/img_verifycode_del"
+	                android:id="@+id/imgVerifycodeDel"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_marginRight="5dip"
@@ -191,7 +191,7 @@
 	        
 	        <!-- 下一步 -->
 	        <Button 
-	            android:id="@+id/btn_next"
+	            android:id="@+id/btnNext"
 	            android:layout_width="match_parent"
 	            android:layout_height="38dip"
 	            android:layout_below="@id/lin_verifycode"

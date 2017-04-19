@@ -41,7 +41,7 @@
 	        />
 	    <!-- 关闭按钮 -->
 	    <ImageView 
-	        android:id="@+id/img_close"
+	        android:id="@+id/imgClose"
 	        android:layout_width="45dip"
 	        android:layout_height="45dip"
 	        android:scaleType="centerInside"
@@ -77,7 +77,7 @@
 		        />
 		    <!-- 确定按钮 -->
 		    <Button 
-		        android:id="@+id/btn_ok"
+		        android:id="@+id/btnOk"
 		        android:layout_width="match_parent"
 		        android:layout_height="38dip"
 		        android:layout_marginTop="20dip"

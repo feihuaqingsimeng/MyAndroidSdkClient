@@ -8,12 +8,12 @@
     android:paddingRight="12dp">
     
     <LinearLayout 
-        android:id="@+id/bdp_title"
+        android:id="@+id/bdpTitle"
         android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:orientation="vertical">
         <TextView 
-            android:id="@+id/bdp_title_text"
+            android:id="@+id/bdpTitleText"
             android:layout_width="match_parent"
             android:textColor="@color/bdp_black"
             android:text="@string/bdp_tips" 
@@ -27,7 +27,7 @@
     </LinearLayout>
     
     <TextView 
-        android:id="@+id/bdp_content_text"
+        android:id="@+id/bdpContentText"
         android:layout_width="match_parent"
  		android:layout_height="wrap_content"  
         android:paddingTop="4dp" 
@@ -41,7 +41,7 @@
         android:layout_marginTop="14dp" >
  
         <Button
-            android:id="@+id/bdp_cancel"
+            android:id="@+id/btnCancel"
             android:layout_width="0dp"
             android:layout_height="38dp"
             android:layout_weight="1"
@@ -56,7 +56,7 @@
             android:layout_height="38dp" />
  
         <Button
-            android:id="@+id/bdp_ok"
+            android:id="@+id/bdpOk"
             android:layout_width="0dp"
             android:layout_height="38dp"
             android:layout_weight="1"

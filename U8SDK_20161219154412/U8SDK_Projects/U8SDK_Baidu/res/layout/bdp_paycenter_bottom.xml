@@ -20,15 +20,4 @@
         
     </LinearLayout>
     
-    <TextView 
-        android:id="@+id/tv_customer_number"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:textColor="#838383"
-        android:textSize="@dimen/bdp_paycenter_text_size_14_sp"
-        android:gravity="center_horizontal"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/bdp_paycenter_customer_default" />
-    
 </LinearLayout>

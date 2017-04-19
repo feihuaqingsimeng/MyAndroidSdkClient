@@ -23,7 +23,7 @@
 	        />
 	    <!-- 设置账号信息 -->
 	    <TextView 
-	        android:id="@+id/txt_title"
+	        android:id="@+id/txtTitle"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_margin="10dip"
@@ -38,7 +38,7 @@
 	        />
 	    <!-- 关闭按钮 -->
 	    <ImageView 
-	        android:id="@+id/img_close"
+	        android:id="@+id/imgClose"
 	        android:layout_width="45dip"
 	        android:layout_height="45dip"
 	        android:scaleType="centerInside"
@@ -66,7 +66,7 @@
 		    android:orientation="vertical" >
 		    
 	        <TextView 
-	            android:id="@+id/txt_tip"
+	            android:id="@+id/txtTip"
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content"
 	            android:layout_marginBottom="18dip"
@@ -81,13 +81,13 @@
 	            android:layout_width="match_parent"
 	            android:layout_height="40dip"
 	            android:layout_marginBottom="12dip"
-	            android:layout_below="@id/txt_tip"
+	            android:layout_below="@id/txtTip"
 	            android:gravity="center_vertical"
 	            android:orientation="horizontal"
 	            android:background="@drawable/bdp_bg_white_border_blue" >
 	
 	            <AutoCompleteTextView
-	                android:id="@+id/actv_account"
+	                android:id="@+id/actvAccount"
 	                android:layout_width="0dip"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="1"
@@ -104,7 +104,7 @@
 	                android:background="@null" />
 	
 	            <ImageView
-	                android:id="@+id/img_account_del"
+	                android:id="@+id/imgAccountDel"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_marginRight="5dip"
@@ -125,7 +125,7 @@
 	            android:background="@drawable/bdp_bg_white_border_blue" >
 	
 	            <EditText
-	                android:id="@+id/edt_password"
+	                android:id="@+id/edtPassword"
 	                android:layout_width="0dip"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="1"
@@ -142,7 +142,7 @@
 	                android:background="@null" />
 	
 	            <ImageView
-	                android:id="@+id/img_password_del"
+	                android:id="@+id/imgPasswordDel"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_marginRight="5dip"
@@ -151,7 +151,7 @@
 	                android:visibility="gone" />
 	
 	            <ImageView
-	                android:id="@+id/img_password_show"
+	                android:id="@+id/imgPasswordShow"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_marginRight="5dip"
@@ -177,7 +177,7 @@
 		            android:background="@drawable/bdp_bg_white_border_blue" >
 		
 		            <EditText
-		                android:id="@+id/edt_verifycode"
+		                android:id="@+id/edtVerifycode"
 		                android:layout_width="0dip"
 		                android:layout_height="wrap_content"
 		                android:layout_weight="1"
@@ -191,7 +191,7 @@
 		                android:background="@null" />
 		
 		            <ImageView
-		                android:id="@+id/img_verifycode_del"
+		                android:id="@+id/imgVerifycodeDel"
 		                android:layout_width="wrap_content"
 		                android:layout_height="wrap_content"
 		                android:layout_marginRight="5dip"
@@ -202,7 +202,7 @@
 		        
 		        <!-- 获取验证码 -->
 		        <Button 
-		            android:id="@+id/btn_get_verifycode"
+		            android:id="@+id/btnGetVerifycode"
 		            android:layout_width="160dip"
 		            android:layout_height="38dip"
 		            android:layout_marginLeft="10dip"
@@ -226,7 +226,7 @@
 	            android:orientation="horizontal">
 	            
 	            <TextView 
-		            android:id="@+id/txt_sent_tip"
+		            android:id="@+id/txtSentTip"
 		            android:layout_width="wrap_content"
 		            android:layout_height="wrap_content"
 		            android:layout_marginLeft="5dip"
@@ -237,7 +237,7 @@
 	            
 	            <!-- 登录邮箱 -->
 		        <TextView 
-		            android:id="@+id/txt_login_mail"
+		            android:id="@+id/txtLoginMail"
 		            android:layout_width="wrap_content"
 		            android:layout_height="wrap_content"
 		            android:text="@string/bdp_account_visitor_bind_login_mail"
@@ -249,7 +249,7 @@
 	        
 	        <!-- 完成 -->
 	        <Button 
-	            android:id="@+id/btn_complete"
+	            android:id="@+id/btnComplete"
 	            android:layout_width="match_parent"
 	            android:layout_height="38dip"
 	            android:layout_below="@id/lin_sent_tip"

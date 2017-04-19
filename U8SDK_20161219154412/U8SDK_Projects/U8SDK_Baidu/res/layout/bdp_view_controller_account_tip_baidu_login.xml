@@ -8,7 +8,7 @@
     
     <!-- 标题 -->
 	<TextView 
-	    android:id="@+id/txt_title"
+	    android:id="@+id/txtTitle"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
 	    android:padding="12dip"
@@ -30,7 +30,7 @@
 	    android:layout_height="0dip"
 	    android:layout_weight="1">
 		<TextView 
-	        android:id="@+id/txt_content"
+	        android:id="@+id/txtContent"
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content"
 		    android:gravity="center"
@@ -41,7 +41,7 @@
 	</ScrollView>
 		
 	<TextView 
-	    android:id="@+id/txt_ok"
+	    android:id="@+id/txtOk"
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:padding="12dip"

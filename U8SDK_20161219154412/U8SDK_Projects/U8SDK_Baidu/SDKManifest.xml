@@ -132,10 +132,9 @@
         <activity 
             android:name="com.baidu.platformsdk.wxpay.PayActivity"
             android:configChanges="orientation|navigation|screenSize|keyboard|keyboardHidden"
-            android:screenOrientation="portrait"
             android:exported="false"
             android:windowSoftInputMode="adjustPan"
-            android:theme="@style/bdp_dialog_style_fullscreen" />
+            android:theme="@style/bdp_style_transparent" />
         
         <activity 
             android:name="com.baidu.platformsdk.AuthenticateActivity"
@@ -431,7 +430,9 @@
         </activity>
         <!-- ↑↑↑ 支付宝插件 ↑↑↑ -->
         
-        <!-- ↓↓↓ QQ插件 需修改<data android:scheme="qwallet+packagename" />↓↓↓ -->
+         <!-- ↓↓↓ QQ插件 需修改<data android:scheme="qwallet"+packagename />
+        	替换packagename为应用包名, 如：<data android:scheme="qwalletcom.baidu.test"
+        	否则将无法收到支付结果通知！！ />↓↓↓ -->
         <activity 
             android:name="com.baidu.platformsdk.pay.channel.qqwallet.QQPayActivity" 
             android:launchMode="singleTop"
@@ -447,7 +448,9 @@
 		</activity>
 		<!-- ↑↑↑ QQ插件 ↑↑↑ -->
         
-        <!-- ↓↓↓ 多酷SDK ↓↓↓ -->   
+        <!-- ↓↓↓ 多酷SDK ↓↓↓ --> 
+
+			<!-- ↓↓↓ 多酷SDK ↓↓↓ -->		
         <activity
             android:name="com.duoku.platform.ui.DKContainerActivity"
             android:configChanges="orientation|keyboardHidden|navigation|screenSize"

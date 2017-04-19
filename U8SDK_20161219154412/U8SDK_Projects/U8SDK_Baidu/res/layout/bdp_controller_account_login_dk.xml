@@ -13,21 +13,21 @@
     
 	    <!-- 用于获取焦点的输入框 -->
 	    <EditText 
-	        android:id="@+id/edt_focus"
+	        android:id="@+id/edtFocus"
 	        android:layout_width="0dip"
 	        android:layout_height="0dip"
 	        android:inputType="none"
 	        />
 	
 	    <LinearLayout
-	        android:id="@+id/lin_account_pass"
+	        android:id="@+id/linAccountPass"
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
 	        android:layout_marginBottom="18dip"
 	        android:paddingLeft="10dip"
 	        android:paddingRight="10dip"
 	        android:orientation="vertical"
-	        android:background="@drawable/bdp_bg_white_border_blue" >
+	        android:background="@drawable/bdp_bg_light_gray_round" >
 	
 	        <!-- 账号 -->
 	        <LinearLayout
@@ -36,15 +36,8 @@
 	            android:gravity="center_vertical"
 	            android:orientation="horizontal" >
 	
-	            <ImageView
-	                android:layout_width="wrap_content"
-	                android:layout_height="wrap_content"
-	                android:contentDescription="@string/bdp_image"
-	                android:src="@drawable/bdp_account_icon_login_account" 
-	                />
-	
 	            <EditText
-	                android:id="@+id/edt_account"
+	                android:id="@+id/edtAccount"
 	                android:layout_width="0dip"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="1"
@@ -59,20 +52,19 @@
 	                android:singleLine="true" />
 	
 	            <ImageView
-	                android:id="@+id/img_account_del"
-	                android:layout_width="wrap_content"
-	                android:layout_height="wrap_content"
-	                android:layout_marginRight="5dip"
+	                android:id="@+id/imgAccountDel"
+	                android:layout_width="30dip"
+	                android:layout_height="40dip"
+	                android:scaleType="center"
 	                android:contentDescription="@string/bdp_image"
 	                android:src="@drawable/bdp_icon_text_clear_selector"
 	                android:visibility="invisible" />
 	
 	            <ImageView
-	                android:id="@+id/img_arrow"
-	                android:layout_width="wrap_content"
-	                android:layout_height="30dip" 
-	                android:paddingLeft="5dip"
-	                android:scaleType="centerInside"
+	                android:id="@+id/imgArrow"
+	                android:layout_width="30dip"
+	                android:layout_height="40dip" 
+	                android:scaleType="center"
 	                android:contentDescription="@string/bdp_image"
 	                android:src="@drawable/bdp_account_icon_unfold_selector"
 	                android:visibility="gone"
@@ -82,7 +74,7 @@
 	        <View 
 	            android:layout_width="match_parent"
 	            android:layout_height="1px"
-	            android:background="@drawable/bdp_account_lin_account_pass"
+	            android:background="#ffd1d1d1"
 	            />
 	        
 	        <!-- 密码 -->
@@ -92,14 +84,8 @@
 	            android:gravity="center_vertical"
 	            android:orientation="horizontal" >
 	
-	            <ImageView
-	                android:layout_width="wrap_content"
-	                android:layout_height="wrap_content"
-	                android:contentDescription="@string/bdp_image"
-	                android:src="@drawable/bdp_account_icon_login_pass" />
-	
 	            <EditText
-	                android:id="@+id/edt_pass"
+	                android:id="@+id/edtPass"
 	                android:layout_width="0dip"
 	                android:layout_height="wrap_content"
 	                android:layout_weight="1"
@@ -115,7 +101,7 @@
 	                android:background="@null" />
 	
 	            <ImageView
-	                android:id="@+id/img_pass_del"
+	                android:id="@+id/imgPassDel"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
 	                android:layout_marginRight="10dip"
@@ -124,79 +110,49 @@
 	                android:visibility="invisible" />
 	
 	            <TextView
-	                android:id="@+id/txt_find_pass"
+	                android:id="@+id/txtFindPass"
 	                android:layout_width="wrap_content"
 	                android:layout_height="wrap_content"
-	                android:text="@string/bdp_account_login_find_pass"
-	                android:textColor="@color/bdp_blue"
+	                android:text="@string/bdp_account_login_forgot_pass"
+	                android:textColor="#ff888888"
 	                android:textSize="13sp" />
 	        </LinearLayout>
 	    </LinearLayout>
 	    
 	    <!-- 按钮 -->
 	    <Button
-	        android:id="@+id/btn_login"
+	        android:id="@+id/btnLogin"
 	        android:layout_width="match_parent"
-	        android:layout_height="38dip"
+	        android:layout_height="42dip"
 	        android:layout_marginBottom="18dip"
-	    	android:layout_below="@id/lin_account_pass"
+	    	android:layout_below="@id/linAccountPass"
 	        android:text="@string/bdp_account_login"
-	        android:textColor="@color/bdp_white"
-            android:textSize="15sp"
-	        android:background="@drawable/bdp_btn_blue_selector" />
-	    
-	    <LinearLayout 
-	        android:layout_width="match_parent"
-	        android:layout_height="wrap_content"
+	        android:textColor="@drawable/bdp_btn_yellow_font"
+            android:textSize="17sp"
+	        android:background="@drawable/bdp_btn_yellow_selector"
+	        android:enabled="false" />
+	        
+        <ImageView 
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
 	        android:paddingBottom="5dip"
-	        android:orientation="horizontal"
-	        android:gravity="center_horizontal|bottom">
-	        
-	        <ImageView 
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"
-	            android:paddingRight="10dip"
-	            android:src="@drawable/bdp_paycenter_logo_baidu"
-	            android:contentDescription="@string/bdp_image"
-	            />
-	        
-	        <LinearLayout 
-	            android:id="@+id/lin_customer_support"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"
-	            android:visibility="gone"
-	        	android:gravity="bottom">
-	        
-		        <TextView 
-		            android:layout_width="wrap_content"
-		            android:layout_height="wrap_content"
-		            android:text="@string/bdp_customer_support"
-		            android:textColor="@color/bdp_dark_gray"
-		            android:textSize="13sp"
-		            />
-		        
-		        <!-- 客服电话 -->
-		        <TextView 
-		            android:id="@+id/txt_customer_support"
-		            android:layout_width="wrap_content"
-		            android:layout_height="wrap_content"
-		            android:paddingTop="10dip"
-		            android:textColor="@color/bdp_blue"
-		            android:textSize="13sp"
-		            />
-	        </LinearLayout>
-	    </LinearLayout>
+            android:src="@drawable/bdp_logo_baidu_bottom"
+            android:contentDescription="@string/bdp_image"
+            android:visibility="gone"
+            />
 	    
 	    <!-- 历史账号列表 -->
 	    <LinearLayout
-	        android:id="@+id/lin_history" 
+	        android:id="@+id/linHistory" 
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
 	        android:layout_marginTop="40dip"
-	        android:layout_alignLeft="@id/lin_account_pass"
-	        android:layout_alignRight="@id/lin_account_pass"
-	        android:layout_alignTop="@id/lin_account_pass"
+	        android:layout_alignLeft="@id/linAccountPass"
+	        android:layout_alignRight="@id/linAccountPass"
+	        android:layout_alignTop="@id/linAccountPass"
 	        android:background="@drawable/bdp_bg_white_border_blue"
 	        android:orientation="vertical"
 	        android:visibility="gone"
