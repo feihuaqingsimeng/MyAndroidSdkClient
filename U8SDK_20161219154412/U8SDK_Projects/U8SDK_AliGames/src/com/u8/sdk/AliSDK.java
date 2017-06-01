@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.json.JSONObject;
+
+import android.content.Intent;
 import android.widget.Toast;
 import cn.uc.gamesdk.UCGameSdk;
 import cn.uc.gamesdk.even.SDKEventKey;
@@ -31,6 +34,9 @@ public class AliSDK {
 	private String apiKey;
 	private boolean debugMode;
 	private String orientation;
+	private String TAG = "AliSDK";
+	
+	public boolean mRepeatCreate = false;
 	
 	public static AliSDK getInstance(){
 		if(instance == null){
@@ -112,10 +118,25 @@ public class AliSDK {
 			
 			this.parseSDKParams(data);
 			
-			UCGameSdk.defaultSdk().registeSDKEventReceiver(eventReceiver);
+			UCGameSdk.defaultSdk().registerSDKEventReceiver(eventReceiver);
 			U8SDK.getInstance().setActivityCallback(new ActivityCallbackAdapter(){
+				
+				public void onCreate() {
+				    if ((U8SDK.getInstance().getContext().getIntent().getFlags() & Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT) != 0) {
+				        Log.i(TAG, "onCreate with flag FLAG_ACTIVITY_BROUGHT_TO_FRONT");
+				        mRepeatCreate = true;
+				        U8SDK.getInstance().getContext().finish();
+				        return;
+				    }
+				}
+				
 				@Override
 				public void onDestroy() {
+					super.onDestroy();
+				    if (mRepeatCreate) {
+				        Log.i(TAG, "onDestroy is repeat activity!");
+				        return;
+				    }
 					UCGameSdk.defaultSdk().unregisterSDKEventReceiver(eventReceiver);
 				}
 			});
@@ -139,7 +160,14 @@ public class AliSDK {
 
 	        //FIXME always debug
 	        sdkParams.put(SDKParamKey.DEBUG_MODE, this.debugMode);
-
+	        String pullupInfo = null;
+	        try {
+	        	JSONObject json = U8SDK.getInstance().GetInitJsonData();
+		        pullupInfo = json.getString("pullupInfo");
+			} catch (Exception e) {
+			}
+	        
+	        sdkParams.put(SDKParamKey.PULLUP_INFO,pullupInfo);
 	        UCGameSdk.defaultSdk().initSdk(U8SDK.getInstance().getContext(), sdkParams);			
 			
 			

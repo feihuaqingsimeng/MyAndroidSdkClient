@@ -29,7 +29,7 @@
 	    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
 	    <uses-permission android:name="android.webkit.permission.PLUGIN" />    
-        
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     </permissionConfig>
     
     <applicationConfig keyword="cn.uc.gamesdk.activity.ProxyActivity">
@@ -58,7 +58,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-     
+     <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation ="behind" >
+        </activity>
         
     </applicationConfig>
     
