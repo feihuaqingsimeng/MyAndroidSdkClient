@@ -22,7 +22,6 @@ import com.yulong.paysdk.beens.PayInfo;
 import com.yulong.paysdk.coolpayapi.CoolpayApi;
 import com.yulong.paysdk.payinterface.IPayResult;
 import com.yulong.paysdk.payinterface.PermissionRequireCallback;
-import com.yulong.paysdk.utils.PermissionUtils;
 
 
 public class CoolPadSDK {
@@ -36,7 +35,7 @@ public class CoolPadSDK {
 	private String payKey;
 	private int point;
 	private int orientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
-	
+	private boolean isSwitchAccount = false;
 	private OnResultListener loginListener = new OnResultListener() {
 		
 		@Override
@@ -102,6 +101,7 @@ public class CoolPadSDK {
 
 	                @Override
 	                public void onSwitchingAccounts() {
+	                	isSwitchAccount = true;
 	                	U8SDK.getInstance().onSwitchAccount();
 	                }
 	            });
@@ -131,8 +131,8 @@ public class CoolPadSDK {
 				public void onRequestPermissionResult(int requestCode,
 						String[] permissions, int[] grantResults) {
 					
-					PermissionUtils.getInstance().onRequestPermissionsResult(requestCode,
-							permissions, grantResults);					
+					//PermissionUtils.getInstance().onRequestPermissionsResult(requestCode,
+					//		permissions, grantResults);					
 					
 				}				
 				
@@ -154,25 +154,29 @@ public class CoolPadSDK {
 		}
 		
 		try{
-			
 			final Bundle input = new Bundle();
 			input.putInt(Constants.KEY_SCREEN_ORIENTATION, this.orientation);
 			input.putString(Constants.KEY_SCOPE, "get_basic_userinfo");
 			input.putString(Constants.KEY_RESPONSE_TYPE, Constants.RESPONSE_TYPE_CODE);
-			
-			if(Build.VERSION.SDK_INT < 23){
+			if(isSwitchAccount)
+			{
+				isSwitchAccount = false;		
+				sdkApi.loginNew(U8SDK.getInstance().getContext(), input,
+						new Handler(U8SDK.getInstance().getContext().getMainLooper()), loginListener);
+			}
+			//if(Build.VERSION.SDK_INT < 23){
 				
 				sdkApi.login(U8SDK.getInstance().getContext(), input, new Handler(U8SDK.getInstance().getContext().getMainLooper()), loginListener);
-			}else{
-				PermissionUtils.getInstance().requestPermissions(PermissionUtils.REQUEST_PAY, 
-						PermissionUtils.REQUEST_REJECT_Activity_DIALOG, U8SDK.getInstance().getContext(), new PermissionRequireCallback() {
+			//}else{
+			//	PermissionUtils.getInstance().requestPermissions(PermissionUtils.REQUEST_PAY, 
+			//			PermissionUtils.REQUEST_REJECT_Activity_DIALOG, U8SDK.getInstance().getContext(), new PermissionRequireCallback() {
 							
-							@Override
-							public void StartTast() {
-								sdkApi.login(U8SDK.getInstance().getContext(), input, new Handler(U8SDK.getInstance().getContext().getMainLooper()), loginListener);
-							}
-						});
-			}
+			//				@Override
+			//				public void StartTast() {
+			//					sdkApi.login(U8SDK.getInstance().getContext(), input, new Handler(U8SDK.getInstance().getContext().getMainLooper()), loginListener);
+			//				}
+			//			});
+			//}
 			
 		
 			
@@ -185,6 +189,7 @@ public class CoolPadSDK {
 
 	
 	public void logout(){
+		isSwitchAccount = true;
 		sdkApi.logout(U8SDK.getInstance().getContext());
 	}
 	

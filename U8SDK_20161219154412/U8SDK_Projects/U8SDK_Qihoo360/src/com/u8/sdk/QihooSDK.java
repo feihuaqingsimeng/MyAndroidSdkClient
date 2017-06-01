@@ -122,7 +122,7 @@ public class QihooSDK {
 			
 		});
 		
-		Matrix.init(context, new MatrixCallBack() {
+		Matrix.setActivity(context, new MatrixCallBack() {
 			
 			@Override
 			public void execute(Context c, int code, String params) {

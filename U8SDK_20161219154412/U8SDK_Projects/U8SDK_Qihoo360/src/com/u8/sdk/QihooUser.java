@@ -1,6 +1,5 @@
 package com.u8.sdk;
 
-import com.qihoo.gamecenter.sdk.matrix.QihooApplication;
 import com.u8.sdk.utils.Arrays;
 
 import android.app.Activity;

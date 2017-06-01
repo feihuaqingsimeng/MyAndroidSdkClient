@@ -50,7 +50,6 @@ public class YSDK {
 	private static String queryUrl;
 	private static String payUrl;
 	
-	
 	private static void parseSDKParams(SDKParams params){
 		
 		fixedPay = params.getBoolean("WG_FIXEDPAY");

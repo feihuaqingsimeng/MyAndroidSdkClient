@@ -3,8 +3,10 @@ package com.u8.sdk;
 import org.json.JSONObject;
 
 import android.app.Application;
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.meizu.gamesdk.model.callback.MzExitListener;
 import com.meizu.gamesdk.model.callback.MzLoginListener;
@@ -51,9 +53,9 @@ public class FlymeSDK {
 		return instance;
 	}
 	
-	public void initSDK(Application application, SDKParams params){
+	public void initSDK(SDKParams params){
 		this.parseSDKParams(params);
-		this.initSDK(application);
+		this.initSDK();
 	}
 	
 	private void parseSDKParams(SDKParams params){
@@ -62,9 +64,12 @@ public class FlymeSDK {
 		this.appSecret = params.getString("Flyme_AppSecret");
 		
 	}
-	
-	private void initSDK(Application application){
+	boolean isInit = false;
+	private void initSDK(){
 		state = SDKState.StateIniting;
+		if(isInit)
+			return;
+		isInit = true;
 		Log.e("U8SDK","Init Begin....");
 		try{
 			
@@ -97,7 +102,7 @@ public class FlymeSDK {
 			Log.d("U8SDK", "appID:"+appID);
 			Log.d("U8SDK", "appKey:"+appKey);
 			
-			MzGameCenterPlatform.init(application, this.appID, this.appKey);
+			MzGameCenterPlatform.init(U8SDK.getInstance().getApplication(), this.appID, this.appKey);
 			state = SDKState.StateInited;
 			
 			if(loginAfterInit){
@@ -141,7 +146,7 @@ public class FlymeSDK {
 			
 			if(state.ordinal() < SDKState.StateInited.ordinal()){
 				loginAfterInit = true;
-				initSDK(U8SDK.getInstance().getApplication());
+				initSDK();
 				return;
 			}		
 			
@@ -289,11 +294,13 @@ public class FlymeSDK {
 	}
 	
 	public void logout(){
+		
 		MzGameCenterPlatform.logout(U8SDK.getInstance().getContext(),new MzLoginListener() {
 			
 			@Override
 			public void onLoginResult(int i, MzAccountInfo mzaccountinfo, String s) {
 				// TODO Auto-generated method stub
+				
 				
 			}
 		});

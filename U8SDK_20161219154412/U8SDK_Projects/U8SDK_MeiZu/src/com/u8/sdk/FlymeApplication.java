@@ -9,7 +9,7 @@ public class FlymeApplication implements IApplicationListener{
 	@Override
 	public void onProxyCreate() {
 		Log.e("U8SDK", "proxy init......");
-		FlymeSDK.getInstance().initSDK(U8SDK.getInstance().getApplication(), U8SDK.getInstance().getSDKParams());
+		FlymeSDK.getInstance().initSDK(U8SDK.getInstance().getSDKParams());
 	}
 
 	@Override

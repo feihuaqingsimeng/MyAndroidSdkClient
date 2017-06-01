@@ -1,30 +1,36 @@
 package com.u8.sdk;
 
+import com.qihoo.gamecenter.sdk.matrix.Matrix;
+
+import android.app.Application;
 import android.content.Context;
 import android.content.res.Configuration;
+import android.widget.Toast;
 
-import com.qihoo.gamecenter.sdk.matrix.QihooApplication;
+public class QihooProxyApplication implements IApplicationListener{
 
-public class QihooProxyApplication extends QihooApplication{
+	@Override
+	public void onProxyCreate() {
+		// TODO Auto-generated method stub
+		Matrix.initInApplication(U8SDK.getInstance().getApplication());
+	}
 
-	public void onCreate(){
-		super.onCreate();
-		U8SDK.getInstance().onAppCreate(this);
+	@Override
+	public void onProxyAttachBaseContext(Context base) {
+		// TODO Auto-generated method stub
+		
 	}
-	
-	public void attachBaseContext(Context context){
-		super.attachBaseContext(context);
-		U8SDK.getInstance().onAppAttachBaseContext(this, context);
+
+	@Override
+	public void onProxyConfigurationChanged(Configuration config) {
+		// TODO Auto-generated method stub
+		
 	}
-	
-	public void onConfigurationChanged(Configuration config){
-		super.onConfigurationChanged(config);
-		U8SDK.getInstance().onConfigurationChanged(config);
-	}
-	
-	public void onTerminate(){
-		super.onTerminate();
-		U8SDK.getInstance().onTerminate();
+
+	@Override
+	public void onProxyTerminate() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }
