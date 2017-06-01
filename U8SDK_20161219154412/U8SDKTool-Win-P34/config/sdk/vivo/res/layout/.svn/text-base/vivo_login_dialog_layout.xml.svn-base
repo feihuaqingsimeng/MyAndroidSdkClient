@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dip"
+    android:background="@drawable/vivo_account_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/normal_login_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="23dip"
+            android:layout_height="23dip"
+            android:indeterminateDrawable="@drawable/vivo_progressbar_loading" />
+
+        <TextView
+            android:id="@+id/normal_login_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="18901599566/小号1"
+            android:textColor="@color/vivo_sub_notice_left_2"
+            android:textSize="@dimen/vivo_login_45px" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

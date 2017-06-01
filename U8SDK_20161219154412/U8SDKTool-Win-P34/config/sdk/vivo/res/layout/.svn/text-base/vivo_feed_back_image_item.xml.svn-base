@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/vivo_feed_img_item_layout"
+        android:layout_width="80dip"
+        android:layout_height="80dip" >
+
+        <RelativeLayout
+            android:id="@+id/vivo_feed_img_layout"
+            android:layout_width="75dip"
+            android:layout_height="55dip"
+            android:layout_centerInParent="true"
+            android:gravity="right" >
+
+            <ImageView
+                android:id="@+id/vivo_feed_img"
+                android:layout_width="55dip"
+                android:layout_height="55dip"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:layout_width="55dip"
+                android:layout_height="55dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vivo_round_fg" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/vivo_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/del_tip_selector" />
+    </RelativeLayout>
+
+</RelativeLayout>

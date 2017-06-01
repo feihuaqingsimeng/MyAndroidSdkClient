@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="55dip"
+    android:background="@color/transparent" >
+
+    <ImageView
+        android:id="@+id/subedititem_edit_icon"
+        android:layout_width="38dip"
+        android:layout_height="38dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/vivo_sub_icon_blue" />
+
+    <TextView
+        android:id="@+id/subedititem_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="40dip"
+        android:layout_toRightOf="@id/subedititem_edit_icon"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="子账号"
+        android:textColor="@color/vivo_sub_notice_left_2"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/subedititem_edit_btn"
+        android:layout_width="18dip"
+        android:layout_height="18dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dip"
+        android:src="@drawable/vivo_sub_edit_btn" />
+
+    <View
+        android:id="@+id/subedititem_foot_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/vivo_edit_line_bg_color"
+        android:visibility="visible" />
+
+</RelativeLayout>

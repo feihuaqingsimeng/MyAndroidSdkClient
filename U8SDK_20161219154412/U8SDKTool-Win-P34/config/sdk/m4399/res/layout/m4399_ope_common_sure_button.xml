@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/m4399_ope_bind_input_button_height"
-    android:background="@drawable/m4399_ope_bind_button_now_bg">
+    >
     <ProgressBar
         style="@style/m4399LoadingSureStyle"
         android:id="@+id/button_loading"

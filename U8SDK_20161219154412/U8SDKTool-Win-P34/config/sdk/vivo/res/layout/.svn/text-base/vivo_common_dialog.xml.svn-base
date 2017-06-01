@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/vivo_common_dialog_width"
+    android:layout_height="wrap_content"
+    android:background="@drawable/vivo_common_dialog_bg"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/common_dialog_title"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/vivo_common_dialog_title_height"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/vivo_common_dialog_title"
+        android:textColor="@color/vivo_common_dialog_title_text_color"
+        android:textSize="@dimen/vivo_common_dialog_title_text_size" />
+
+    <RelativeLayout
+        android:id="@+id/common_dialog_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/common_dialog_title"
+        android:layout_marginLeft="@dimen/vivo_common_dialog_content_padding_left"
+        android:layout_marginRight="@dimen/vivo_common_dialog_content_padding_left"
+        android:paddingBottom="@dimen/vivo_common_dialog_content_margin_bottom" >
+
+        <TextView
+            android:id="@+id/common_dialog_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="@color/vivo_common_dialog_title_text_color"
+            android:textSize="@dimen/vivo_common_dialog_content_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/common_dialog_button_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/common_dialog_content_view"
+        android:layout_marginLeft="@dimen/vivo_common_dialog_btn_margin_left"
+        android:layout_marginRight="@dimen/vivo_common_dialog_btn_margin_left"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="@dimen/vivo_common_dialog_btn_margin_bottom" >
+
+        <TextView
+            android:id="@+id/dialog_button_ok"
+            android:layout_width="@dimen/vivo_common_dialog_button_width"
+            android:layout_height="@dimen/vivo_common_dialog_button_height"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="@string/vivo_common_dialog_lookup"
+            android:textColor="@color/black"
+            android:textSize="@dimen/vivo_common_dialog_btn_textsize" />
+
+        <TextView
+            android:id="@+id/dialog_button_cancel"
+            android:layout_width="@dimen/vivo_common_dialog_button_width"
+            android:layout_height="@dimen/vivo_common_dialog_button_height"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/vivo_common_dialog_cancel"
+            android:textColor="@color/black"
+            android:textSize="@dimen/vivo_common_dialog_btn_textsize" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -11,7 +11,7 @@
 
     <include
         android:layout_width="fill_parent"
-        android:layout_height="@dimen/m4399_rec_title_height"
+        android:layout_height="wrap_content"
         layout="@layout/m4399_rec_sec_order_role_area" />
 
     <include
@@ -42,13 +42,13 @@
             android:layout_height="25dp"
             android:layout_gravity="center_vertical|right" />
 
-        <include
-            android:id="@+id/youbi_vector"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/m4399_rec_gridview_vspacing"
-            android:layout_marginTop="4dp"
-            layout="@layout/m4399_rec_sec_mannual_sum_area" />
+        <!--<include-->
+            <!--android:id="@+id/youbi_vector"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="@dimen/m4399_rec_gridview_vspacing"-->
+            <!--android:layout_marginTop="4dp"-->
+            <!--layout="@layout/m4399_rec_sec_mannual_sum_area" />-->
 
         <include
             android:layout_width="fill_parent"

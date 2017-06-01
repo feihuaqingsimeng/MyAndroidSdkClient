@@ -50,4 +50,4 @@
         android:background="@drawable/com_tencent_ysdk_icon_admin_apply_flash"
         android:visibility="visible" />
 
-</RelativeLayout><!-- From: file:/data/rdm/projects/24438/ysdk/src/main/res/layout/com_tencent_ysdk_icon_window_result_layout.xml -->
+</RelativeLayout><!-- From: file:/data/rdm/projects/18500/ysdk/src/main/res/layout/com_tencent_ysdk_icon_window_result_layout.xml -->

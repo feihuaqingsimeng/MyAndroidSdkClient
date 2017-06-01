@@ -259,6 +259,7 @@
     <string name="com_lenovo_lsf_string_game_checkin">正在登录···</string>
     <string name="com_lenovo_lsf_string_auth_deny">用户拒绝</string>
     <string name="com_lenovo_toolbar_label_account">帐号</string>
+    <string name="com_lenovo_toolbar_label_vip">VIP</string>
     <string name="com_lenovo_toolbar_label_forum">论坛</string>
     <string name="com_lenovo_toolbar_label_strategy">攻略</string>
     <string name="com_lenovo_toolbar_id_close">"关闭"</string>

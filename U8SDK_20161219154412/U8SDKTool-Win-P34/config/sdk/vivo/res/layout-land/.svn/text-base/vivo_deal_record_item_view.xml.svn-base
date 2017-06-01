@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bbk_deal_record_item_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip" >
+
+        <TextView
+            android:id="@+id/deal_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:text="时间"
+            android:textColor="@color/vivo_sub_notice"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/game_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:layout_toRightOf="@id/deal_time"
+            android:singleLine="true"
+            android:text="游戏名称"
+            android:textColor="@color/vivo_sub_notice_left_2"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/game_deal_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/vivo_deal_item_right_blue_img" />
+
+        <TextView
+            android:id="@+id/game_deal_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="4dip"
+            android:layout_toLeftOf="@id/game_deal_img"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="5V钻"
+            android:textColor="@color/vivo_sub_notice_left_2"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

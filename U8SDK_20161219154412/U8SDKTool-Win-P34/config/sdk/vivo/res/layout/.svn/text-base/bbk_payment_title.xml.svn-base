@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titleLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="45dip"
+    android:background="@color/card_pay_title_bg" >
+
+
+    <ImageView  android:id="@+id/title_back"
+        android:layout_width="50dip"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" 
+        android:src="@drawable/vivo_btn_title_back"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="100dp"
+        android:singleLine="true"
+        android:text="@string/bbk_paytype_title"
+        android:textSize="@dimen/card_pay_title_size" 
+        android:textColor="@color/TextColorBlack"
+        />
+
+</RelativeLayout>

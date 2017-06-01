@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Loading页面 -->
+
+    <include
+        android:id="@+id/loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/common_loading_view"
+        android:background="@android:color/white"
+        android:visibility="gone" />
+
+    <!-- 内容正文 -->
+
+    <RelativeLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.vivo.sdkplugin.Utils.FooterListView
+            android:id="@+id/common_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:divider="@null"
+            android:transcriptMode="disabled" />
+    </RelativeLayout>
+
+    <!-- 错误页提示语 -->
+
+    <TextView
+        android:id="@+id/error_msg_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="数据加载失败，请点击重试"
+        android:textColor="@android:color/black"
+        android:textSize="13sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

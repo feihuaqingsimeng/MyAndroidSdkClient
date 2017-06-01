@@ -78,5 +78,16 @@
      <string name="com_lenovo_plugin_pay_download_tip_text">您需要下载支付插件。</string>
      <string name="com_lenovo_pay_plugin_download_text">您没有安装支付插件，无法进行充值。是否现在下载并安装？</string> 
      <string name="com_lenovo_pay_idapk_wrong_version_text">您的联想帐号版本过低，无法进行充值。请通过网页充值</string>
-             <string name="com_lenovo_pay_plugin_download_title_text">下载</string>
+     <string name="com_lenovo_pay_plugin_download_title_text">下载</string>
+     <string name="com_lenovo_pay_overlimit_goto_vbc">充值V币</string>
+     
+          <string name="com_lenovo_pay_regist_realauth_title_id">输入身份证信息：</string>
+     
+     <string name="com_lenovo_pay_modify_realauth_title_id">修改身份证信息：</string>
+     <string name="com_lenovo_pay_modify_realauth_title_name">姓名</string>
+     <string name="com_lenovo_pay_modify_realauth_title_idno">身份证号</string>
+     
+          
+     
+     
 </resources>

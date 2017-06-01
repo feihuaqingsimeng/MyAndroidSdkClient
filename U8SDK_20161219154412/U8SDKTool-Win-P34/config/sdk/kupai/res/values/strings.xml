@@ -5,10 +5,7 @@
     <string name="coolpad_cashier">收银台</string>
     <string name="coolpad_charge_coolcoin">酷币充值</string>
     <string name="coolpad_rechargement">充值</string>
-    <string name="coolpad_goods_name">商品名称: %1$s</string>
     <string name="coolpad_wares_name">商品名称</string>
-    <string name="coolpad_good_price">商品价格: %1$.2f元</string>
-    <string name="coolpad_good_desc">        商品详情: %1$s</string>
     <string name="coolpad_coin_rest">酷币余额: %1$d币</string>
     <string name="coolpad_coin_payment">应付金额: %1$d币</string>
     <string name="coolpad_coolyun_account">酷云账号</string>
@@ -53,12 +50,10 @@
     <string name="coolpad_charge_amount_error">请输入正确的数额.</string>
     <string name="coolpad_coupon_name">优惠券</string>
     <string name="coolpad_charge_amount_limit">单笔充值数量不能超过30000.</string>
-    
     <string name="coolpad_operational_name">标题: %1$s</string>
     <string name="coolpad_operational_desc">详情: %1$s</string>
     <string name="coolpad_operational_deadline">有效期: %1$s至%2$s</string>
     <string name="coolpad_othermoney">其他金额</string>
-    
     <string name="coolpad_discount">折</string>
     <string name="coolpad_coupon_2">折扣券</string>
     <string name="coolpad_coupon_1">满减券</string>
@@ -80,5 +75,9 @@
     <string name="coolpad_contact_server">联系客服</string>
     <string name="coolpad_connect_timeout">访问网络超时，请检查网络是否可用</string>
     <string name="coolpad_function_is_developing">此功能在开发中</string>
-    
+    <string name="coolpad_coupons_given_info">恭喜您获得了优惠券，请前往收银台，点击优惠券查看.</string>
+    <string name="coolpad_serverinfo_qq">客服QQ:%1$s</string>
+    <string name="coolpad_serverinfo_email">客服邮箱:%1$s</string>
+    <string name="coolpad_serverinfo_phone">客服电话:%1$s</string>
+
 </resources>

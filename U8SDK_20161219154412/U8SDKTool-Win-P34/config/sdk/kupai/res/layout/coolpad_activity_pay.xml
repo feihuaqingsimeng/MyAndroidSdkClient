@@ -22,6 +22,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/pay_bg"
                 android:orientation="vertical" >
+
                 <LinearLayout
                     android:id="@+id/wares_name_ll"
                     android:layout_width="match_parent"
@@ -94,14 +95,32 @@
                     android:paddingLeft="25dp"
                     android:paddingRight="25dp" >
 
-                    <TextView
+                    <RelativeLayout
+                        android:id="@+id/coolpad_coupon_name_re"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical"
-                        android:text="@string/coolpad_coupon_name"
-                        android:textColor="@color/pay_text_darkgray"
-                        android:textSize="15sp" />
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/coolpad_coupon_name_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:text="@string/coolpad_coupon_name"
+                            android:textColor="@color/pay_text_darkgray"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/coolpad_coupon_new_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@id/coolpad_coupon_name_tv"
+                            android:gravity="center"
+                            android:textColor="@color/text_gray_99"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
 
                     <LinearLayout
                         android:id="@+id/coupon_add_ll"
@@ -166,7 +185,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:gravity="center_vertical"
-                        android:text="优惠券"
                         android:textColor="@color/pay_text_darkgray"
                         android:textSize="14sp" />
                 </LinearLayout>
@@ -201,7 +219,6 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:gravity="center_vertical"
-                            android:text="添加优惠券"
                             android:textColor="@color/pay_text_darkgray"
                             android:textSize="15sp" />
                     </LinearLayout>
@@ -224,7 +241,6 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
-                            android:text="优先使用酷币"
                             android:textColor="@color/pay_text_darkgray"
                             android:textSize="14sp" />
                     </LinearLayout>

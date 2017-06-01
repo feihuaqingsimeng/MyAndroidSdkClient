@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://www.baidu.com/apk/res/custom"
+    android:id="@+id/BackgroundId"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dip" >
+    <ImageView 
+        android:id="@+id/mCTypeBackground"
+        android:layout_width="@dimen/vivo_channel_bg_width"
+        android:layout_height="@dimen/vivo_channel_bg_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/vivo_channel_background"
+        android:visibility="gone"/>
+    <com.bbk.payment.util.RotateTextView 
+        android:id="@+id/mChannelType"
+        android:layout_width="35dip"
+        android:layout_height="35dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        custom:rotate="45"
+        custom:translateX="0.5"
+        custom:translateY="0.1"
+        android:visibility="gone"/>
+	<ImageView
+        android:id="@+id/ItemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/bbk_paytype_tip_text_size"
+        android:src="@drawable/bbk_uppay"
+        android:visibility="invisible" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/ItemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ItemImage"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/TextColorBlack"
+        android:textSize="@dimen/text_size_middle" >
+    </TextView>
+    <TextView 
+        android:id="@+id/mChannelDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dip"
+        android:paddingRight="3dip"
+        android:paddingBottom="@dimen/vivo_channeldesc_paddingBottom"
+        android:layout_below="@+id/ItemText"
+        android:layout_marginTop="3dip"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffE23320"
+        android:textSize="12sp"
+        android:singleLine="true"/>
+
+</RelativeLayout>

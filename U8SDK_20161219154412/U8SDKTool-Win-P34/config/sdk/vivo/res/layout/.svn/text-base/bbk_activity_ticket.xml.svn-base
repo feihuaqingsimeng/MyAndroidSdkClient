@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/bbk_useticket_dlg_width"
+    android:layout_height="@dimen/bbk_useticket_dlg_height"
+    android:layout_gravity="center" >
+	<RelativeLayout
+	    android:id="@+id/title_layout" 
+        android:layout_width="match_parent"
+        android:layout_height="50dip" 
+        android:background="@drawable/bbk_paydlg_title_bar">
+        <ImageView
+            android:id="@+id/btn_back" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="13dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/bbk_btn_back"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/bbk_use_ticket"
+            android:textColor="@color/bbk_title_textcolor"
+            android:textSize="@dimen/bbk_title_textsize" />
+    </RelativeLayout>
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_layout"
+        android:background="@drawable/bbk_paydlg_bottom_bar">
+	    <ListView
+        android:id="@+id/ticket_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        android:divider="@null"
+        android:visibility="gone" />
+    <LinearLayout 
+        android:id="@+id/loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_submit_btn"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:indeterminateDrawable="@drawable/vivo_progressbar_loading" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/bbk_loading_texthint_marginLeft"
+            android:text="@string/bbk_loading_text_hint"
+            android:textColor="@color/bbk_loading_textcolor"
+            android:textSize="@dimen/bbk_textsize_small" />
+	</LinearLayout>  
+	<LinearLayout 
+        android:id="@+id/retry_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_submit_btn"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/error_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/bbk_loading_textcolor"
+            android:textSize="@dimen/bbk_textsize_small" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/bbk_click_retry"
+            android:textColor="@color/bbk_loading_textcolor"
+            android:textSize="@dimen/bbk_textsize_small" />
+	</LinearLayout>  
+	<RelativeLayout
+	    android:id="@+id/layout_submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true"
+        android:paddingTop="@dimen/bbk_submitbtn_margin_top_bottom"
+        android:paddingBottom="@dimen/bbk_submitbtn_margin_top_bottom"
+        android:background="@drawable/bbk_btn_submit_bg">
+        <Button
+            android:id="@+id/giftcertificate_button_id"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bbk_btn_submit_height"
+            android:layout_marginLeft="@dimen/bbk_dlg_btn_submit_marginLeftRight"
+            android:layout_marginRight="@dimen/bbk_dlg_btn_submit_marginLeftRight"
+            android:layout_centerInParent="true"
+            android:background="@drawable/giftcertificate_button"
+        	android:text="@string/bbk_ticket_no_choice"
+            android:textColor="#008bd2"
+            android:textSize="@dimen/bbk_btn_submit_textsize"/>
+    </RelativeLayout>
+	</RelativeLayout>
+    
+</RelativeLayout>

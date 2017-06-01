@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/vivo_upgrade_update_dialog_marginHorizontal"
+    android:layout_marginRight="@dimen/vivo_upgrade_update_dialog_marginHorizontal"
+    android:background="@drawable/vivo_upgrade_dialog_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/vivo_upgrade_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vivo_upgrade_selfupdate_dialog_title_marginTop"
+        android:gravity="center"
+        android:text="vivo服务安全插件安装"
+        android:textColor="@color/vivo_upgrade_activity_titlebar_color"
+        android:textSize="@dimen/vivo_upgrade_update_dialog_title_textsize" />
+
+    <TextView
+        android:id="@+id/vivo_upgrade_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vivo_upgrade_selfupdate_dialog_text_marginTop"
+        android:gravity="center"
+        android:text="版本号:2.0.9"
+        android:textColor="@color/vivo_upgrade_hot_apps_size_text_color"
+        android:textSize="@dimen/vivo_upgrade_manage_item_title_textsize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/vivo_upgrade_selfupdate_dialog_text_marginBottom" />
+
+    <TextView
+        android:id="@+id/vivo_upgrade_install_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vivo_upgrade_common_dialog_message_marginHorizontal"
+        android:layout_marginLeft="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:layout_marginRight="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:lineSpacingExtra="@dimen/vivo_upgrade_update_dialog_message_text_lineExtra"
+        android:text="您尚未安装“vivo服务安全插件”,安装后可用于vivo帐户登录以及支付，并保障帐户安全。"
+        android:textColor="@color/vivo_upgrade_blue"
+        android:textSize="@dimen/vivo_upgrade_update_dialog_message_textsize" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:layout_marginRight="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:text="温馨提示:本次安装不耗费流量"
+        android:textColor="@color/vivo_upgrade_hot_apps_size_text_color"
+        android:textSize="@dimen/vivo_upgrade_update_dialog_message_textsize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vivo_upgrade_update_dialog_message_marginVertical"
+        android:layout_marginLeft="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:layout_marginRight="@dimen/vivo_upgrade_update_dialog_message_marginHorizontal"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/vivo_upgrade_okBtnLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/vivo_upgrade_ok"
+                android:layout_width="@dimen/vivo_upgrade_update_dialog_buton_width"
+                android:layout_height="@dimen/vivo_upgrade_update_dialog_buton_height"
+                android:background="@drawable/vivo_upgrade_dialog_ok_bg"
+                android:gravity="center"
+                android:text="@string/vivo_upgrade_ok"
+                android:textColor="@color/vivo_upgrade_white"
+                android:textSize="@dimen/vivo_upgrade_update_dialog_buton_textsize" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vivo_upgrade_cancelBtnLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/vivo_upgrade_cancel"
+                android:layout_width="@dimen/vivo_upgrade_update_dialog_buton_width"
+                android:layout_height="@dimen/vivo_upgrade_update_dialog_buton_height"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/vivo_upgrade_dialog_cancel_bg"
+                android:gravity="center"
+                android:text="@string/vivo_upgrade_cancel"
+                android:textColor="@color/vivo_upgrade_hot_app_title_color"
+                android:textSize="@dimen/vivo_upgrade_update_dialog_buton_textsize" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

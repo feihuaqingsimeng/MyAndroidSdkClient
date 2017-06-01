@@ -32,7 +32,7 @@
 
         <EditText
             android:id="@+id/phone_bind_phone"
-            style="@style/m4399BindEditStyle"
+            style="@style/m4399BindPhoneEditStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/m4399_ope_bind_phone_number_hint" />
@@ -42,7 +42,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/m4399_ope_bind_input_button_height"
-        android:layout_marginTop="@dimen/m4399_ope_bind_input_margin"
+        android:layout_marginTop="@dimen/m4399_ope_bind_phone_input_margin"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -50,13 +50,13 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:text="验证码　"
+            android:text="@string/m4399_ope_bind_phone_test_code"
             android:textColor="@color/m4399_ope_bind_label_gray"
             android:textSize="@dimen/m4399_ope_bind_label_font_size" />
 
         <EditText
             android:id="@+id/phone_bind_code"
-            style="@style/m4399BindEditStyle"
+            style="@style/m4399BindPhoneEditStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -74,7 +74,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/m4399_ope_bind_input_button_height"
-        android:layout_marginTop="@dimen/m4399_ope_bind_input_margin"
+        android:layout_marginTop="@dimen/m4399_ope_bind_phone_input_margin"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -88,7 +88,7 @@
 
         <EditText
             android:id="@+id/phone_bind_msg_code"
-            style="@style/m4399BindEditStyle"
+            style="@style/m4399BindPhoneEditStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -109,7 +109,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/m4399_ope_bind_input_button_height"
-        android:layout_marginTop="@dimen/m4399_ope_bind_input_margin"
+        android:layout_marginTop="@dimen/m4399_ope_bind_phone_input_margin"
         android:orientation="horizontal">
 
         <Button

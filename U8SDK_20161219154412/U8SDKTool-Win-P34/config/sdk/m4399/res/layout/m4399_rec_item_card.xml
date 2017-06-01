@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:gravity="center_horizontal"
-    android:orientation="vertical" >
+    android:gravity="center"
+    android:layout_gravity="center">
 
-    <Button
-        android:id="@+id/rmd_item"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/m4399_rec_gridview_item_height"
+    <RadioButton
+        android:id="@+id/radio_card_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:button="@drawable/m4399_rec_radio_btn_image"
+        android:layout_gravity="center"
         android:gravity="center"
-        android:background="@drawable/m4399_rec_card_btn_bg"
-        android:textColor="@color/m4399_rec_sdk_card_text_color"/>
+        android:paddingRight="12dp"
+        android:textColor="@color/m4399_rec_sdk_card_text_color"
+        android:textSize="16sp"
+        tools:text="@string/m4399_rec_liantong" />
 </LinearLayout>

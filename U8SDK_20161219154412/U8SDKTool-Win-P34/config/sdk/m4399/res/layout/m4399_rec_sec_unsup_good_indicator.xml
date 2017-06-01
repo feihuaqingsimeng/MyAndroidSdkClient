@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:background="@color/m4399_rec_color_white"
-    android:gravity="center"
+    android:gravity="left"
     android:orientation="horizontal" >
 
     <TextView
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="@string/m4399_rec_amount_payment"
         android:textColor="@color/m4399_rec_color_grey"
-        android:textSize="20sp" />
+        android:textSize="@dimen/font_large" />
 
     <TextView
         android:id="@+id/sum"
@@ -21,7 +21,7 @@
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
         android:textColor="@color/m4399_rec_color_yellow"
-        android:textSize="28sp" />
+        android:textSize="@dimen/font_large" />
 
     <TextView
         android:id="@+id/unit"
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:text="@string/m4399_rec_unit_yuan"
         android:textColor="@color/m4399_rec_color_grey"
-        android:textSize="20sp" />
+        android:textSize="@dimen/font_large" />
 
     <TextView
         android:id="@+id/subject"
@@ -37,6 +37,6 @@
         android:layout_height="wrap_content"
         android:text="@string/m4399_rec_good_subject"
         android:textColor="@color/m4399_rec_color_grey"
-        android:textSize="20sp" />
+        android:textSize="@dimen/font_large" />
 
 </LinearLayout>

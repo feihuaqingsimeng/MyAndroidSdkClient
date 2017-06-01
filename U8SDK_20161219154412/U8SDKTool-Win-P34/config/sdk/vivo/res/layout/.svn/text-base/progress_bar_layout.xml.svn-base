@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/vivo_account_background"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="23dip"
+            android:layout_height="23dip"
+            android:indeterminateDrawable="@drawable/vivo_progressbar_loading" />
+
+        <TextView
+            android:id="@+id/vivo_loading_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/vivo_sending_string"
+            android:textColor="@color/vivo_sub_notice_left_2"
+            android:textSize="@dimen/vivo_login_45px" />
+    </LinearLayout>
+
+</RelativeLayout>

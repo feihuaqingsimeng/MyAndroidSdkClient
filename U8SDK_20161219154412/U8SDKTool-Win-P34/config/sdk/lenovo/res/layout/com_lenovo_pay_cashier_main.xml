@@ -42,13 +42,61 @@
             android:background="@color/com_lenovo_pay_gray" />
     </RelativeLayout>
 
+    <RelativeLayout
+        android:id="@+id/layout_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/com_lenovo_pay_goods_marginLeft"
+        android:layout_marginRight="@dimen/com_lenovo_pay_goods_marginLeft"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/account_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/com_lenovo_pay_title_account_text"
+            android:textColor="#4ca2f8"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/account_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/com_lenovo_pay_goods_item_space"
+            android:layout_marginRight="@dimen/com_lenovo_pay_goods_item_space"
+            android:layout_toRightOf="@id/account_label"
+            android:text="15822112222"
+            android:textColor="#4ca2f8"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/balance_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="@dimen/com_lenovo_pay_goods_item_space"
+            android:layout_toRightOf="@id/account_text"
+            android:gravity="center"
+            android:text="（余额：500Vb）"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/vip_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
     <LinearLayout
         android:id="@+id/layout_goods"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/com_lenovo_pay_goods_marginLeft"
         android:layout_marginRight="@dimen/com_lenovo_pay_goods_marginLeft"
-        android:layout_marginTop="@dimen/com_lenovo_pay_goods_marginTop"
+        android:layout_marginTop="10dp"
         android:gravity="left"
         android:orientation="vertical" >
 
@@ -63,7 +111,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/com_lenovo_pay_goods_name_text"
-                android:textColor="@color/com_lenovo_pay_goods_label"
+                android:textColor="#333333"
                 android:textSize="@dimen/com_lenovo_pay_goods_fontsize" />
 
             <TextView
@@ -71,7 +119,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/com_lenovo_pay_goods_item_space"
-                android:textColor="@color/com_lenovo_pay_goods_label"
+                android:textColor="#333333"
                 android:textSize="@dimen/com_lenovo_pay_goods_fontsize" />
         </LinearLayout>
 
@@ -79,7 +127,7 @@
             android:id="@+id/layout_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/com_lenovo_pay_goods_line_space"
+            android:layout_marginTop="6dp"
             android:gravity="center_vertical"
             android:orientation="horizontal" >
 
@@ -88,7 +136,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/com_lenovo_pay_goods_order_text"
-                android:textColor="@color/com_lenovo_pay_goods_label"
+                android:textColor="#333333"
                 android:textSize="@dimen/com_lenovo_pay_goods_fontsize" />
 
             <TextView
@@ -97,7 +145,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/com_lenovo_pay_goods_item_space"
                 android:layout_marginRight="@dimen/com_lenovo_pay_goods_item_space"
-                android:textColor="@color/com_lenovo_pay_goods_label"
+                android:textColor="#333333"
                 android:textSize="@dimen/com_lenovo_pay_goods_fontsize" />
 
             <TextView
@@ -106,7 +154,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:gravity="center"
-                android:textColor="@color/com_lenovo_pay_goods_label"
+                android:textColor="#333333"
                 android:textSize="@dimen/com_lenovo_pay_goods_fontsize" />
 
             <TextView
@@ -115,7 +163,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:gravity="center"
-                android:textColor="@color/com_lenovo_pay_goods_label"
+                android:textColor="#333333"
                 android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
@@ -136,6 +184,109 @@
             android:background="@drawable/com_lenovo_pay_dash_line" />
     </LinearLayout>
 
+    <RelativeLayout
+        android:id="@+id/layout_order_discount_z"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/com_lenovo_pay_goods_marginLeft"
+        android:layout_marginRight="@dimen/com_lenovo_pay_goods_marginLeft"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/zhekouquan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="折扣券:"
+            android:textColor="@color/com_lenovo_pay_goods_label"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/zhekouquan_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:textColor="@color/com_lenovo_pay_goods_label"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_order_discount_v"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/com_lenovo_pay_goods_marginLeft"
+        android:layout_marginRight="@dimen/com_lenovo_pay_goods_marginLeft"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/vbi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="V币余额："
+            android:textColor="@color/com_lenovo_pay_goods_label"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/vbi_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:textColor="@color/com_lenovo_pay_goods_label"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_order_discount_final"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/com_lenovo_pay_goods_marginLeft"
+        android:layout_marginRight="@dimen/com_lenovo_pay_goods_marginLeft"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/final_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="实付款："
+            android:textColor="#333333"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/final_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="100元"
+            android:textColor="#333333"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <!--
     <LinearLayout
         android:id="@+id/layout_account"
         android:layout_width="wrap_content"
@@ -173,6 +324,7 @@
             android:textColor="#757575"
             android:textSize="12sp" />
     </LinearLayout>
+    -->
 
     <LinearLayout
         android:id="@+id/layout_cashbalance"
@@ -180,8 +332,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="12dp"
         android:gravity="center_vertical"
-        android:visibility="gone"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:visibility="gone" >
 
         <CheckBox
             android:id="@+id/checkBalance"
@@ -189,6 +341,7 @@
             android:layout_height="wrap_content"
             android:button="@drawable/com_lenovo_pay_check_selector" >
         </CheckBox>
+
         <TextView
             android:id="@+id/cashbalance_tv"
             android:layout_width="wrap_content"
@@ -219,9 +372,9 @@
             android:layout_height="fill_parent"
             android:layout_centerInParent="true"
             android:layout_gravity="center"
-            android:background="@color/com_lenovo_pay_transparent_color"
+            android:background="@drawable/com_lenovo_pay_main_button_bg"
             android:text="@string/com_lenovo_pay_goods_pay_text"
-            android:textColor="@color/com_lenovo_pay_button"
+            android:textColor="#ffffff"
             android:textSize="@dimen/com_lenovo_pay_button_fontsize" />
 
         <Button
@@ -230,9 +383,9 @@
             android:layout_height="fill_parent"
             android:layout_centerInParent="true"
             android:layout_gravity="center"
-            android:background="@color/com_lenovo_pay_transparent_color"
+            android:background="@drawable/com_lenovo_pay_main_button_bg"
             android:text="@string/com_lenovo_pay_title_charge_text"
-            android:textColor="@color/com_lenovo_pay_button"
+            android:textColor="#ffffff"
             android:textSize="@dimen/com_lenovo_pay_button_fontsize"
             android:visibility="gone" />
     </RelativeLayout>

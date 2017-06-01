@@ -5,4 +5,4 @@
              android:bottomLeftRadius="60dp"
              android:bottomRightRadius="60dp"/>
     <solid android:color="#00ff00"/>
-</shape><!-- From: file:/data/rdm/projects/24438/ysdk/src/main/res/drawable/com_tencent_ysdk_icon_bg_redcorner.xml -->
+</shape><!-- From: file:/data/rdm/projects/18500/ysdk/src/main/res/drawable/com_tencent_ysdk_icon_bg_redcorner.xml -->

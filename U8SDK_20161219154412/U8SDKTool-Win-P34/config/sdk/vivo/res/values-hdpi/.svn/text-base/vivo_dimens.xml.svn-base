@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="vivo_text_size_small">12sp</dimen>
+    <!-- 手机支付页面，按钮距离页面距离 -->
+    <dimen name="card_pay_btn_bottom">40dip</dimen>
+    <!-- 大字体适配 -->
+    <dimen name="vivo_login_45px">18px</dimen>
+    <dimen name="vivo_login_48px">20px</dimen>
+    <dimen name="vivo_login_39px">16px</dimen>
+    <dimen name="vivo_login_60px">22px</dimen>
+    <dimen name="vivo_login_42px">18px</dimen>
+    <dimen name="vivo_login_54px">20px</dimen>
+    <dimen name="vivo_login_36px">13px</dimen>
+    <dimen name="vivo_login_33px">13px</dimen>
+
+    <!-- dialog -->
+    <dimen name="vivo_common_dialog_width">267dip</dimen>
+    <dimen name="vivo_common_dialog_title_height">60dip</dimen>
+    <dimen name="vivo_common_dialog_title_text_size">18dp</dimen>
+    <dimen name="vivo_common_dialog_content_margin_bottom">32dip</dimen>
+    <dimen name="vivo_common_dialog_content_padding_left">18dp</dimen>
+    <dimen name="vivo_common_dialog_content_text_size">14dp</dimen>
+    <dimen name="vivo_common_dialog_btn_textsize">14dp</dimen>
+    <dimen name="vivo_common_dialog_btn_margin_left">15.5dp</dimen>
+    <dimen name="vivo_common_dialog_btn_margin_bottom">22dp</dimen>
+    <dimen name="vivo_common_dialog_button_width">112dp</dimen>
+    <dimen name="vivo_common_dialog_button_height">29dp</dimen>
+
+</resources>

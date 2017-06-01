@@ -13,6 +13,6 @@
     android:paddingTop="4dp"
     android:text="@string/m4399_rec_entry_text"
     android:textColor="#ffffff"
-    android:textSize="16sp" >
+    android:textSize="14sp" >
 
 </TextView>

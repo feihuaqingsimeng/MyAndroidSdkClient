@@ -34,7 +34,7 @@ def changeApplication(decompileDir):
 	if applicationNode is None:
 		return 1
 
-	applicationNode.set(key, 'com.u8.sdk.QihooProxyApplication')
+	#applicationNode.set(key, 'com.u8.sdk.QihooProxyApplication')
 
 	tree.write(manifestFile, 'UTF-8')
 
@@ -122,11 +122,18 @@ def execute(channel, decompileDir, packageName):
 			activityName = activityNode.get(name)
 			if activityName == 'com.qihoo.gamecenter.sdk.activity.ContainerActivity':
 				intentNodeLst = activityNode.findall('intent-filter')
+				find = False
 				if intentNodeLst is not None:
 					for itNode in intentNodeLst:
-						dataNode = SubElement(itNode, 'data')
-						dataNode.set(hostKey, packageName)
-						break
+                                                dataNodeList = itNode.findall('data')
+                                                for dataNode in dataNodeList :
+                                                        if dataNode.get(hostKey) == 'com.qihoo.gamecenter.sdk.demosp':
+                                                                dataNode.set(hostKey, packageName)
+                                                                find = True
+                                                                break
+                                                if find:
+                                                        break
+                                                        
 
 
 	tree.write(manifest, 'UTF-8')

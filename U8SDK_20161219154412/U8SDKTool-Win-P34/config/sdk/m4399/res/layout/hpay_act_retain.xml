@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="@dimen/m4399_com_base_dialog_width"
-    android:layout_height="@dimen/m4399_com_base_dialog_height"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:layout_gravity="center"
-     android:background="@drawable/m4399_rec_page_bg"
+    android:gravity="center"
+    android:background="@drawable/m4399_rec_page_bg"
     android:minHeight="180dp"
     android:minWidth="256dp"
-    android:orientation="vertical" >
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/hpay_tv_rt_title"
@@ -21,9 +23,9 @@
         android:textStyle="bold" />
 
     <include
+        layout="@layout/m4399_rec_sec_mvcenter_separator"
         android:layout_width="fill_parent"
-        android:layout_height="@dimen/m4399_rec_separator_height"
-        layout="@layout/m4399_rec_sec_mvcenter_separator" />
+        android:layout_height="@dimen/m4399_rec_separator_height" />
 
     <TextView
         android:id="@+id/hpay_tv_rt_context"
@@ -41,7 +43,7 @@
         android:layout_width="fill_parent"
         android:layout_height="@dimen/m4399_rec_sum_btns_eara_height"
         android:layout_margin="16dip"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/hpay_btn_rt_cancel"

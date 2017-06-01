@@ -261,6 +261,7 @@
     <string name="com_lenovo_toolbar_label_account">帐号</string>
     <string name="com_lenovo_toolbar_label_forum">论坛</string>
     <string name="com_lenovo_toolbar_label_strategy">攻略</string>
+    <string name="com_lenovo_toolbar_label_vip">VIP</string>
     <string name="com_lenovo_toolbar_id_close">"关闭"</string>
     <string name="com_lenovo_toolbar_label_gift">礼包</string>
     <string name="com_lenovo_lsf_string_autologin_failed">自动登录失败，请手工登录</string>

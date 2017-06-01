@@ -6,4 +6,4 @@
     android:toXDelta="-100%p"
     android:duration="200" />
 </set>
-<!-- From: file:/data/rdm/projects/24438/ysdk/src/main/res/anim/unipay_anim_out_to_left.xml -->
+<!-- From: file:/data/rdm/projects/18500/ysdk/src/main/res/anim/unipay_anim_out_to_left.xml -->

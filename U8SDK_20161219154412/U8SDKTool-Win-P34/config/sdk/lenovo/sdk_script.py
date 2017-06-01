@@ -131,7 +131,14 @@ def modifyStartActivity(decompileDir, appid, packageName):
 					categoryNode = SubElement(intentNode, 'category')
 					categoryNode.set(key, packageName)
 					break					
-
+        providerNodeLst = applicationNode.findall('provider')
+        if providerNodeLst != None:
+                for providerNode in providerNodeLst:
+                        name = providerNode.get(key)
+                        if name == 'android.support.v4.content.FileProvider':
+                                providerNode.set('{'+androidNS+'}authorities',packageName+'.fileprovider')
+                                break
+                                
 	tree.write(manifestFile, 'UTF-8')
 	return activityName	
 

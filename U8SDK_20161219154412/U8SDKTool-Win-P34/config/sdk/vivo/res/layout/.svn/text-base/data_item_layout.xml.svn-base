@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/hj_info_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/game_list_item_touch_or_not"
+         >
+
+
+        <TextView
+            android:id="@+id/huanju_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/vivo_text_color_middle"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/huanju_sub_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/huanju_item_title"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/huanju_item_time_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="@string/vivo_game_info_item_launch_time"
+                android:textColor="@color/vivo_text_color_small"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/huanju_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/huanju_item_time_tip"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/vivo_text_color_small"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/huanju_item_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/vivo_text_color_small"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/huanju_item_number_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/huanju_item_number"
+                android:text="@string/vivo_game_info_item_scan_times"
+                android:textColor="@color/vivo_text_color_small"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/huanju_sub_item"
+            android:layout_marginTop="8dp"
+            android:background="#ffe6e6e6" />
+    </RelativeLayout>

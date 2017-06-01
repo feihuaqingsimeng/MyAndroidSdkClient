@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <declare-styleable name="VivoTheme">
+        <attr name="windowStatusbarBackground" format="integer" />
+        <attr name="viewCallbackFlag" format="boolean" />
+        <attr name="bbkstylebackground" format="boolean" />
+        <attr name="bbkwindowTitleBackgroundStyle" format="reference" />
+        <attr name="bbkWindowTitleStyle" format="reference" />
+        <attr name="bbkTitleButtonStyle" format="reference" />
+        <attr name="bbkTabwigetSelectBackground" format="reference" />
+        <attr name="bbkTabwigetUnSelectedBackground" format="reference" />
+        <attr name="bbkMarkupButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <style name="vivo_edit_label_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+    </style>
+
+    <style name="customdialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 背景是否半透明 -->
+        <!--
+             itemname="android:backgroundDimEnabled">false</item>
+        -->
+    </style>
+
+    <style name="vivo_edit_input_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/vivo_text_size_small</item>
+        <item name="android:textColor">@color/vivo_text_color_small</item>
+    </style>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="vivo_animation_transparent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/bbk_dlg_window_bg</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
+    </style>
+
+    <style name="ActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/vivo_fade_in_anim</item>
+        <item name="android:activityCloseExitAnimation">@anim/vivo_fade_out_anim</item>
+    </style>
+
+    <style name="common_dialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/vivo_common_dialog_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

@@ -20,7 +20,7 @@
     <FrameLayout
         android:id="@+id/content"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/content_prefix"
         android:layout_centerVertical="true"/>
 
@@ -32,8 +32,8 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="2dp"
         android:textSize="16sp"
-        android:textColor="#ff999999"
-        android:visibility="gone"/>
+        android:visibility="gone"
+        android:textColor="#ff999999" />
     
 
 </RelativeLayout>

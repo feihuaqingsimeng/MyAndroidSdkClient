@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="330dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vivo_account_background"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/temp_update_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:layout_marginTop="13dip"
+                android:lineSpacingExtra="5dip"
+                android:text="@string/vivo_temp_update_tips"
+                android:textColor="@color/vivo_black"
+                android:textSize="@dimen/vivo_login_45px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:background="@drawable/vivo_input_white_bg"
+                android:orientation="horizontal"
+                android:paddingBottom="13dip" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dip"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/vivo_login_45px"
+                            android:layout_height="@dimen/vivo_login_33px"
+                            android:layout_marginRight="5dip"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/vivo_temp_update_tips_left_1"
+                            android:textColor="@color/vivo_sub_notice_left_1"
+                            android:textSize="@dimen/vivo_login_45px" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/vivo_login_45px"
+                            android:layout_height="@dimen/vivo_login_33px"
+                            android:layout_marginRight="5dip"
+                            android:background="@drawable/vivo_temp_dialog_right" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/vivo_temp_update_tips_left_2"
+                            android:textColor="@color/vivo_sub_notice_left_2"
+                            android:textSize="@dimen/vivo_login_36px" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/vivo_login_45px"
+                            android:layout_height="@dimen/vivo_login_33px"
+                            android:layout_marginRight="5dip"
+                            android:background="@drawable/vivo_temp_dialog_right" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/vivo_temp_update_tips_left_3"
+                            android:textColor="@color/vivo_sub_notice_left_2"
+                            android:textSize="@dimen/vivo_login_36px" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/vivo_login_45px"
+                            android:layout_height="@dimen/vivo_login_33px"
+                            android:layout_marginRight="5dip"
+                            android:background="@drawable/vivo_temp_dialog_right" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/vivo_temp_update_tips_left_4"
+                            android:textColor="@color/vivo_sub_notice_left_2"
+                            android:textSize="@dimen/vivo_login_36px" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/vivo_login_45px"
+                            android:layout_height="@dimen/vivo_login_33px"
+                            android:layout_marginRight="5dip"
+                            android:background="@drawable/vivo_temp_dialog_right" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/vivo_temp_update_tips_left_5"
+                            android:textColor="@color/vivo_sub_notice_left_2"
+                            android:textSize="@dimen/vivo_login_36px" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/vivo_login_33px"
+                            android:layout_height="@dimen/vivo_login_33px"
+                            android:layout_marginRight="5dip"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/vivo_temp_update_tips_right_1"
+                            android:textSize="@dimen/vivo_login_45px" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/vivo_login_33px"
+                            android:layout_height="@dimen/vivo_login_33px"
+                            android:layout_marginRight="5dip"
+                            android:background="@drawable/vivo_temp_dialog_wrong" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/vivo_temp_update_tips_right_2"
+                            android:textColor="@color/vivo_sub_notice_left_2"
+                            android:textSize="@dimen/vivo_login_36px" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/vivo_login_33px"
+                            android:layout_height="@dimen/vivo_login_33px"
+                            android:layout_marginRight="5dip"
+                            android:background="@drawable/vivo_temp_dialog_wrong" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/vivo_temp_update_tips_right_3"
+                            android:textColor="@color/vivo_sub_notice_left_2"
+                            android:textSize="@dimen/vivo_login_36px" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/vivo_login_33px"
+                            android:layout_height="@dimen/vivo_login_33px"
+                            android:layout_marginRight="5dip"
+                            android:background="@drawable/vivo_temp_dialog_wrong" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/vivo_temp_update_tips_right_4"
+                            android:textColor="@color/vivo_sub_notice_left_2"
+                            android:textSize="@dimen/vivo_login_36px" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:layout_width="@dimen/vivo_login_33px"
+                            android:layout_height="@dimen/vivo_login_33px"
+                            android:layout_marginRight="5dip"
+                            android:background="@drawable/vivo_temp_dialog_wrong" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/vivo_temp_update_tips_right_5"
+                            android:textColor="@color/vivo_sub_notice_left_2"
+                            android:textSize="@dimen/vivo_login_36px" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41dip"
+                android:layout_marginBottom="17dip"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:layout_marginTop="13dip"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/temp_update_commit_btn"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/vivo_login_btn"
+                    android:singleLine="true"
+                    android:text="@string/vivo_temp_update_now"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/vivo_login_45px" />
+
+                <View
+                    android:id="@+id/temp_update_temp_view"
+                    android:layout_width="9dip"
+                    android:layout_height="fill_parent" />
+
+                <Button
+                    android:id="@+id/temp_update_cancel_btn"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/vivo_temp_update_cancel_btn"
+                    android:singleLine="true"
+                    android:text="@string/vivo_temp_update_after"
+                    android:textColor="@color/vivo_temp_update_cancel"
+                    android:textSize="@dimen/vivo_login_45px" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

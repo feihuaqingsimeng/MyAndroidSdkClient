@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="vivo_account_change_text_color_selected">#555555</color>
+    <color name="vivo_account_change_text_color">#8e8c8c</color>
+    <color name="vivo_account_lable_text_color">#ffffff</color>
+    <color name="vivo_ltgray">#FFCCCCCC</color>
+    <!-- add by sundaxiang 20150608 start -->
+    <drawable name="translucent_background2">#00000000</drawable>
+
+    <color name="half_transparent">#66000000</color>
+    <!-- add by sundaxiang 20150608 end -->
+    <drawable name="vivo_activity_background_color">#fff4f4f4</drawable>
+
+    <color name="vivo_text_color_middle">#000000</color>
+    <color name="vivo_text_color_small">#818181</color>
+    <color name="vivo_windowTitleColor">#ff000000</color>
+    <color name="vivo_windowTitleShadowColor">#00494d59</color>
+    <color name="vivo_windowTitlleButtonShadowColor">#ff00aeff</color>
+
+    <drawable name="green">#0f0</drawable>
+    <drawable name="blue">#4876FF</drawable>
+
+    <color name="vivo_text_selected_color">#016091</color>
+    <color name="vivo_text_unselect_color">#008bd2</color>
+    <color name="vivo_common_bg_color">#009CFF</color>
+    <color name="vivo_listview_item_default">#00F7F7F7</color>
+    <color name="vivo_text_color_login_color">#d2d7e8</color>
+    <color name="vivo_text_color_login_color_selected">#4cd2d7e8</color>
+    <color name="vivo_text_color_register_color">#00aeff</color>
+    <color name="vivo_text_color_register_color_selected">#4c00aeff</color>
+    <color name="preference_background_color">#f4f4f4</color>
+    <color name="vivo_text_colcor_1">#00caff</color>
+    <color name="vivo_edit_bg_color">#ffffff</color>
+    <color name="vivo_edit_line_bg_color">#cecece</color>
+    <color name="vivo_text_color_login_lable">#5c5c5c</color>
+    <color name="vivo_edit_view_line">#e2e2e2</color>
+    <color name="vivo_title_color">#00aeff</color>
+    <color name="vivo_text_unclick_color">#90969a</color>
+    <color name="vivo_title_click_color">#757575</color>
+    <color name="vivo_que_popup_bg">#272529</color>
+    <color name="vivo_gray_color">#c3c8cb</color>
+    <color name="vivo_deep_blue_color">#0068b7</color>
+    <color name="game_list_item_pressed_color">#e5e5e5</color>
+    <color name="vivo_white">#ffffff</color>
+    <color name="vivo_black">#000000</color>
+    <color name="vivo_person_center_black_bg">#272626</color>
+
+    <!-- add bbk_colors 1013 start -->
+    <drawable name="vivo_sub_divider_line">#bfbfbf</drawable>
+
+    <!-- add 0316 sdx for apk2.0 -->
+
+    <color name="vivo_regist_commit_left">#666666</color>
+    <color name="vivo_sub_notice">#999999</color>
+    <color name="vivo_sub_notice_left_1">#008bd2</color>
+    <color name="vivo_sub_notice_left_2">#333333</color>
+    <color name="vivo_temp_update_cancel">#5b5b5b</color>
+    <color name="vivo_onekey_regist_tips">#77c6f0</color>
+    <color name="vivo_sub_account_role">#989898</color>
+    <color name="vivo_small_window_title">#000000</color>
+
+    <!-- add 0316 sdx for apk2.0 card amount -->
+    <color name="card_amount_item_bg">#008bd2</color>
+    <color name="card_amount_item_bg_unclickable">#eaeaea</color>
+    <color name="deal_recharge_type">#fd5051</color>
+    <color name="deal_pay_type">#008bd2</color>
+    <color name="deal_notice">#3baaed</color>
+    <color name="deal_notice_layout">#cfeefe</color>
+    <color name="deal_list_item_seleted">#ececec</color>
+    <color name="card_pay_title_bg">#f4f4f4</color>
+    <color name="card_pay_title_line">#b3b3b3</color>
+
+    <!--dlg-->
+    <color name="vivo_common_dialog_title_text_color">#ff333333</color>
+
+</resources>

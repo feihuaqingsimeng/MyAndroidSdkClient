@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"    
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:background="@android:color/transparent"
+	android:gravity="center"
+    > 
+    <LinearLayout 
+        android:id="@+id/small_window_layout_hide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/float_view_bg_white"
+        android:gravity="center"/>   
+    <LinearLayout 
+        android:id="@+id/small_window_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/float_view_bg_orange"
+        android:gravity="center"/>    
+    <ImageView 
+        android:id="@+id/float_window_notification_icon_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/float_view_notification_icon"
+        android:gravity="center"
+        />
+    <ImageView 
+        android:id="@+id/float_window_notification_icon_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:background="@drawable/float_view_notification_icon"
+        android:gravity="center"
+        android:visibility="gone"
+        />
+</FrameLayout>

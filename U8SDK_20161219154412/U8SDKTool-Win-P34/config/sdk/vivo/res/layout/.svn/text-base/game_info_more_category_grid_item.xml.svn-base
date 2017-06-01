@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/category_item"
+        android:layout_width="74dp"
+        android:layout_height="27dp"
+        android:textColor="@color/game_info_more_list_category_text_color_selector"
+        android:gravity="center"
+        android:background="@drawable/game_info_more_list_category_selector" />
+    
+</RelativeLayout>

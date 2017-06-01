@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vivo_login_total_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/preference_background_color"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/vivowindowTitleHeight"
+        android:background="@drawable/vivo_window_title_bar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/titleview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/feedback_title"
+            android:textColor="@color/vivo_windowTitleColor"
+            android:textSize="@dimen/vivowindowTitleTextSize" />
+
+        <LinearLayout
+            android:id="@+id/titleLeftBtn_layout"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/titleLeftBtn"
+                android:layout_width="14dip"
+                android:layout_height="14dip"
+                android:background="@drawable/vivo_per_center_close_btn" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/preference_background_color" >
+
+        <LinearLayout
+            android:id="@+id/vivo_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="添加描述"
+                    android:textColor="#333333"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/vivo_feed_text_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="2dip"
+                    android:text="(0/200)"
+                    android:textColor="#333333"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/vivo_edit_line_bg_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/vivo_edit_bg_color" >
+
+                <EditText
+                    android:id="@+id/feedback_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dip"
+                    android:layout_marginLeft="24dip"
+                    android:layout_marginRight="24dip"
+                    android:layout_marginTop="12dip"
+                    android:background="@color/transparent"
+                    android:gravity="fill_horizontal"
+                    android:hint="@string/feedback_hint"
+                    android:minHeight="100dip"
+                    android:textColor="#343434"
+                    android:textColorHint="@color/bbk_channel_activity_desc_textcolor"
+                    android:textCursorDrawable="@null"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/vivo_edit_line_bg_color" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="添加截图"
+                    android:textColor="#333333"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/vivo_img_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:gravity="center_vertical"
+                    android:text="添加截图"
+                    android:textColor="#333333"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/vivo_edit_line_bg_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/vivo_edit_bg_color"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <com.vivo.sdkplugin.Utils.VivoGridView
+                        android:id="@+id/shotcut_zone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dip"
+                        android:layout_marginBottom="6dip"
+                        android:layout_marginTop="7dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+                    </com.vivo.sdkplugin.Utils.VivoGridView>
+
+                    <ImageView
+                        android:id="@+id/vivo_feed_img_add"
+                        android:layout_width="55dip"
+                        android:layout_height="55dip"
+                        android:layout_marginLeft="25dip"
+                        android:padding="1px"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/vivo_add_image" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dip"
+                    android:layout_marginLeft="24dip"
+                    android:text="单张截图最大10M"
+                    android:textColor="#90969a"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/vivo_edit_line_bg_color" />
+
+            <TextView
+                android:id="@+id/tel_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dip"
+                android:text="@string/tel_info"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/vivo_edit_line_bg_color" />
+
+            <LinearLayout
+                android:id="@+id/tel_zone"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:background="@color/vivo_edit_bg_color"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tel_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dip"
+                    android:gravity="center"
+                    android:text="@string/tel_tip"
+                    android:textColor="#333333"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/tel_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/vivo_edit_bg_color"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="3dip"
+                    android:singleLine="true"
+                    android:textColor="#333333" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/vivo_edit_line_bg_color" />
+
+            <LinearLayout
+                android:id="@+id/qq_zone"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:background="@color/vivo_edit_bg_color"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/qq_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dip"
+                    android:gravity="center"
+                    android:text="@string/qq_tip"
+                    android:textColor="#333333"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/qq_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/vivo_edit_bg_color"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="3dip"
+                    android:singleLine="true"
+                    android:textColor="#333333" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/vivo_edit_line_bg_color" />
+
+            <LinearLayout
+                android:id="@+id/mail_zone"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:background="@color/vivo_edit_bg_color"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/mail_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dip"
+                    android:gravity="center"
+                    android:text="@string/mail_tip"
+                    android:textColor="#333333"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/mail_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/vivo_edit_bg_color"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="3dip"
+                    android:singleLine="true"
+                    android:textColor="#333333" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/vivo_edit_line_bg_color" />
+
+            <TextView
+                android:id="@+id/vivo_chat_service_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dip"
+                android:layout_marginRight="24dip"
+                android:layout_marginTop="15dip"
+                android:autoLink="all"
+                android:text="@string/vivo_feedback_service_tip"
+                android:textColor="#90969a"
+                android:textIsSelectable="true"
+                android:textSize="12sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_marginBottom="17dip"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:layout_marginTop="16dip"
+                android:background="@drawable/vivo_feed_commit_btn"
+                android:singleLine="true"
+                android:text="@string/submit"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/vivo_text_size_middle" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

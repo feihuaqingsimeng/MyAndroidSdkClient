@@ -34,4 +34,4 @@
         android:src="@drawable/com_tencent_ysdk_icon_red"
         android:visibility="invisible"
         />
-</RelativeLayout><!-- From: file:/data/rdm/projects/24438/ysdk/src/main/res/layout/com_tencent_ysdk_icon_item_view.xml -->
+</RelativeLayout><!-- From: file:/data/rdm/projects/18500/ysdk/src/main/res/layout/com_tencent_ysdk_icon_item_view.xml -->

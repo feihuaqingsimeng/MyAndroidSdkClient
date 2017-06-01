@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/auto_login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:background="@drawable/vivo_account_background"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="22dip"
+            android:layout_marginTop="26dip"
+            android:src="@drawable/vivo_logo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:orientation="horizontal" >
+
+            <ProgressBar
+                style="@android:style/Widget.ProgressBar.Small"
+                android:layout_width="23dip"
+                android:layout_height="23dip"
+                android:indeterminateDrawable="@drawable/vivo_progressbar_loading" />
+
+            <TextView
+                android:id="@+id/auto_login_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dip"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="18901599566/小号1"
+                android:textColor="@color/vivo_sub_notice_left_2"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/auto_login_switch_btn"
+            android:layout_width="72dip"
+            android:layout_height="28dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/vivo_switch_sub_btn"
+            android:gravity="center"
+            android:text="@string/vivo_account_change_text"
+            android:textColor="@color/vivo_sub_notice_left_2"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

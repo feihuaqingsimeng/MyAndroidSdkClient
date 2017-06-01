@@ -3,36 +3,36 @@
     
     <permissionConfig>
         
-	    <!-- 数据网络相关权限 -->
-	    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-	    <uses-permission android:name="android.permission.INTERNET" />
-	    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-	    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-	    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-	
-	    <!-- 接收短信权限 -->
-	    <uses-permission android:name="android.permission.RECEIVE_SMS" />
-	    <uses-permission android:name="android.permission.READ_SMS" />
-	    <uses-permission android:name="android.permission.SEND_SMS" />
-	
-	    <!-- SD卡操作权限 -->
-	    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
-	    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-	
-	    <!-- 系统账户操作权限 -->
-	    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-	    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
-	    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
-	    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
-	
-	    <!-- 系统设置操作权限 -->
-	    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-	    <uses-permission android:name="android.permission.READ_SETTINGS" />
-	
-	    <!-- 漂浮窗 -->
-	    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-	    <uses-permission android:name="android.permission.GET_TASKS" />
-	    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+	   <!-- 数据网络相关权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- 接收短信权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!-- SD卡操作权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 系统账户操作权限 -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <!-- 系统设置操作权限 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+
+    <!-- 漂浮窗 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
 
     </permissionConfig>
     
@@ -40,16 +40,9 @@
         
         <activity
             android:name="com.yulong.paysdk.module.main.CoolPayActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:configChanges="orientation|keyboardHidden|screenSize|"
             android:label="@string/coolpay_name"
             android:theme="@android:style/Theme.NoTitleBar" >
-
-            <!--
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            -->
         </activity>
         <activity
             android:name="com.yulong.paysdk.module.operational.OperationActivity"
@@ -125,16 +118,19 @@
             </intent-filter>
         </receiver>
         <!-- coolcloud2 -->
+        <!-- local jar -->
+
+        <activity
+            android:name="com.coolcloud.uac.android.plug.view.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateVisible" >
+        </activity>
+        <activity
+            android:name="com.coolcloud.uac.android.gameassistplug.GameAssistContentActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
         <activity
             android:name="com.coolcloud.uac.android.api.view.AssistActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
-        <activity
-            android:name="com.coolcloud.uac.android.api.view.LoginActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
-        <activity
-            android:name="com.coolcloud.uac.android.api.view.OAuth2Activity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" >
         </activity>
         <activity
@@ -146,13 +142,39 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar" >
         </activity>
         <activity
+            android:name="com.coolcloud.uac.android.api.view.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.coolcloud.uac.android.api.view.OAuth2Activity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
             android:name="com.coolcloud.uac.android.api.view.RegisterActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" >
         </activity>
         <activity
-            android:name="com.coolcloud.uac.android.gameassistplug.GameAssistContentActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
+            android:name="com.coolcloud.uac.android.api.view.RnaDialogActivity"
+            android:theme="@style/CoolcloudUacActivityStyle" />
+        <activity
+            android:name="com.coolcloud.uac.android.gameassistplug.GameAssistMessageActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/CoolcloudUacActivityStyle" />
+        <activity
+            android:name="com.coolcloud.uac.android.gameassistplug.GameAssistMsgListActivity"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 接收酷云、酷派账号退出广播 -->
+        <receiver android:name="com.coolcloud.uac.android.common.LoginStatusReceiver" >
+            <intent-filter>
+                <action android:name="com.coolcloud.uac.LOGOUT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 小助手消息service -->
+        <service android:name="com.coolcloud.uac.android.gameassistplug.message.AssistMsgService" />
+
         <activity
             android:name="com.ipaynow.wechatpay.plugin.inner_plugin.wechat_plugin.activity.WeChatNotifyActivity"
             android:configChanges="orientation|screenSize"
@@ -166,10 +188,13 @@
             android:screenOrientation="behind"
             android:theme="@android:style/Theme.Dialog" >
         </activity>
-        <activity
-            android:name="com.coolcloud.uac.android.api.view.RnaDialogActivity"
-            android:theme="@style/CoolcloudUacActivityStyle" >
-        </activity>
+
+        <meta-data
+            android:name="DC_APPID"
+            android:value="" />
+        <meta-data
+            android:name="DC_CHANNEL"
+            android:value="Coolpad" />
                 
     </applicationConfig>
     

@@ -1,0 +1,557 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositories/IqooSourceCode/!svn/ver/85252/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout
+END
+vivo_menu_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_menu_list_item.xml
+END
+vivo_set_password.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositories/IqooSourceCode/!svn/ver/82527/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_set_password.xml
+END
+bbk_detect_result_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_detect_result_layout.xml
+END
+vivo_account_findpassword.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositories/IqooSourceCode/!svn/ver/82527/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_account_findpassword.xml
+END
+bbk_activity_vcoinchoice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_activity_vcoinchoice.xml
+END
+greet_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositories/IqooSourceCode/!svn/ver/83790/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/greet_item.xml
+END
+float_window_small.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/float_window_small.xml
+END
+data_item_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/data_item_layout.xml
+END
+vivo_deal_record_detail_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_deal_record_detail_layout.xml
+END
+vivo_user_feedback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repositories/IqooSourceCode/!svn/ver/82527/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_user_feedback.xml
+END
+game_info_more_category_grid_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/game_info_more_category_grid_item.xml
+END
+bbk_loading_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_loading_layout.xml
+END
+vivo_user_info_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositories/IqooSourceCode/!svn/ver/87837/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_user_info_layout.xml
+END
+vivo_find_que_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_find_que_layout.xml
+END
+bbk_popwin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_popwin.xml
+END
+check_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/check_dialog.xml
+END
+bbk_activity_game_card.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_activity_game_card.xml
+END
+bbk_payment_title.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_payment_title.xml
+END
+game_info_more_category_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/game_info_more_category_layout.xml
+END
+vivo_commit_user_contact_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_commit_user_contact_layout.xml
+END
+bbk_card_amount_dx_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_card_amount_dx_layout.xml
+END
+bbk_alert_dialog_continue_pay_s.xml
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_alert_dialog_continue_pay_s.xml
+END
+bbk_activity_card.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_activity_card.xml
+END
+bbk_card_amount_yd_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_card_amount_yd_layout.xml
+END
+bind_question.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositories/IqooSourceCode/!svn/ver/82527/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bind_question.xml
+END
+bbk_card_amount_lt_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_card_amount_lt_layout.xml
+END
+vivo_account_logindialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_account_logindialog.xml
+END
+bbk_activity_payment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_activity_payment.xml
+END
+bbk_alert_dialog_payfail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_alert_dialog_payfail.xml
+END
+vivo_phone_register_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositories/IqooSourceCode/!svn/ver/82527/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_phone_register_layout.xml
+END
+bbk_action_details_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_action_details_dialog.xml
+END
+vivo_multiaction_dlg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_multiaction_dlg.xml
+END
+vivo_subaccount_edit_item_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_subaccount_edit_item_view.xml
+END
+vivo_login_dialog_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_login_dialog_layout.xml
+END
+bbk_alert_dialog_install.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_alert_dialog_install.xml
+END
+vivo_install_dialog_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repositories/IqooSourceCode/!svn/ver/87528/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_install_dialog_message.xml
+END
+vivo_account_personal_center_layout_land.xml
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repositories/IqooSourceCode/!svn/ver/82827/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_account_personal_center_layout_land.xml
+END
+vivo_account_personal_center_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repositories/IqooSourceCode/!svn/ver/82456/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_account_personal_center_layout.xml
+END
+vivo_deal_record_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_deal_record_layout.xml
+END
+vivo_popup_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_popup_layout.xml
+END
+bbk_channel_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_channel_item.xml
+END
+game_info_more_category_grid_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/game_info_more_category_grid_layout.xml
+END
+change_password.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositories/IqooSourceCode/!svn/ver/82527/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/change_password.xml
+END
+vivo_sub_edit_item_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_sub_edit_item_view.xml
+END
+vivo_common_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repositories/IqooSourceCode/!svn/ver/81379/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_common_dialog.xml
+END
+pull_to_refresh_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/pull_to_refresh_footer.xml
+END
+bbk_activity_recharge.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_activity_recharge.xml
+END
+vivo_listview_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_listview_header.xml
+END
+bbk_no_network_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_no_network_dialog.xml
+END
+progress_bar_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/progress_bar_layout.xml
+END
+bbk_activity_card_s.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_activity_card_s.xml
+END
+bbk_pay_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_pay_item.xml
+END
+vivo_phone_register_commit_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repositories/IqooSourceCode/!svn/ver/82527/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_phone_register_commit_layout.xml
+END
+vivo_registe_protocol.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_registe_protocol.xml
+END
+vivo_subaccount_add_commit_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_subaccount_add_commit_layout.xml
+END
+bbk_activity_payment_s.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_activity_payment_s.xml
+END
+game_info_more_list_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/game_info_more_list_layout.xml
+END
+load_more.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/load_more.xml
+END
+bbk_action_details_context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_action_details_context.xml
+END
+bind_phone.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bind_phone.xml
+END
+vivo_feed_back_image_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_feed_back_image_item.xml
+END
+bbk_alert_dialog_update.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_alert_dialog_update.xml
+END
+vivo_webview_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_webview_layout.xml
+END
+bbk_select_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_select_item.xml
+END
+bbk_activity_ticket.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_activity_ticket.xml
+END
+vivo_deal_record_item_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_deal_record_item_view.xml
+END
+bbk_ticket_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_ticket_item.xml
+END
+vivo_verify_phone_num.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_verify_phone_num.xml
+END
+vivo_commit_user_identify_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repositories/IqooSourceCode/!svn/ver/82527/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_commit_user_identify_layout.xml
+END
+bbk_alert_dialog_continue_pay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_alert_dialog_continue_pay.xml
+END
+bbk_pay_succ_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_pay_succ_layout.xml
+END
+vivo_subaccount_edit_commit_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_subaccount_edit_commit_layout.xml
+END
+vivo_temp_update_dialog_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_temp_update_dialog_layout.xml
+END
+vivo_listview_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_listview_footer.xml
+END
+vivo_account_login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repositories/IqooSourceCode/!svn/ver/82527/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_account_login.xml
+END
+float_view_window_bg_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/float_view_window_bg_layout.xml
+END
+vivo_register_email_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositories/IqooSourceCode/!svn/ver/82527/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_register_email_layout.xml
+END
+vivo_check_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_check_dialog.xml
+END
+vivo_subaccount_listview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_subaccount_listview.xml
+END
+vivo_subaccount_list_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_subaccount_list_layout.xml
+END
+vivo_account_register.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositories/IqooSourceCode/!svn/ver/82527/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_account_register.xml
+END
+vivo_register_way_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_register_way_layout.xml
+END
+vivo_register_phone_setpwd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_register_phone_setpwd.xml
+END
+vivo_multiaction_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_multiaction_item.xml
+END
+vivo_add_sub_account_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_add_sub_account_view.xml
+END
+vivo_subaccount_edit_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_subaccount_edit_layout.xml
+END
+bbk_popwin_s.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/bbk_popwin_s.xml
+END
+vivo_loading_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_loading_layout.xml
+END
+vivo_subaccount_listview_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_subaccount_listview_item.xml
+END
+vivo_upgrade_dialog_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/vivo_upgrade_dialog_message.xml
+END
+common_listview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/common_listview.xml
+END
+common_loading_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositories/IqooSourceCode/!svn/ver/81024/mobileInternet/android/vivoUnionApk/trunk/code/VivoUnionApk-v2.0.7/res/layout/common_loading_view.xml
+END

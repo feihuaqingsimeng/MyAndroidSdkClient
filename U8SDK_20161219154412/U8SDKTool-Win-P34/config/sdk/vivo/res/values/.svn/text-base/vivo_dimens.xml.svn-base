@@ -1,0 +1,50 @@
+<resources>
+
+    <dimen name="vivowindowTitleHeight">55dip</dimen>
+    <dimen name="vivowindowTitleTextSize">21dip</dimen>
+    <dimen name="vivowindowTitleTextSize_land">26.5dip</dimen>
+    <dimen name="vivowindowTitleButtonTextSize">16dip</dimen>
+    <dimen name="vivo_edit_container_height">50dip</dimen>
+    <dimen name="vivo_first_view_marginTop">10dip</dimen>
+    <dimen name="vivo_first_view_marginTop_land">39.4dip</dimen>
+    <dimen name="vivo_label_field_width">80dip</dimen>
+    <dimen name="vivo_label_field_marginLeft">0dip</dimen>
+    <dimen name="vivo_label_field_marginRight">3dip</dimen>
+    <dimen name="vivo_text_size_middle">16sp</dimen>
+    <dimen name="vivo_text_size_small">14sp</dimen>
+    <dimen name="vivo_edit_field_paddingLeft">10dip</dimen>
+    <dimen name="vivo_edit_field_paddingRight">12dip</dimen>
+    <dimen name="vivo_green_btn_marginLeft">15dip</dimen>
+    <dimen name="vivo_green_btn_marginRight">15dip</dimen>
+    <dimen name="vivo_green_btn_hight">35dip</dimen>
+    <dimen name="vivo_change_pwd_lable_width">100dip</dimen>
+    <dimen name="vivo_changePasswd_label_marginLeft">6dip</dimen>
+    <dimen name="vivoTitleLeftBtnWidth">77dip</dimen>
+    <dimen name="vivoTitleRightBtnWidth">77dip</dimen>
+    <dimen name="vivo_account_change_margin_left">21dip</dimen>
+    <dimen name="vivo_change_pwd_lable_paddingLeft">12.5dip</dimen>
+
+    <!-- 0613 for feedback -->
+    <dimen name="bbkwindowTitleHeight">48dip</dimen>
+    <dimen name="min_move_distance">1dp</dimen>
+    <dimen name="assist_textview_width">50dp</dimen>
+    <dimen name="assist_textview_height">50dp</dimen>
+    <dimen name="assist_gridview_columnwidth_width">90dp</dimen>
+    <dimen name="vivo_feed_margin_top">6dp</dimen>
+
+    <!-- 小窗口标题51px -->
+    <dimen name="vivo_small_win_title_51px">17sp</dimen>
+    <!-- 手机支付页面，按钮距离页面距离 -->
+    <dimen name="card_pay_btn_bottom">40dip</dimen>
+    <!-- 大字体适配 -->
+    <dimen name="vivo_login_45px">18px</dimen>
+    <dimen name="vivo_login_48px">20px</dimen>
+    <dimen name="vivo_login_39px">16px</dimen>
+    <dimen name="vivo_login_60px">22px</dimen>
+    <dimen name="vivo_login_42px">18px</dimen>
+    <dimen name="vivo_login_54px">20px</dimen>
+    <dimen name="vivo_login_36px">13px</dimen>
+    <dimen name="vivo_login_33px">13px</dimen>
+    <dimen name="vivo_login_30px">12px</dimen>
+
+</resources>

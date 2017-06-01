@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vivo_login_total_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="320dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/vivo_account_background"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/account_title_layout"
+                android:layout_width="match_parent"
+                android:layout_height="53dip"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/vivo_user_info_title"
+                        android:textColor="@color/vivo_small_window_title"
+                        android:textSize="@dimen/vivo_small_win_title_51px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/titleLeftBtn_layout"
+                    android:layout_width="60dip"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/titleLeftBtn"
+                        android:layout_width="14dip"
+                        android:layout_height="14dip"
+                        android:background="@drawable/vivo_per_center_close_btn" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/user_info_notice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:text="@string/vivo_user_info_notice"
+                android:textSize="10dip" />
+
+            <LinearLayout
+                android:id="@+id/user_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/edit_layout_bg"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="19dip"
+                        android:layout_marginRight="15dip"
+                        android:gravity="center"
+                        android:text="@string/vivo_user_info_name"
+                        android:textColor="@color/vivo_regist_commit_left"
+                        android:textSize="@dimen/vivo_login_39px" />
+
+                    <EditText
+                        android:id="@+id/user_name_editview"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/vivo_user_info_name_hint"
+                        android:inputType="textNoSuggestions"
+                        android:singleLine="true"
+                        android:textColor="@color/vivo_regist_commit_left"
+                        android:textColorHint="@color/bbk_channel_activity_desc_textcolor"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/vivo_login_39px" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/card_pay_title_bg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="19dip"
+                        android:layout_marginRight="15dip"
+                        android:gravity="center"
+                        android:text="@string/vivo_user_info_id"
+                        android:textColor="@color/vivo_regist_commit_left"
+                        android:textSize="@dimen/vivo_login_39px" />
+
+                    <EditText
+                        android:id="@+id/user_id_editview"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/vivo_user_info_id_hint"
+                        android:singleLine="true"
+                        android:textColor="@color/vivo_regist_commit_left"
+                        android:textColorHint="@color/bbk_channel_activity_desc_textcolor"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/vivo_login_39px" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/user_info_tips_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:layout_marginTop="9dip"
+                android:orientation="horizontal"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dip"
+                    android:background="@drawable/vivo_user_notice_img" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip"
+                    android:gravity="top"
+                    android:text="@string/vivo_user_info_notice2"
+                    android:textColor="@color/vivo_temp_update_cancel"
+                    android:textSize="10dip" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/user_info_commit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="41dip"
+                android:layout_marginBottom="12dip"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="13dip"
+                android:layout_marginTop="11dip"
+                android:background="@drawable/vivo_feed_commit_btn"
+                android:singleLine="true"
+                android:text="@string/vivo_sure_label"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/vivo_text_size_middle"
+                android:visibility="visible" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
