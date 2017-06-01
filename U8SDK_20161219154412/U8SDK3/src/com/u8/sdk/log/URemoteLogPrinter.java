@@ -39,9 +39,9 @@ public class URemoteLogPrinter {
 	
 	public void printImmediate(String url, ULog log){
 		
-		Map<String, String> params = new HashMap<String,String>();
-		params.put("log", log.toJSON());
-		U8HttpUtils.httpPost(url, params);
+		//Map<String, String> params = new HashMap<String,String>();
+		//params.put("log", log.toJSON());
+		//U8HttpUtils.httpPost(url, params);
 	}
 	
 	public List<ULog> getAndClear(){
@@ -58,9 +58,9 @@ public class URemoteLogPrinter {
 		}
 		
 		running = true;
-		TimerTask task = new LogPrintTask();
-		timer = new Timer(true);
-		timer.scheduleAtFixedRate(task, 100, interval);
+		//TimerTask task = new LogPrintTask();
+		//timer = new Timer(true);
+		//timer.scheduleAtFixedRate(task, 100, interval);
 	}
 	
 	public void stop(){

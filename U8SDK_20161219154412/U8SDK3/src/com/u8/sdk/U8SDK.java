@@ -3,6 +3,8 @@ package com.u8.sdk;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.json.JSONObject;
+
 import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
@@ -57,7 +59,16 @@ public class U8SDK{
 	
 	private int channel;
 	
+	private  JSONObject initJsonData;//解决某些渠道通过oncreate的intent中传递参数
 	
+	public  JSONObject GetInitJsonData()
+	{
+		return initJsonData;
+	}
+	public  void SetInitJsonData(JSONObject data)
+	{
+		initJsonData = data;
+	}
 	private U8SDK(){
 		mainThreadHandler = new Handler(Looper.getMainLooper());
 		listeners = new ArrayList<IU8SDKListener>();

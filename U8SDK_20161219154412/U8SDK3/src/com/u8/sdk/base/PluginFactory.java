@@ -94,7 +94,7 @@ public class PluginFactory {
 			}
 			
 			String pluginName = getPluginName(type);
-			
+			android.util.Log.d("U8SDK", "initPlugin name:" + pluginName);
 			localClass = Class.forName(pluginName);
 			
 		} catch (ClassNotFoundException e) {
